@@ -29,9 +29,8 @@ function Row({ label, children }: { label: string; children: React.ReactNode }) 
   );
 }
 
-export default async function ContactPage({ params, searchParams }: PageProps<'/[locale]/contact'>) {
+export default async function ContactPage({ params }: PageProps<'/[locale]/contact'>) {
   const locale = (await params).locale as Locale;
-  const requested = (await searchParams).residence;
   setRequestLocale(locale);
   const t = await getTranslations('contact');
   const tr = await getTranslations('residences.items');
@@ -44,7 +43,7 @@ export default async function ContactPage({ params, searchParams }: PageProps<'/
       <section className="page-x pb-section">
         <div className="grid-page gap-y-16">
           <div className="col-span-4 md:col-span-6 lg:order-2 lg:col-span-7 lg:col-start-6">
-            <ContactForm residences={options} requested={typeof requested === 'string' ? requested : undefined} />
+            <ContactForm residences={options} />
           </div>
 
           <Reveal className="col-span-4 md:col-span-6 lg:order-1 lg:col-span-4">

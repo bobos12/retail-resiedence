@@ -20,3 +20,4 @@ npm-debug.log*
 /.lighthouse/
 /.cache/
 /screenshots/
+/.next-build/

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Retal Residence</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://retalresidence.com/en/" />
+    <!-- Normally .htaccess sends / to /en/ or /ar/ first; this page is the fallback. -->
+    <script>
+      location.replace(/^ar\b/i.test(navigator.language || '') ? '/ar/' : '/en/');
+    </script>
+    <meta http-equiv="refresh" content="0; url=/en/" />
+  </head>
+  <body style="background: #f3f1eb">
+    <a href="/en/">Retal Residence</a> · <a href="/ar/" lang="ar">رتال ريزيدنس</a>
+  </body>
+</html>

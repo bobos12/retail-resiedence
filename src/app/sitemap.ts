@@ -4,6 +4,8 @@ import { residences } from '@/content/residences';
 import { routing } from '@/i18n/routing';
 import { localePath } from '@/lib/seo';
 
+export const dynamic = 'force-static';
+
 const pages = ['/', '/residences', ...residences.map((r) => `/residences/${r.slug}`), '/clubhouse', '/living', '/neighborhood', '/contact'];
 
 export default function sitemap(): MetadataRoute.Sitemap {

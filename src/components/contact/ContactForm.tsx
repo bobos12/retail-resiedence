@@ -3,7 +3,7 @@
 import { AnimatePresence, m } from 'motion/react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useActionState, useEffect, useRef, useState, type ReactNode } from 'react';
-import { sendEnquiry } from '@/app/[locale]/contact/actions';
+import { sendEnquiry } from '@/lib/send-enquiry';
 import { Arrow } from '@/components/ui/Arrow';
 import { buttonClass } from '@/components/ui/ButtonLink';
 import {
@@ -59,10 +59,9 @@ function Field({
   );
 }
 
-export function ContactForm({ residences, requested }: { residences: Option[]; requested?: string }) {
+export function ContactForm({ residences }: { residences: Option[] }) {
   const t = useTranslations('contact.form');
   const locale = useLocale();
-  const preselected = residences.some((r) => r.value === requested) ? requested! : RESIDENCE_ANY;
 
   const [state, action, pending] = useActionState<EnquiryState, FormData>(sendEnquiry, { status: 'idle' });
   const [clientErrors, setClientErrors] = useState<EnquiryField[] | null>(null);
@@ -72,6 +71,13 @@ export function ContactForm({ residences, requested }: { residences: Option[]; r
   const errors = clientErrors ?? (state.status === 'invalid' ? state.fields : []);
   const has = (f: EnquiryField) => errors.includes(f);
   const describe = (f: EnquiryField, hint = false) => (has(f) ? `${f}-error` : hint ? `${f}-hint` : undefined);
+
+  // Pre-select the residence named in the link (?residence=<slug>, from a residence page).
+  useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get('residence');
+    const select = form.current?.elements.namedItem('residence');
+    if (requested && select instanceof HTMLSelectElement && residences.some((r) => r.value === requested)) select.value = requested;
+  }, [residences]);
 
   // After any rejection (client or server), move focus to the first field that needs attention.
   useEffect(() => {
@@ -186,7 +192,7 @@ export function ContactForm({ residences, requested }: { residences: Option[]; r
           <div className="md:col-span-2">
             <Field id="residence" label={t('residence')}>
               <div className="relative">
-                <select id="residence" name="residence" defaultValue={preselected} className={cn(field, 'appearance-none pe-10')}>
+                <select id="residence" name="residence" defaultValue={RESIDENCE_ANY} className={cn(field, 'appearance-none pe-10')}>
                   <option value={RESIDENCE_ANY}>{t('residenceAny')}</option>
                   {residences.map((r) => (
                     <option key={r.value} value={r.value}>

@@ -6,7 +6,8 @@ import { GEO } from '@/content/neighborhood';
 import { residences } from '@/content/residences';
 import { routing, type Locale } from '@/i18n/routing';
 
-export const localePath = (locale: Locale, path: string) => `/${locale}${path === '/' ? '' : path}`;
+// Trailing slash: the site is exported as folders (en/residences/index.html) for Apache hosting.
+export const localePath = (locale: Locale, path: string) => `/${locale}${path === '/' ? '' : path}/`;
 
 type PageMeta = {
   locale: Locale;

@@ -34,6 +34,11 @@ const PANO = [
 const PANO_QUALITY = 78;
 const PANO_MIN_QUALITY = 62;
 const POSTER = { width: 1440, height: 900, fov: 90 };
+// The site is a static export (no image server), so every width next/image asks for is
+// written ahead of time as WebP: <id>-<width>.webp (see src/lib/image-loader.ts). Keep in
+// step with images.deviceSizes and images.imageSizes in next.config.ts.
+const WIDTHS = [384, 640, 828, 1080, 1440, 1920, 2560];
+const VARIANT_QUALITY = 78;
 const START_QUALITY = 86;
 const PLAN_QUALITY = 92;
 const MIN_QUALITY = 80;
@@ -215,6 +220,26 @@ async function processEntry(entry, previous) {
   return { entry: result, skipped: false };
 }
 
+/** Writes the responsive WebP widths for one master image, skipping any already up to date. */
+async function writeVariants(entry, result) {
+  const master = path.join(ROOT, 'public', result.src);
+  const base = result.src.replace(/^\/images\//, '').replace(/\.(jpg|webp)$/, '');
+  const masterTime = (await stat(master)).mtimeMs;
+  const files = [];
+  for (const w of WIDTHS) {
+    const rel = `${base}-${w}.webp`;
+    const out = path.join(OUT, rel);
+    files.push(rel);
+    if (!FORCE && existsSync(out) && (await stat(out)).mtimeMs >= masterTime) continue;
+    // Never upscale: widths beyond the master reuse its full size.
+    await sharp(master)
+      .resize({ width: Math.min(w, result.width), withoutEnlargement: true, kernel: 'lanczos3' })
+      .webp(entry.drawing ? { quality: 92, alphaQuality: 100 } : { quality: VARIANT_QUALITY, effort: 5 })
+      .toFile(out);
+  }
+  return files;
+}
+
 async function removeStale(keep) {
   const walk = async (dir) => {
     if (!existsSync(dir)) return;
@@ -248,12 +273,17 @@ async function main() {
     if (r.skipped) skipped++;
   }
 
+  console.log('Writing responsive WebP widths');
+  const variants = [];
+  for (const entry of images) variants.push(...(await writeVariants(entry, manifest[entry.id])));
+
   const keep = new Set(
     images.flatMap((e) => [
       ...(manifest[e.id].files ?? [`${e.id}.${e.drawing ? 'webp' : 'jpg'}`]),
       ...(e.og ? [`og/${e.og}.jpg`] : []),
     ]),
   );
+  for (const v of variants) keep.add(v);
   await removeStale(keep);
 
   await mkdir(path.dirname(MANIFEST), { recursive: true });
