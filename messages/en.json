@@ -1,0 +1,782 @@
+{
+  "meta": {
+    "siteName": "Retal Residence",
+    "titleTemplate": "%s · Retal Residence",
+    "home": {
+      "title": "Retal Residence · Furnished apartments and villas in Al Khobar",
+      "description": "Seven architect-designed residence types from 84 to 363 m², fully furnished, around a Clubhouse with pools, cinema and bowling. Gated, with 24/7 security."
+    },
+    "residences": {
+      "title": "Residences",
+      "description": "Apartments, town villas and executive villas from 84 to 363 m². Every residence is fully furnished, with European appliances, a one-car garage and internet included."
+    },
+    "clubhouse": {
+      "title": "The Clubhouse",
+      "description": "Restaurant and café, mini market, 38-seat cinema, four-lane bowling, indoor and outdoor pools, gym and tennis, at the centre of Retal Residence."
+    },
+    "living": {
+      "title": "Life at Retal",
+      "description": "Three minutes to the British International School, a mini market on site and play areas between the villas. Everyday life at Retal Residence."
+    },
+    "neighborhood": {
+      "title": "Neighbourhood",
+      "description": "Retal Residence is in Al Khobar: 3 minutes to BISAK, 10 to Mall of Dhahran and the Corniche, 30 to the King Fahd Causeway."
+    },
+    "contact": {
+      "title": "Schedule a visit",
+      "description": "Book a visit to Retal Residence in Al Khobar. Call +966 13 825 9600, message us on WhatsApp or send an enquiry."
+    },
+    "notFound": {
+      "title": "Page not found"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "residences": "Residences",
+    "clubhouse": "Clubhouse",
+    "living": "Living",
+    "neighborhood": "Neighbourhood",
+    "contact": "Contact",
+    "cta": "Schedule a visit",
+    "menu": "Menu",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skip": "Skip to content",
+    "primary": "Main",
+    "language": "العربية",
+    "languageLabel": "Read this page in Arabic",
+    "whatsapp": "WhatsApp",
+    "whatsappLabel": "Message Retal Residence on WhatsApp"
+  },
+  "common": {
+    "sqm": "{value} m²",
+    "sqmUnit": "m²",
+    "bedrooms": "{n, plural, one {{num} bedroom} other {{num} bedrooms}}",
+    "bathrooms": "{n, plural, one {{num} bathroom} other {{num} bathrooms}}",
+    "beds": "{n, plural, one {{num} bed} other {{num} beds}}",
+    "baths": "{n, plural, one {{num} bath} other {{num} baths}}",
+    "minutes": "{num} min",
+    "minutesLong": "{n, plural, one {{num} minute} other {{num} minutes}}",
+    "minUnit": "min",
+    "explore": "Explore",
+    "viewAll": "View all residences",
+    "view": "View",
+    "cards": "Cards",
+    "table": "Table",
+    "viewAs": "View as",
+    "opensNewTab": "opens in a new tab",
+    "previous": "Previous",
+    "next": "Next",
+    "close": "Close",
+    "of": "of",
+    "zoomHint": "Pinch or double-tap to zoom"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome to your\ndesigner home",
+      "subtitle": "Furnished apartments and villas in Al Khobar.",
+      "description": "Seven residence types from 84 to 363 m², a Clubhouse at the centre, and security at the gate around the clock.",
+      "primary": "Explore residences",
+      "secondary": "Schedule a visit",
+      "location": "Al Khobar, Saudi Arabia",
+      "scroll": "Scroll"
+    },
+    "statement": {
+      "eyebrow": "Retal Residence",
+      "text": "Each residence is designed by architects as a place to rest, gather and live well, finished with high-quality fittings, fixtures and considered interiors.",
+      "principles": {
+        "design": {
+          "title": "Designed by architects",
+          "body": "Lattice-screened windows, generous light and clear plans, fitted with European appliances and furnished throughout."
+        },
+        "stroll": {
+          "title": "A short walk to everything",
+          "body": "The Clubhouse sits at the centre of the compound: restaurant and café, mini market, pools and cinema within walking distance."
+        },
+        "security": {
+          "title": "Complete peace of mind",
+          "body": "A gated entrance, security on duty 24 hours a day, and every precaution taken to keep your family safe."
+        }
+      }
+    },
+    "stats": {
+      "label": "Retal in numbers",
+      "types": {
+        "value": "7",
+        "label": "residence types, from apartments to executive villas"
+      },
+      "size": {
+        "value": "84–363",
+        "unit": "m²",
+        "label": "of furnished living space"
+      },
+      "security": {
+        "value": "24/7",
+        "label": "security at the gate"
+      },
+      "school": {
+        "value": "3",
+        "unit": "min",
+        "label": "to the British International School Al Khobar"
+      }
+    },
+    "residences": {
+      "eyebrow": "Residences",
+      "title": "Seven ways\nto live at Retal",
+      "intro": "From one-bedroom apartments to four-bedroom executive villas. Every home comes fully furnished, with European appliances, a one-car garage and internet included.",
+      "specs": {
+        "furnished": "Furnished",
+        "furnishedValue": "Fully",
+        "appliances": "Appliances",
+        "appliancesValue": "European",
+        "internet": "Internet",
+        "internetValue": "Included",
+        "extras": "Extras",
+        "none": "—"
+      },
+      "actions": {
+        "gallery": "Gallery",
+        "video": "Video",
+        "tour": "3D tour",
+        "plan": "Floor plan",
+        "view": "View residence",
+        "play": "Play the walkthrough",
+        "tourLoading": "Loading the 3D tour…",
+        "fullscreen": "Full screen",
+        "nextResidence": "Next:"
+      }
+    },
+    "clubhouse": {
+      "eyebrow": "The Clubhouse",
+      "title": "At the centre\nof the community",
+      "intro": "Dining, family entertainment and sport under one roof, a short walk from every front door.",
+      "cta": "Explore the Clubhouse",
+      "items": {
+        "pools": {
+          "title": "Pools",
+          "body": "Indoor and outdoor pools, with a shallow pool for children."
+        },
+        "cinema": {
+          "title": "Cinema",
+          "body": "A private cinema with 38 seats."
+        },
+        "bowling": {
+          "title": "Bowling",
+          "body": "A four-lane bowling alley."
+        },
+        "games": {
+          "title": "Games",
+          "body": "Billiards, table tennis and a video games room."
+        },
+        "sport": {
+          "title": "Sport",
+          "body": "Tennis court, gym and a multipurpose hall for volleyball, basketball and indoor soccer."
+        },
+        "everyday": {
+          "title": "Everyday",
+          "body": "Restaurant and café, mini market, laundry, salon and spa, and a business centre."
+        }
+      },
+      "tour": "360° tour"
+    },
+    "living": {
+      "eyebrow": "Life at Retal",
+      "title": "Days that stay\nclose to home",
+      "intro": "School is three minutes away and groceries are at the Clubhouse. Here is how an ordinary week fits together.",
+      "cta": "More on life at Retal",
+      "themes": {
+        "schools": {
+          "label": "Schools",
+          "title": "3 minutes to BISAK",
+          "body": "The British International School Al Khobar is a three-minute drive, and the early learning centre is inside the Clubhouse."
+        },
+        "shopping": {
+          "label": "Shopping",
+          "title": "A mini market on site",
+          "body": "Daily essentials at the Clubhouse mini market. Mall of Dhahran is ten minutes by car."
+        },
+        "healthcare": {
+          "label": "Healthcare",
+          "title": "The nearest hospital",
+          "body": "A ten-minute drive from the gate."
+        },
+        "community": {
+          "label": "Community",
+          "title": "Shared pools, courts and play areas",
+          "body": "Evenings by the pool, weekends on the tennis court, children in the play areas between the villas."
+        }
+      }
+    },
+    "security": {
+      "eyebrow": "Peace of mind",
+      "title": "Security at the gate,\nservice at the door",
+      "body": "Retal is a gated compound with security staff on duty day and night. Housekeeping and laundry take care of the rest.",
+      "services": {
+        "security": "24/7 security",
+        "housekeeping": "Housekeeping services",
+        "laundry": "Laundry services",
+        "supermarket": "Supermarket",
+        "facilities": "5-star facilities"
+      }
+    },
+    "neighborhood": {
+      "eyebrow": "Location",
+      "title": "Three minutes to school.\nTen to the sea.",
+      "intro": "Retal sits in Al Khobar, close to the Gulf coast, with Dhahran and the causeway to Bahrain within easy reach.",
+      "cta": "Explore the neighbourhood"
+    },
+    "gallery": {
+      "eyebrow": "Around the compound",
+      "hint": "Tap a photo to enlarge",
+      "open": "Enlarge photo"
+    },
+    "visit": {
+      "eyebrow": "Visit",
+      "title": "See it for yourself",
+      "body": "Walk the streets, step inside a furnished residence and stop at the Clubhouse. Our reservations team will arrange the visit.",
+      "primary": "Schedule a visit",
+      "whatsapp": "WhatsApp us",
+      "call": "Call reservations"
+    },
+    "tour": {
+      "eyebrow": "360° tour",
+      "title": "Step inside\nthe Clubhouse",
+      "body": "A 38-seat cinema, a four-lane bowling alley, indoor and outdoor pools, a gym, a restaurant and a library, all under one roof a short walk from home. Choose a room and look around."
+    }
+  },
+  "residences": {
+    "index": {
+      "eyebrow": "Residences",
+      "title": "Seven residence types,\nall ready to live in",
+      "intro": "Apartments on one level, town villas and executive villas on two. Every residence is fully furnished, with European appliances, a one-car garage and internet included.",
+      "filter": "Filter residences",
+      "all": "All",
+      "count": "{n, plural, one {{num} residence} other {{num} residences}}",
+      "included": "Included in every residence",
+      "compound": "Every residence sits inside one gated compound, a short walk from the Clubhouse."
+    },
+    "types": {
+      "apartment": "Apartment",
+      "town-villa": "Town villa",
+      "executive-villa": "Executive villa"
+    },
+    "typesPlural": {
+      "apartment": "Apartments",
+      "town-villa": "Town villas",
+      "executive-villa": "Executive villas"
+    },
+    "table": {
+      "name": "Residence",
+      "type": "Type",
+      "size": "Size",
+      "beds": "Beds",
+      "baths": "Baths",
+      "open": "Open"
+    },
+    "features": {
+      "furnished": "Fully furnished",
+      "appliances": "European appliances",
+      "garage": "One-car garage",
+      "internet": "Internet included"
+    },
+    "extras": {
+      "backyard-option": "Backyard option",
+      "servants-quarter": "Servant’s quarter",
+      "private-backyard": "Private backyard"
+    },
+    "detail": {
+      "back": "All residences",
+      "specs": "Key figures",
+      "size": "Living space",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "floors": "Floors",
+      "garage": "Garage",
+      "garageValue": "1 car",
+      "features": "What’s included",
+      "extras": "Also with this residence",
+      "gallery": "Gallery",
+      "galleryOpen": "Open photo {num} of {total}",
+      "plan": "Floor plan",
+      "planZoom": "Zoom floor plan",
+      "planHint": "Scroll or pinch to zoom, drag to move.",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "zoomReset": "Reset zoom",
+      "video": "Video walkthrough",
+      "videoPlay": "Play the video walkthrough of the {name}",
+      "videoNote": "Plays from YouTube.",
+      "tour": "Virtual tour",
+      "tourBody": "Walk through every room in 3D, at your own pace.",
+      "tourCta": "Start the 3D tour",
+      "tourNone": "A 3D tour is not available for this residence yet. The video and floor plan show the full layout.",
+      "other": "Other residences",
+      "enquireEyebrow": "Enquire",
+      "enquireTitle": "Visit the {name}",
+      "enquireBody": "Tell us when suits you and we will arrange a viewing of this residence.",
+      "enquireCta": "Enquire about this residence",
+      "tourTitle": "Walk through the {name} in 3D",
+      "tourHint": "The interactive tour opens right here",
+      "tourOpen": "Open the tour full screen",
+      "heroTour": "Take the 3D tour",
+      "planDownload": "Download plan"
+    },
+    "items": {
+      "one-bedroom-apartment": {
+        "name": "One-Bedroom Apartment",
+        "summary": "84 m² on one level, with two bathrooms.",
+        "description": "An open living room and kitchen with a breakfast island, a bedroom with its own dressing table, and a second bathroom for guests. Lattice screens soften the light at every window."
+      },
+      "two-bedroom-apartment": {
+        "name": "Two-Bedroom Apartment",
+        "summary": "141 m², two bedrooms and three bathrooms.",
+        "description": "Living, dining and kitchen share one long, bright room. The main bedroom has a walk-in closet and its own bathroom, and a separate laundry room holds a washer and dryer."
+      },
+      "three-bedroom-apartment": {
+        "name": "Three-Bedroom Apartment",
+        "summary": "174 m², three bedrooms, with a backyard option.",
+        "description": "A 6.2-metre dining room opens onto the living room and kitchen. Three bedrooms include a main suite with walk-in closet, and a backyard option is available."
+      },
+      "two-bedroom-town-villa": {
+        "name": "Two-Bedroom Town Villa",
+        "summary": "179 m² over two floors, with a private backyard.",
+        "description": "Living room, dining, kitchen and terrace on the ground floor, with a maid’s room and garage. Upstairs, a main suite with walk-in closet, a second bedroom, a balcony and a roof garden."
+      },
+      "three-bedroom-town-villa": {
+        "name": "Three-Bedroom Town Villa",
+        "summary": "213 m² over two floors, with a private backyard.",
+        "description": "A 4.7 × 6 m living room opens to the dining room and terrace, with a maid’s room off the kitchen. Upstairs are three bedrooms, including a main suite with walk-in closet, plus a balcony and a roof garden."
+      },
+      "three-bedroom-executive-villa": {
+        "name": "Three-Bedroom Executive Villa",
+        "summary": "236 m² over two floors, with a private backyard.",
+        "description": "A porch entrance, a 4.9 × 6 m living room and a dining room that seats eight, opening to the terrace. Upstairs, three bedrooms; the main suite has a walk-in closet and balcony."
+      },
+      "four-bedroom-executive-villa": {
+        "name": "Four-Bedroom Executive Villa",
+        "summary": "363 m² over two floors, the largest plan at Retal.",
+        "description": "Living room, dining room and family room on the ground floor, with a guest bedroom and its own bathroom. Upstairs, a second family room sits between three main bedrooms, with balconies and a roof garden."
+      }
+    },
+    "tours": {
+      "eyebrow": "3D tours",
+      "title": "Walk through six residences in 3D",
+      "body": "Every room, at your own pace, before you visit. Pick a residence and start its tour.",
+      "badge": "3D tour",
+      "start": "3D tour"
+    }
+  },
+  "clubhouse": {
+    "hero": {
+      "eyebrow": "The Clubhouse",
+      "title": "The heart\nof Retal",
+      "subtitle": "Dining, family entertainment and sport at the centre of the compound.",
+      "tourCta": "Start the 360° tour",
+      "explore": "Explore the amenities"
+    },
+    "intro": "The Clubhouse is the centre of life at Retal: somewhere to eat, shop, swim, train and spend an evening, without leaving the compound.",
+    "categories": {
+      "dining": {
+        "title": "Dining & services",
+        "body": "Breakfast at the café, groceries from the mini market, laundry dropped off on the way past."
+      },
+      "family": {
+        "title": "Family",
+        "body": "Film nights, bowling and games rooms for every age."
+      },
+      "sport": {
+        "title": "Sport",
+        "body": "Pools indoors and out, a gym, a tennis court and a hall for team sports."
+      }
+    },
+    "amenities": {
+      "restaurant": "International restaurant & café",
+      "learning": "Early learning centre",
+      "guesthouse": "Guesthouse",
+      "salon": "Salon & spa",
+      "market": "Mini market",
+      "laundry": "Laundry",
+      "business": "Business centre",
+      "cinema": "Cinema, 38 seats",
+      "bowling": "Bowling alley, 4 lanes",
+      "library": "Library",
+      "games": "Video games room",
+      "billiards": "Billiards",
+      "tableTennis": "Table tennis",
+      "tennis": "Tennis court",
+      "gym": "Gym",
+      "pools": "Indoor & outdoor pools",
+      "kidsPool": "Shallow children’s pool",
+      "hall": "Multipurpose hall: volleyball, basketball, indoor soccer"
+    },
+    "tour": {
+      "eyebrow": "360° tour",
+      "title": "Walk the Clubhouse\nin 360°",
+      "body": "Every room of the Clubhouse, 26 in all, from the lobby to the squash courts. Choose one, then drag to look around.",
+      "enter": "Enter 360°",
+      "loading": "Loading the view…",
+      "drag": "Drag to look around",
+      "viewer": "360° view of the {name}. Use the arrow keys to look around.",
+      "previous": "Previous room",
+      "next": "Next room",
+      "rotate": "Auto-rotate",
+      "gyro": "Look around by moving your phone",
+      "fullscreen": "Full screen",
+      "exitFullscreen": "Exit full screen",
+      "ctrlZoom": "Hold Ctrl and scroll to zoom",
+      "twoFingers": "Use two fingers to move the view",
+      "posterAlt": "{name}, the opening view of the 360° tour",
+      "all": "See all {count} rooms in the full tour",
+      "scenes": {
+        "label": "Rooms",
+        "lobby": "Clubhouse lobby",
+        "entrance": "Entrance",
+        "restaurant": "Restaurant",
+        "library": "Library",
+        "business-centre": "Business centre",
+        "supermarket": "Supermarket",
+        "early-learning": "Early learning centre",
+        "event-hall": "Event hall",
+        "salon": "Salon",
+        "spa": "Spa",
+        "sauna": "Sauna",
+        "moroccan-bath": "Moroccan bath",
+        "jacuzzi": "Jacuzzi",
+        "cinema": "Cinema",
+        "bowling": "Bowling alley",
+        "billiards": "Billiards room",
+        "games-room": "Games room",
+        "play-area": "Children’s play area",
+        "play-area-2": "Ship playground",
+        "gym": "Gym",
+        "indoor-pool": "Indoor pool",
+        "pool-terrace": "Pool terrace",
+        "pool-deck": "Outdoor pool",
+        "sports-hall": "Multipurpose hall",
+        "squash": "Squash courts",
+        "tennis": "Tennis court"
+      },
+      "choose": "Choose a room to look around"
+    },
+    "figures": {
+      "cinema": {
+        "value": "38",
+        "label": "seats in the cinema"
+      },
+      "bowling": {
+        "value": "4",
+        "label": "bowling lanes"
+      },
+      "amenities": {
+        "value": "18",
+        "label": "amenities in and around the Clubhouse"
+      }
+    },
+    "arrival": {
+      "eyebrow": "Arrival",
+      "title": "Marble floors,\npendant light",
+      "body": "The Clubhouse opens onto a marble-floored lobby under rows of pendant lights, with the reception desk at the door."
+    },
+    "gallery": {
+      "eyebrow": "Pools at night"
+    }
+  },
+  "living": {
+    "hero": {
+      "eyebrow": "Life at Retal",
+      "title": "Everyday life,\nclose to home",
+      "subtitle": "School, shopping and the Clubhouse, all within minutes of your front door."
+    },
+    "intro": "Retal is planned around everyday life: short trips, safe streets and shared places where neighbours meet.",
+    "themes": {
+      "schools": {
+        "label": "Schools",
+        "title": "Three minutes to the British International School",
+        "body": "BISAK is a three-minute drive from the gate. For younger children, the early learning centre is inside the Clubhouse."
+      },
+      "shopping": {
+        "label": "Shopping",
+        "title": "Groceries on site, the mall in ten minutes",
+        "body": "The Clubhouse mini market covers daily essentials. Mall of Dhahran is a ten-minute drive."
+      },
+      "healthcare": {
+        "label": "Healthcare",
+        "title": "Ten minutes to the nearest hospital",
+        "body": "The nearest hospital is a ten-minute drive from the gate."
+      },
+      "community": {
+        "label": "Community",
+        "title": "Pools, courts and play areas, shared",
+        "body": "The pools, tennis court and games rooms are where residents meet. Between the villas, shaded play areas and outdoor fitness stations sit a few steps from home."
+      }
+    },
+    "outdoors": {
+      "eyebrow": "Outdoors",
+      "title": "Streets made for walking",
+      "body": "Tree-lined streets, shaded benches, outdoor fitness stations and play zones signposted at 15 km/h."
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Help with the everyday",
+      "body": "Housekeeping and laundry services, a supermarket on site and security on duty 24 hours a day."
+    }
+  },
+  "neighborhood": {
+    "hero": {
+      "eyebrow": "Neighbourhood",
+      "title": "In Al Khobar,\nclose to the coast",
+      "subtitle": "Between Dhahran and the Gulf, with the causeway to Bahrain half an hour away."
+    },
+    "mapLabel": "Map of Retal Residence and nearby destinations",
+    "mapAttribution": "Map data © OpenStreetMap contributors, © OpenMapTiles",
+    "you": "Retal Residence",
+    "areas": {
+      "khobar": "Al Khobar",
+      "dhahran": "Dhahran",
+      "gulf": "Arabian Gulf"
+    },
+    "driveTimes": "Drive times",
+    "byCar": "by car",
+    "destinations": {
+      "bisak": "British International School Al Khobar (BISAK)",
+      "expo": "Dhahran Expo",
+      "mall": "Mall of Dhahran",
+      "corniche": "Khobar Corniche",
+      "hospital": "Nearest hospital",
+      "aramco": "Saudi Aramco",
+      "causeway": "King Fahd Causeway to Bahrain",
+      "airport": "King Fahd International Airport"
+    },
+    "short": {
+      "bisak": "BISAK",
+      "expo": "Dhahran Expo",
+      "mall": "Mall of Dhahran",
+      "corniche": "Corniche",
+      "hospital": "Hospital",
+      "aramco": "Saudi Aramco",
+      "causeway": "Causeway",
+      "airport": "Airport"
+    },
+    "address": "Address",
+    "directions": "Get directions",
+    "aerial": {
+      "eyebrow": "From above",
+      "title": "A compound planned around its centre",
+      "body": "Streets of villas and apartment buildings ring the Clubhouse, with the landscaped entrance gate on the main road."
+    },
+    "openMap": "Open in Google Maps"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Schedule a visit",
+      "subtitle": "Tell us when suits you and which residence you would like to see. Our reservations team will confirm by phone or email."
+    },
+    "direct": "Talk to us directly",
+    "main": "Main line",
+    "reservations": "Reservations",
+    "whatsapp": "WhatsApp",
+    "email": "General enquiries",
+    "sales": "Sales",
+    "address": "Address",
+    "directions": "Get directions",
+    "form": {
+      "title": "Visit request",
+      "name": "Full name",
+      "phone": "Phone",
+      "phoneHint": "Include the country code.",
+      "email": "Email",
+      "residence": "Residence of interest",
+      "residenceAny": "Not sure yet",
+      "date": "Preferred date",
+      "message": "Message",
+      "messageHint": "Optional. Anything we should know before your visit.",
+      "optional": "optional",
+      "honeypot": "Leave this field empty",
+      "submit": "Send request",
+      "sending": "Sending…",
+      "success": "Thank you. Your request is with our reservations team, who will be in touch to confirm your visit.",
+      "error": "Something went wrong and your request was not sent. Please try again, or call us on +966 13 825 9600.",
+      "fixErrors": "Please check the highlighted fields.",
+      "errors": {
+        "name": "Please enter your name.",
+        "phone": "Please enter a valid phone number.",
+        "email": "Please enter a valid email address.",
+        "date": "Please choose a date from today onwards.",
+        "message": "Please keep your message under 2,000 characters."
+      }
+    }
+  },
+  "footer": {
+    "statement": "Designed to be\nlived in.",
+    "cta": "Schedule a visit",
+    "visit": "Visit",
+    "call": "Call",
+    "write": "Write",
+    "follow": "Follow",
+    "reservations": "Reservations",
+    "language": "Language",
+    "rights": "© {year} Retal Residence. All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "x": "X",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "This page isn’t here",
+    "body": "The address may have changed, or the page may never have existed. These are good places to start.",
+    "home": "Back to home"
+  },
+  "images": {
+    "site/aerial-compound": "Aerial view of Retal Residence at dusk: villa streets around the Clubhouse, its pools and tennis court",
+    "site/aerial-compound-dusk": "Aerial view of Retal Residence at dusk, the Clubhouse at the centre and the entrance gate in the foreground",
+    "site/aerial-clubhouse-dusk": "Aerial view of the Clubhouse entrance between its two lit lattice towers",
+    "site/aerial-clubhouse-courtyard": "The Clubhouse from above at dusk, its lit entrance towers with the pool and tennis court behind",
+    "site/aerial-courtyard": "The Clubhouse courtyard from above: tennis court, main pool and children’s pool",
+    "site/aerial-villas": "Aerial view over Retal’s villas, streets and a pool at dusk",
+    "site/gate-arch-dusk": "The arched entrance gate at dusk, the Retal Residence sign lit beyond landscaped planting",
+    "site/gate-dusk-portrait": "The Retal Residence sign lit beneath the entrance canopy at dusk",
+    "site/gate-sign-dusk": "The illuminated Retal Residence sign on the gatehouse between palms",
+    "site/gate-guard": "A security officer standing outside the gatehouse",
+    "site/gate-checkpoint": "The security checkpoint at the entrance gate, with its barrier and a guard on duty",
+    "site/gate-day": "The gate canopy and gatehouse by day, with a security officer on duty",
+    "site/street-dusk": "A villa street at dusk, stone bollards and façade lights glowing",
+    "site/street-palms": "A straight residential street lined with palms and villas",
+    "site/street-palms-portrait": "A palm-lined villa street under a pale evening sky",
+    "site/villa-corner": "Villas at a street corner beside a pedestrian crossing",
+    "clubhouse/facade-night-wide": "The Clubhouse at night: lit lattice towers either side of the entrance, the sign and steps between illuminated trees",
+    "clubhouse/facade-night-portrait": "The Clubhouse entrance at night beneath its lit sign",
+    "clubhouse/lobby": "The Clubhouse lobby with marble floor, pendant lights and reception desk",
+    "clubhouse/lobby-portrait": "Rows of pendant lights above the Clubhouse lobby and reception",
+    "clubhouse/lobby-angle": "The Clubhouse lobby: marble floor, travertine walls and pendant lights above the reception",
+    "clubhouse/arcade": "The shaded Clubhouse arcade outside the mini market at night",
+    "clubhouse/mini-market": "The mini market shopfront under the lattice canopy",
+    "clubhouse/laundry": "The laundry pick-up and drop-off shop in the Clubhouse arcade",
+    "clubhouse/wayfinding-services": "Clubhouse signs for the coffee shop, beauty salon, business centre and guest rooms",
+    "clubhouse/cinema": "The 38-seat Clubhouse cinema, tiered seats facing the screen",
+    "clubhouse/cinema-portrait": "Tiered seats in the Clubhouse cinema under a black ceiling set with lights",
+    "clubhouse/bowling": "Bowling balls on the return rack beside the four lanes",
+    "clubhouse/bowling-portrait": "Seating at the head of the bowling lanes",
+    "clubhouse/billiards-portrait": "A full-size billiards table under pendant lamps",
+    "clubhouse/gym": "The gym, with free weights and machines on timber flooring",
+    "clubhouse/gym-weights": "A rack of dumbbells in the gym",
+    "clubhouse/pool-night": "The outdoor pool at night, loungers along the lit Clubhouse terrace",
+    "clubhouse/pool-night-portrait": "The outdoor pool at night, reflecting the Clubhouse",
+    "clubhouse/pool-reflection": "The Clubhouse reflected in the outdoor pool at night",
+    "clubhouse/pool-terrace": "The pool terrace at night with loungers and parasols",
+    "clubhouse/pool-umbrellas": "Parasols and loungers around the outdoor pool at night",
+    "clubhouse/tennis-sunset": "The tennis court at sunset, lattice screens behind",
+    "living/playground": "A shaded children’s play area with slide and seesaws between the villas",
+    "living/playground-train": "A play train under shade sails in a children’s play area",
+    "living/kids-zone-dusk": "A 15 km/h slow-down sign beside a kids' play zone at dusk",
+    "living/garden-bench": "A timber bench beneath trees on a paved walk",
+    "living/benches-evening": "Two benches and a garden light in a quiet corner at dusk",
+    "living/wayfinding-nursery": "Signs pointing to the multipurpose hall, restaurant, main lobby, nursery and retail area",
+    "residences/1br-apartment/living-kitchen": "Open-plan living room and kitchen in the one-bedroom apartment",
+    "residences/1br-apartment/living-room": "Sofas and a coffee table under lattice-screened windows",
+    "residences/1br-apartment/open-plan": "Living area looking towards the kitchen island",
+    "residences/1br-apartment/kitchen": "Kitchen with breakfast island, built-in oven and refrigerator",
+    "residences/1br-apartment/bedroom": "Bedroom with a king bed and dressing table",
+    "residences/1br-apartment/bedroom-detail": "The bed and bedside lamp beside the window",
+    "residences/1br-apartment/dressing-table": "Dressing table and mirror beside a sunlit window",
+    "residences/1br-apartment/bathroom": "Bathroom with a walk-in glass shower",
+    "residences/1br-apartment/vanity": "Marble vanity and mirror in the guest bathroom",
+    "residences/1br-apartment/plan": "Floor plan of the one-bedroom apartment",
+    "residences/2br-apartment/living-dining": "Dining table, living room and kitchen in one bright room in the two-bedroom apartment",
+    "residences/2br-apartment/living-room": "Living room with sofas, a blue armchair and built-in shelving",
+    "residences/2br-apartment/kitchen": "Kitchen with island, built-in ovens and refrigerator",
+    "residences/2br-apartment/kitchen-window": "Kitchen counter and sink beneath a wide window with a lattice screen",
+    "residences/2br-apartment/bedroom": "Main bedroom with a double bed and dressing table",
+    "residences/2br-apartment/twin-bedroom": "Twin bedroom with striped bedding and a tall window",
+    "residences/2br-apartment/bathroom": "Bathroom with a walk-in glass shower",
+    "residences/2br-apartment/plan": "Floor plan of the two-bedroom apartment",
+    "residences/3br-apartment/living-dining": "Long dining table beside the living room and kitchen in the three-bedroom apartment",
+    "residences/3br-apartment/living-kitchen": "Living room opening onto the kitchen island",
+    "residences/3br-apartment/living-room": "Sofas beside a full-height window with a lattice screen",
+    "residences/3br-apartment/kitchen": "Open kitchen with island, looking across to the dining table",
+    "residences/3br-apartment/master-bedroom": "Main bedroom with a double bed and a window over the compound",
+    "residences/3br-apartment/bedroom": "Bedroom with a double bed and writing desk",
+    "residences/3br-apartment/guest-bedroom": "Bedroom with an armchair and chest of drawers by the window",
+    "residences/3br-apartment/twin-bedroom": "Twin bedroom with a wardrobe",
+    "residences/3br-apartment/bathroom": "Bathroom with a glass shower",
+    "residences/3br-apartment/plan": "Floor plan of the three-bedroom apartment",
+    "residences/2br-town-villa/living-room": "Living room in the two-bedroom town villa, TV wall with shelving",
+    "residences/2br-town-villa/living-room-2": "Living room seating beneath a chandelier",
+    "residences/2br-town-villa/dining": "Dining chairs and table beside the window",
+    "residences/2br-town-villa/twin-bedroom": "Twin bedroom with a desk and balcony door",
+    "residences/2br-town-villa/plan": "Ground and first floor plans of the two-bedroom town villa",
+    "residences/3br-town-villa/living-room": "Living room in the three-bedroom town villa with blue armchairs and chandelier",
+    "residences/3br-town-villa/living-portrait": "Sofas and armchairs by the curtained garden window",
+    "residences/3br-town-villa/living-dining": "Living room leading through to the dining table",
+    "residences/3br-town-villa/dining": "Dining room with chandelier, sideboard and garden doors",
+    "residences/3br-town-villa/kitchen": "U-shaped kitchen with timber cabinets and a garden window",
+    "residences/3br-town-villa/master-bedroom": "Main bedroom with a king bed and lattice-screened windows",
+    "residences/3br-town-villa/master-detail": "Chest of drawers and armchair in the main bedroom",
+    "residences/3br-town-villa/bedroom": "Bedroom with a double bed beside a lattice window",
+    "residences/3br-town-villa/twin-bedroom": "Twin bedroom with a desk",
+    "residences/3br-town-villa/hallway": "Hallway console beneath a round mirror",
+    "residences/3br-town-villa/study": "Two study desks under lattice shadows",
+    "residences/3br-town-villa/entrance": "A villa entrance with a lattice screen and sliding doors behind planting",
+    "residences/3br-town-villa/plan": "Ground and first floor plans of the three-bedroom town villa",
+    "residences/3br-executive-villa/living-room": "Living room of the three-bedroom executive villa, looking through to the dining room",
+    "residences/3br-executive-villa/lounge": "Living room with the stair beyond",
+    "residences/3br-executive-villa/dining-stair": "Dining table beside the staircase",
+    "residences/3br-executive-villa/dining": "Dining room with chandelier and sideboard",
+    "residences/3br-executive-villa/kitchen": "Kitchen with built-in ovens and a window onto the garden",
+    "residences/3br-executive-villa/master-bedroom": "Main bedroom with sliding doors and a lattice screen",
+    "residences/3br-executive-villa/bedroom": "Bedroom with a double bed beside a tall window",
+    "residences/3br-executive-villa/twin-bedroom": "Twin bedroom with a full-height wardrobe",
+    "residences/3br-executive-villa/backyard": "The private backyard: lawn and hedges beside the villa",
+    "residences/3br-executive-villa/plan": "Ground and first floor plans of the three-bedroom executive villa",
+    "residences/4br-executive-villa/living-dining": "Dining table and living room opening onto the garden in the four-bedroom executive villa",
+    "residences/4br-executive-villa/living-room": "Living room with blue armchairs under a chandelier",
+    "residences/4br-executive-villa/kitchen": "Kitchen with island, built-in ovens and refrigerator",
+    "residences/4br-executive-villa/kitchen-garden": "Kitchen sink beneath a window, with a door out to the garden",
+    "residences/4br-executive-villa/master-bedroom": "Main bedroom of the four-bedroom executive villa, with a sitting area",
+    "residences/4br-executive-villa/master-suite": "Sitting area and chest of drawers in the main suite, with doors to the balcony",
+    "residences/4br-executive-villa/twin-bedroom": "Twin bedroom with patterned bedding",
+    "residences/4br-executive-villa/vanity": "Double marble vanity",
+    "residences/4br-executive-villa/backyard": "Lawn and hedges in the private backyard",
+    "residences/4br-executive-villa/plan": "Ground and first floor plans of the four-bedroom executive villa",
+    "map/neighborhood": "Map of Al Khobar and Dhahran showing Retal Residence near the Gulf coast",
+    "map/neighborhood-portrait": "Map of Al Khobar and Dhahran showing Retal Residence near the Gulf coast",
+    "clubhouse/table-tennis-portrait": "Two table tennis tables in the games room",
+    "clubhouse/marble-bench": "A timber bench beneath framed art on a travertine wall, with a black marble floor",
+    "clubhouse/reception": "The Retal Residence reception desk in the Clubhouse lobby, with lounge chairs either side",
+    "clubhouse/corridor": "A travertine-lined Clubhouse corridor with framed art",
+    "site/villa-corner-portrait": "A villa on a street corner beside a pedestrian crossing, under a pale evening sky",
+    "living/fitness-portrait": "Outdoor fitness equipment on a lawn beneath trees, villas beyond"
+  },
+  "rooms": {
+    "backyard": "Backyard",
+    "bathroom": "Bathroom",
+    "bedroom": "Bedroom",
+    "bedroom-detail": "Bedroom",
+    "dining": "Dining room",
+    "dining-stair": "Dining room and staircase",
+    "dressing-table": "Dressing table",
+    "entrance": "Entrance hall",
+    "guest-bedroom": "Guest bedroom",
+    "hallway": "Hallway",
+    "kitchen": "Kitchen",
+    "kitchen-garden": "Kitchen, facing the garden",
+    "kitchen-window": "Kitchen",
+    "living-dining": "Living and dining",
+    "living-kitchen": "Living room and kitchen",
+    "living-portrait": "Living room",
+    "living-room": "Living room",
+    "living-room-2": "Living room",
+    "lounge": "Lounge",
+    "master-bedroom": "Master bedroom",
+    "master-detail": "Master bedroom",
+    "master-suite": "Master suite",
+    "open-plan": "Open-plan living",
+    "study": "Study",
+    "twin-bedroom": "Twin bedroom",
+    "vanity": "Vanity"
+  }
+}

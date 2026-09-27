@@ -1,0 +1,1293 @@
+{
+  "site/aerial-compound": {
+    "src": "/images/site/aerial-compound.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACwAQCdASoQAAkAA4BaJZwAAf4fDJKAAPn7fCVo8UwI2sslkElHiIs3AS5o3JQ07JEReZaEtQ1VybX+iuMp4AAA",
+    "hash": "1d2cb9eff37a"
+  },
+  "site/aerial-compound-dusk": {
+    "src": "/images/site/aerial-compound-dusk.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAQCdASoQAAkAA4BaJZQC7AEWnK8eNAAA/mERTe2qG/Z5nYgj9g1xj5jnN965caEoG91tpECKS4ggAAA=",
+    "og": "/images/og/neighborhood.jpg",
+    "hash": "a10dc8203dd9"
+  },
+  "site/aerial-clubhouse-dusk": {
+    "src": "/images/site/aerial-clubhouse-dusk.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoQAAkAA4BaJZQC7AEXIzLQqQAA98RTj+ifnYsWPWZrFEc5pL6TNhVUuAWnf+unhG2CbEC+0Hxg3TbbeAAAAA==",
+    "hash": "cc6256951cf6"
+  },
+  "site/aerial-clubhouse-courtyard": {
+    "src": "/images/site/aerial-clubhouse-courtyard.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAkAA4BaJZwAAwDBAXKkAAD5+/fDj2uA/ky40aYut9MTOGDlk3VhuMjRJIAX2pIp0x0SpRXwuNJWz/AAAA==",
+    "hash": "adf7d0f47abf"
+  },
+  "site/aerial-courtyard": {
+    "src": "/images/site/aerial-courtyard.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZwC7AD5QRA9IiAA9HCPN9JR+2CiCvYBHC+EWZwbGXiIGbEAlOtIf238sG+puEWIcFjYj2AqnhlFSE6AAA==",
+    "hash": "eb89dbe49017"
+  },
+  "site/aerial-villas": {
+    "src": "/images/site/aerial-villas.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAQCdASoQAAkAA4BaJQAAJ37uAAD+YRPQC3RLWhZuH0af3Z+xhLceyguScWPd3D4lV85x5isLeXK/hgAAAA==",
+    "hash": "c81a08e9ca53"
+  },
+  "site/gate-dusk-portrait": {
+    "src": "/images/site/gate-dusk-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoLABAAA4BaJagCdAEQETqk9/iAAP7ay2QpcUiDr8RXvy0l9Fue2WDe/0CPKsdZP01ZxmFSnz3/UahZXB6/gWV/+hupvNtGDzrDv/JNwrnAAA==",
+    "hash": "c098af0bfd53"
+  },
+  "site/gate-sign-dusk": {
+    "src": "/images/site/gate-sign-dusk.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACQAgCdASoQAAsAA4BaJbACdH8EAAAwBwoE+z4sKAD+L4EV165AW5RlTMdZyPukbnVxOgHy3z8oz2kQ+R+zHg919zwYqCEhOpIKYMO/wWTvIC8YrUYtinFEdmizgAAA",
+    "hash": "057e444e8236"
+  },
+  "site/gate-guard": {
+    "src": "/images/site/gate-guard.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoLABAAA4BaJYwCdIExFcrzy1+sAAD+1REdSWqy7yCItWAUcIfmRt8tdMoZqPzYueSb2OTVcmb1nQpXqKdiqz/2ovvZIAaOqgf9GjCsCf1rjhBmeaGAAA==",
+    "hash": "dd7925900ee9"
+  },
+  "site/gate-checkpoint": {
+    "src": "/images/site/gate-checkpoint.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoLABAAA4BaJZACdAELWgdcqQAA/vcJdQcvJUvomE5Bb2LB5aSu7QHD774fI/gCKSB4uztwxjO9Jq/bYVIsdgeLeJin8c98WwB3AHEmPjSAAA==",
+    "hash": "8d06fc418b34"
+  },
+  "site/gate-day": {
+    "src": "/images/site/gate-day.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoLABAAA4BaJQBOj+ACgxYOGtVeAAD+9iw1kFMqCpJPOtNFbSEcVdQfu4DjML/BwS+ZNYWLuOTre/8p6U6gQVWMNbcKBXrWZimk4bkRhIgAAA==",
+    "hash": "1f844071b181"
+  },
+  "site/street-dusk": {
+    "src": "/images/site/street-dusk.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAsAA4BaJbACdADjRMnUd0gAAP7N/Ml0byWYx9iqnlMcz+auGxExB813hrB/Oh2Bc8LWhkYrTRRgV8/7+wF0rdRmpqYvf/zZIuL+3pWxVeM1P5dWSaf52rQAAA==",
+    "hash": "8384a727f73a"
+  },
+  "site/street-palms": {
+    "src": "/images/site/street-palms.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAsAA4BaJQBOgB7BEs8/gUawAP7rZuUr9sSBHjVKHL6O5EfIW9JRf7uIUcmfqZBPNqW9BLe+kCr/t9UsTElYYQdBad5TMwAAAA==",
+    "hash": "879534659ab1"
+  },
+  "site/street-palms-portrait": {
+    "src": "/images/site/street-palms-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoLABAAA4BaJagCdAEOQZFF8AD+54btfpThGpnRPw2TNGZ7h2pwiH2uqGrOmQPDYEgmfiz6Znt+5hqWcCh8oAAA",
+    "hash": "fdfd903f6567"
+  },
+  "site/villa-corner": {
+    "src": "/images/site/villa-corner.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsAA4BaJZACdAELM8ReEw7gAP7wDwLAft5liDG+acnN8wXxT7yfUbQxGfecD8YoF50/MNiXyJQYiRMtJDrzp27AAA==",
+    "hash": "f0c3df1d5971"
+  },
+  "site/villa-corner-portrait": {
+    "src": "/images/site/villa-corner-portrait.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoLABAAA4BaJZgCdAEPAiIkJKgEAAD+56iXKG4+319qJ9k1iAuJYpvl2InorGh04OD065W6+fFI7U4fyD3v1FzaZlUAAA==",
+    "hash": "c0ca15507df7"
+  },
+  "clubhouse/facade-night-wide": {
+    "src": "/images/clubhouse/facade-night-wide.jpg",
+    "width": 2560,
+    "height": 1440,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQAgCdASoQAAkAA4BaJbACdADwgMLi/dUAAP7SCVLh7gBo2xGxKl3/k2XgUy9/A+8VFQo5lPFdhPtlVG/OilxGCdDNCSW2xZt2foqyM28ZQtNXyE/wbJAna1UtfwbrmC7oAAAA",
+    "og": "/images/og/clubhouse.jpg",
+    "hash": "f261524c7ad4"
+  },
+  "clubhouse/facade-night-portrait": {
+    "src": "/images/clubhouse/facade-night-portrait.jpg",
+    "width": 1536,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoKABAAA4BaJbACdAEPCbJt0PsAAP73eCNwxTrvpgrbA3FKMsQTcRBZBrMKs1zB3PsCOpQ0Olb+BvQL8iZ3SgUU/EY0rSPPdgAAAA==",
+    "hash": "a974be144b31"
+  },
+  "clubhouse/lobby": {
+    "src": "/images/clubhouse/lobby.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABwAgCdASoQAAsAA4BaJbACdLoAAwXwpOOlewMAAP4EAyOjxQk8KajGf7g6YlcyMGmiMCmDURCkxdMnqJIHXr+p/gWHX850NCUAAA==",
+    "hash": "76b37310f6ea"
+  },
+  "clubhouse/lobby-portrait": {
+    "src": "/images/clubhouse/lobby-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwAgCdASoLABAAA4BaJbACdLoAAxoGt8J0GZkAAP3inhpWg4GTAfPDfq9Ip1c9bfWNGo0jCCzXbeOzaMY2ZiA6sW345Y9H6x17rjId54AAAA==",
+    "hash": "1b2bee49516d"
+  },
+  "clubhouse/arcade": {
+    "src": "/images/clubhouse/arcade.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJaACdAEDyPlIkgAA/tDLZj9Dj2uFQ2LVJlIlqHv/7vBzX81BVfopWc60XBj5qacKTiznLwdie8xLKDXqqnt9HNrxTGAAAAA=",
+    "hash": "0156557d3cef"
+  },
+  "clubhouse/mini-market": {
+    "src": "/images/clubhouse/mini-market.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoLABAAA4BaJaACdAEfbedRXswAAP7c/IpMbSRaMS0sQKU9PoqWKIlwE7NZjKJHgnNv081MV5skOLRWgDIwm/kPLSmj9mPR9Vt5aJvxiw8QgHY98AAAAA==",
+    "hash": "e759d4d41985"
+  },
+  "clubhouse/laundry": {
+    "src": "/images/clubhouse/laundry.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoLABAAA4BaJaACdAEDckg7QAD+3VDmtaNV7lL7lVuW1WPfJgGNbBxxYfqTRpU1tuORjRd9OwbYMHmleWEioVsBuMomy6tS/2feY3vFuOJ45jvctaVE5hgAAAA=",
+    "hash": "4cdf73cda9f8"
+  },
+  "clubhouse/wayfinding-services": {
+    "src": "/images/clubhouse/wayfinding-services.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoLABAAA4BaJZQCdAYsFbZZwk5ApAD+8etTJhe3XNI4U2zH+xitnNrKX0MKtQUId9Tf4lA1RlJOIbc5X3eonEvQ0L53FZ2SfseIC1HVHgtK7LL1GiLEy+/DNjQAAA==",
+    "hash": "bdc31a28e0ba"
+  },
+  "clubhouse/cinema": {
+    "src": "/images/clubhouse/cinema.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQAgCdASoQAAsAA4BaJYgCdAEQTTC1LgYdqAAA/vRfPG+FABLMyfcnZA7oBleoYg0QyJKOBTyEWq9tDOADBnQXNcxwsHS7d7Z+u7dtl8ez725pMLrrq2RusKWEvY5HJXKKGQlCZjXaJ+PQ8AA=",
+    "hash": "021cd7fa9799"
+  },
+  "clubhouse/cinema-portrait": {
+    "src": "/images/clubhouse/cinema-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoLABAAA4BaJQBOgMXI4Pjy9T0awAD+5E9BOqzwzVa52Q0BdCgla5sxV4vOXC9FNW6D30AduljQkcWpy5ToPcDLjedlzD/L3JshHocqYtB18/YFAAA=",
+    "hash": "6f1b2fd6ed00"
+  },
+  "clubhouse/bowling": {
+    "src": "/images/clubhouse/bowling.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAsAA4BaJQBOgBt6F4UAAP7W06Uo1qG1rhV1T8dPy95epNWOHn+84v5IZFpxTzBgJWL69MFCvUPpZzKDIgvncMAAAA==",
+    "hash": "986cf2d60f8f"
+  },
+  "clubhouse/bowling-portrait": {
+    "src": "/images/clubhouse/bowling-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQAgCdASoLABAAA4BaJYwCdAEQNm65kdgOgQAA/t/4N7Upuh7v+E3y45hGRJx7ZfjGpmKLey7RB6PW/ls4uZoNs/OQS8FjmzrYLAN1h+AAAA==",
+    "hash": "19806181b7d1"
+  },
+  "clubhouse/billiards-portrait": {
+    "src": "/images/clubhouse/billiards-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoLABAAA4BaJbACdAEOlWdWuAAA/mCoR2cSCtHLx+LQrsSdgypzJMFl79frLmbDN2x5QFFwPt6fI2H68ggcu1hLdn8V+nuC4BjB1rz84C44BVH6po4AAA==",
+    "hash": "e5810d344c40"
+  },
+  "clubhouse/table-tennis-portrait": {
+    "src": "/images/clubhouse/table-tennis-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoLABAAA4BaJQAAYt2bZDUbxIAA/sduKu55nH3o9WaQ+LwY0CSo+eHwXF11SQJf9y64seK8hMD3AOm+J+nnh77dao8mKR0A13ghik32jAcAAA==",
+    "hash": "478f55460840"
+  },
+  "clubhouse/marble-bench": {
+    "src": "/images/clubhouse/marble-bench.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoLABAAA4BaJbACdADbIV9wIgAA/fhpiFaowgPvmadMpAC7blV1LebDc6eZd4sa0q+P6HSayXPBuWr7KdpXRqD4AWlOiQ2vz12c+vVVNYZW0bYh7kc9I6soQAA=",
+    "hash": "d0cd17375dbe"
+  },
+  "clubhouse/reception": {
+    "src": "/images/clubhouse/reception.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsAA4BaJbACdAD0ZAPANnAAAP7hXm9L2KTfQx7XDx1GkKyrFsxWmXjAUMp0Oxzbx1F67WlCFfvhgPz+LltA1nlA9eunvZY7d0n6qigAAA==",
+    "hash": "107647210600"
+  },
+  "clubhouse/corridor": {
+    "src": "/images/clubhouse/corridor.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoLABAAA4BaJbACdAEQdsofgKjQAAD+3yV8jxYhryEbNdtDtfG2WZJdHtUJW2AxAzCqXuniuXbMGLRCbarW+Ex7//r7nmHOn/kqOtcrVo4AAA==",
+    "hash": "c1f9b0bf96fc"
+  },
+  "clubhouse/gym": {
+    "src": "/images/clubhouse/gym.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoLABAAA4BaJaACdAEUUqGzZKTYAP7fqGwEFumF+dk7LPQQ2tpPYXaAPmoW3swz2yp6cg17cXvrkZxXFHDM1y7XG5tey+BJWNqAAA==",
+    "hash": "ad756de383c4"
+  },
+  "clubhouse/gym-weights": {
+    "src": "/images/clubhouse/gym-weights.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoLABAAA4BaJbACdADdHieFNbNVwAD+8lGgGxwwiQChUb5H12WiMulAWe2ufSdcXquhTuEyAx6HUfQqHZWhreaVyBevggRSWcPs/nEsYu2B+AAA",
+    "hash": "4ab4e4bf2dd3"
+  },
+  "clubhouse/pool-night": {
+    "src": "/images/clubhouse/pool-night.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoQAAsAA4BaJbACdAYtzsa7G/x3IAD+75TD53tZuOzoSRe7rh/nkqHSwO60fRnxWn8Wd8UDfZrTvmXR9w94/8X6i1crzc24m4NtafysOX8Qs9SjDI0u7Qdgz/umdn/6UzO7AAAA",
+    "og": "/images/og/home.jpg",
+    "hash": "f3cda231dfaf"
+  },
+  "clubhouse/pool-night-portrait": {
+    "src": "/images/clubhouse/pool-night-portrait.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAgCdASoLABAAA4BaJaACdH8GJ/gbjaajNn+XQAD+9KEJoVejSEm8iSqx/s10l5Eo3mRWg3itzUlLE9tVDdwFBak/yTwmwySdbenqMQrf+TfxfLQGRoJOJQAAAA==",
+    "hash": "527b91187070"
+  },
+  "clubhouse/pool-reflection": {
+    "src": "/images/clubhouse/pool-reflection.jpg",
+    "width": 1707,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAwAgCdASoLABAAA4BaJagCdH8AFaBypnth0AD+7Fu0SSTebaZ5ZJlapgTC+EfqYCin/OYbte5wu+63SmMAcFXs8Bq03HwlJjVGIe/insKPQhbM44hymAAA",
+    "hash": "d93852832f42"
+  },
+  "clubhouse/pool-terrace": {
+    "src": "/images/clubhouse/pool-terrace.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAsAA4BaJbACdAYu527Jh7hbQ8AA/ryfnvEB8n2/wp2hSRziuM/JQEZXveC6GYYCQ6FDJJHXqcFv8H23gcLGiSplxrNl9ZzERzwg/dXpa+RveJl+oxm9idulGgAA",
+    "hash": "318a92365239"
+  },
+  "clubhouse/pool-umbrellas": {
+    "src": "/images/clubhouse/pool-umbrellas.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAsAA4BaJaACdAED7Q7pB2AA/qNy09R/Wp9fHkltK7+z2Xh/qGSnoaD0jBihYjtmOKO3cBCb/AvzVoCIBEThJl8o1WdTJf81kmOt6L07EgAA",
+    "hash": "71c8c7173fb3"
+  },
+  "clubhouse/tennis-sunset": {
+    "src": "/images/clubhouse/tennis-sunset.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAQCdASoQAAsAA4BaJQBOgB6I4lnt4AAA/IlK0tHnqMfTXYc9D+4GF2N0hUjz5yUaWAkUpZihnwAA",
+    "hash": "1a9766bb3306"
+  },
+  "living/playground": {
+    "src": "/images/living/playground.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAwAgCdASoQAAsAA4BaJaACdAYuHFXCnCugAAD+0gqtxhK44zm2STVr7lln/W5MBvX9x8AI9i7g4g2pbHDreVlyLMWsG7e818pl/K89pq06Hxw8w80rWkOy7h6AAA==",
+    "og": "/images/og/living.jpg",
+    "hash": "79530110fc00"
+  },
+  "living/playground-train": {
+    "src": "/images/living/playground-train.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJZgCdADb+4c4VwAA/r/IWtF3XleSHuDjdlRKlxZp6sjiqkOF4Cte5ZL7jbYrwTCOY8PcuyE7EBhbzweeLtD9t7qUhQzYebVHFRT0RkAAAA==",
+    "hash": "3c3e0210e6a0"
+  },
+  "living/kids-zone-dusk": {
+    "src": "/images/living/kids-zone-dusk.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoLABAAA4BaJbACdAEWYUUdTzOwAP6zvH8IrI8SJPAnVUNg+kAbdWM9Iym6Ta/o12Xy22nxKkXNbleEvaZSOYUoyqq/luUlrMybabAkFv7cjsia27EhnvpzmLAAAA==",
+    "hash": "d19df2d9e838"
+  },
+  "living/fitness-portrait": {
+    "src": "/images/living/fitness-portrait.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoLABAAA4BaJZACdAE2QMoeZq2tCBAA/t3g9O1b1SkM/gz82pvv2fhkLSIKZrifvcVRdgua1rJk5UNmqVioambTa/GZzhk5QGYuhn5AAAA=",
+    "hash": "eaf8a9e9dbe3"
+  },
+  "living/garden-bench": {
+    "src": "/images/living/garden-bench.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoLABAAA4BaJZACdADdOnDqdYAA/uYxZ0a79DDdwSt/aeHXBUoQWLX0HiCBZvW69s4PT2TC47iATssej4cKGnMFO/zwPoChb2/qjPVoerZigAAA",
+    "hash": "3de80213e65a"
+  },
+  "living/benches-evening": {
+    "src": "/images/living/benches-evening.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsAA4BaJbACdADMk5M01AD+7BG6xpPu7aySoOwvCm6CZN1cnIHAerg68Nkx/fknd0z+Gbwb180QHr3YAChVaRAAAA==",
+    "hash": "686e39b1f4c6"
+  },
+  "living/wayfinding-nursery": {
+    "src": "/images/living/wayfinding-nursery.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoLABAAA4BaJaACdADdIaU1NcIAAP7v15htn9O8vUWp8SOgM9lQxguTVJfw3kAx7gIDy6L67BiAAA==",
+    "hash": "fef23f62fcff"
+  },
+  "residences/1br-apartment/living-kitchen": {
+    "src": "/images/residences/1br-apartment/living-kitchen.jpg",
+    "width": 2560,
+    "height": 1827,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAsAA4BaJagC7AD0uSPptdz6mAD+k8SiKxccmWLirPgnzc9ikvIr5L7U45gnv4hjisBgGtoAxbB3+nUwjZMsGbRd2BnL/sQDA4WURbYSBKgzMJbyWwYeKAAAAA==",
+    "og": "/images/og/one-bedroom-apartment.jpg",
+    "hash": "8f074e7669f5"
+  },
+  "residences/1br-apartment/living-room": {
+    "src": "/images/residences/1br-apartment/living-room.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQAQCdASoQAAsAA4BaJQAAXXZvuEL/cADwHutJTnts2oGs3mx2xmNe91YO/VueMFknz09LoraS1DJrMtZ2udb0bKtuEKlPryRoDLDAxq23xIYordx+BLcBbqQAAA==",
+    "hash": "88e634f93c03"
+  },
+  "residences/1br-apartment/open-plan": {
+    "src": "/images/residences/1br-apartment/open-plan.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsAA4BaJYwC7AEPQkrkkKAA/tSgpVfhZhdk2rRn4g3M1qygxSOt1Epcy9ujnXDHbC/vUuIcTJ9jt5YK7VR03Yss8P2NxkpMAA==",
+    "hash": "459afd147770"
+  },
+  "residences/1br-apartment/kitchen": {
+    "src": "/images/residences/1br-apartment/kitchen.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABwAgCdASoQAAsAA4BaJZACdAYvrwmerg7EVAYAAP7f+hQKdrWGZbkwSX7LelfxttcJAB8oCYM3/QdArSRKknzNLuRzzN2cRR/NPnI/Ew03lCnh+hH/KwAA",
+    "hash": "81b1e7659688"
+  },
+  "residences/1br-apartment/bedroom": {
+    "src": "/images/residences/1br-apartment/bedroom.jpg",
+    "width": 2560,
+    "height": 1521,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAoAA4BaJZACdACE5DCGOAAA/vOkgCoaEy8VZOw5m5HWCyWJ92mkcd0x9X//zwg3wV18TZ3yGSd5jePdz43TUQyNRR6UakgdwD74AAA=",
+    "hash": "d16202f5ae3a"
+  },
+  "residences/1br-apartment/bedroom-detail": {
+    "src": "/images/residences/1br-apartment/bedroom-detail.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJbACdAEMce4+hAAA/vJtEtvk2bUJJUsJXMJel+GWqDV8hnlb2YaOCNpsGCHLfnJ0x/JuncHbTEcqBfU0wOL25+DFGT2g0bv9X0zlAAA=",
+    "hash": "f798d28b8b5f"
+  },
+  "residences/1br-apartment/dressing-table": {
+    "src": "/images/residences/1br-apartment/dressing-table.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJZgCsADFepQO7AAA/uB6sQ8/jc3QzCNdwwHLHha61Mzwu12/Ao+aYwk2qOVawALLFvgFjLABZuOIbPqjPYSjv3P2w2x5HDjYldocAAA=",
+    "hash": "65008b208640"
+  },
+  "residences/1br-apartment/bathroom": {
+    "src": "/images/residences/1br-apartment/bathroom.jpg",
+    "width": 1920,
+    "height": 1122,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJYwCdAEf0jPT+cAA/vHh3b8qLMmUSWVcFE+CM4CBC54z4VmpIgOF/pP+7vRGtnjhQAAA",
+    "hash": "5a70a4a135b5"
+  },
+  "residences/1br-apartment/vanity": {
+    "src": "/images/residences/1br-apartment/vanity.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoLABAAA4BaJQBOgBupXNZM7wAA/gct1fCSZSBFcBxSB/G3ZBxHEil9wMQNqgXpcVBsms3CLpLyoJuTzeEFjZvA7P72bBikm6i5AAAA",
+    "hash": "64156ea6b535"
+  },
+  "residences/1br-apartment/plan": {
+    "src": "/images/residences/1br-apartment/plan.webp",
+    "width": 1390,
+    "height": 511,
+    "blurDataURL": "data:image/webp;base64,UklGRsAAAABXRUJQVlA4WAoAAAAQAAAADwAABQAAQUxQSF0AAAABcFpt27Lcv/8/kt1JnuhMYCOQOP8G6AI6hWtjCBIkdiG9b2SFiEj+Dy7XfXq3hPE+u9sy/KnqQj/w1IV+GYmqhPKCh4Tyxvbb3XqiUoVGq1jpAPGo7wVAJOp7EQAAVlA4IDwAAADQAQCdASoQAAYAA4BaJZQCdAEGiOmJYAD+4Y89WCXR6+b/Kyk/q9LnF28pIVY0yjmMtJZGhjADlxFHAAA=",
+    "hash": "80bdb1d11fed"
+  },
+  "residences/2br-apartment/living-dining": {
+    "src": "/images/residences/2br-apartment/living-dining.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJQBdgBSjGEdAAP7F8S6pVamKQIcrNseunMev2TihszQrJuRt+xlZDEwgZGL2U4eAC1g9DetAp0YAAAA=",
+    "og": "/images/og/two-bedroom-apartment.jpg",
+    "hash": "ef94f21c73d2"
+  },
+  "residences/2br-apartment/living-room": {
+    "src": "/images/residences/2br-apartment/living-room.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAkAA4BaJQBOkCYiiK2HYFTAAP4GtaK/19ScOcBFhJhJddzaXXipGduFvxE2P4croOB1IO2wgBkqxaiFAElficOJxbDeFt7YHPYM9LJMLUAA",
+    "hash": "ad59d112b34c"
+  },
+  "residences/2br-apartment/kitchen": {
+    "src": "/images/residences/2br-apartment/kitchen.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAQCdASoQAAkAA4BaJYgCdABzcr0AAP7nVH7obVH9QhG47Z77i+RodEi+4cys78sjqZy8Lo7Zo8U2TdEcYuhxZGbjE5tQlyAAAA==",
+    "hash": "2dd1fae49629"
+  },
+  "residences/2br-apartment/kitchen-window": {
+    "src": "/images/residences/2br-apartment/kitchen-window.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJZgCdAC6BBVQUAD+x1/74NLc0DNFFzEJPX0qupw0JThGC6FHpscaWJj9K1pfJ54IHx+47G6VaG4DK5R+OLzUVtNuN5HQMagAAA==",
+    "hash": "d3f652ae8f96"
+  },
+  "residences/2br-apartment/bedroom": {
+    "src": "/images/residences/2br-apartment/bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAkAA4BaJQBOgBxu2I6JPIAA/t8IG8U/kzHKrRh3SfF7iaug+RZe2LodLFcH23W8aoJIrBuY6pY9Isn/plNXXMOZZAAA",
+    "hash": "4d74350b7c2d"
+  },
+  "residences/2br-apartment/twin-bedroom": {
+    "src": "/images/residences/2br-apartment/twin-bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwAQCdASoQAAkAA4BaJQBOgMW5RmZgAOAG1E35zaDHTTVo371QCwWwJwT0Qil5cToXzcqKNf50hGpvaauoQ+DZDll1lXv+kNiKWABDoXdFmH3OUyMIL4WGvdUaYAAA",
+    "hash": "17da9e5cfcf9"
+  },
+  "residences/2br-apartment/bathroom": {
+    "src": "/images/residences/2br-apartment/bathroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoQAAkAA4BaJYwCdACjEZmgAP4CshYlPhc4itRbtyPEJeIi0woRLuQKB9nCXnJI/UaEMva8QAA=",
+    "hash": "0ae0792b83b0"
+  },
+  "residences/2br-apartment/plan": {
+    "src": "/images/residences/2br-apartment/plan.webp",
+    "width": 614,
+    "height": 575,
+    "blurDataURL": "data:image/webp;base64,UklGRhABAABXRUJQVlA4WAoAAAAQAAAADwAADgAAQUxQSIcAAAABgGJt27Lowd0hurvDpkhEkrt7c1gBTWemap2kO3lxWEJEKEzagLHjGNxP5f+UGhL/pywBbIiIxsgQEX0DyJ9txO2z2fWRc399o5u2ANaXctfXv5Q6WwHIXaqeTQEkib5eXi3xl0+iIQBOJMYDALDDUQEeC0/rCPg9Xp/4itxl1qhUKpMIjwQAVlA4IGIAAABQAgCdASoQAA8AA4BaJZQCdAYulvsswfkLMAAA/udGhViqT5BxHKVNIdlEFI7LCYfza3x0+BjVu4gA4JGBVLUPt1HFOCM3EYOUuuPDm5OQjJ3+NhVrmLKn7e9spcSMgCSoAA==",
+    "hash": "be6bfd87f891"
+  },
+  "residences/3br-apartment/living-dining": {
+    "src": "/images/residences/3br-apartment/living-dining.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAkAA4BaJaACsADJ7ywY/AAA/m0HWm5DjgDoUyBkg/xBr8IfZxEXApCJ4f1O8EhdOfOw0xaHWNwykbn+vOGQEgMG/2aqzhRYywAA",
+    "og": "/images/og/three-bedroom-apartment.jpg",
+    "hash": "236fa8b9b2a2"
+  },
+  "residences/3br-apartment/living-kitchen": {
+    "src": "/images/residences/3br-apartment/living-kitchen.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJaACw7EV772dwAD+lPn2DfC19FNzTFFmQp3nw7Eik+WMKJgO2QLoXzyS9cFRwVlDvydE4r6o/MxDo7JFf6/2FcO0GO2jbuAAAA==",
+    "hash": "8755f5e401d4"
+  },
+  "residences/3br-apartment/living-room": {
+    "src": "/images/residences/3br-apartment/living-room.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAkAA4BaJQBOgB6+WI5hAAD+shmPLTxgeW74cs+sDZ+S2iQE8sLNrvqBu6jVsfpjr72aJhEGmlaTVgcTvQcvM0lt8Xk8GGlZ8YF9ti9DcAAA",
+    "hash": "92304fe45b8d"
+  },
+  "residences/3br-apartment/kitchen": {
+    "src": "/images/residences/3br-apartment/kitchen.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwAQCdASoQAAkAA4BaJaACdABzcr0AAP6RZSaz+hOON9qRxLQG3eBYwtnBLuHHzKpuT150tVqvjfNOhy3AgCWTzd+7ImLnKTiCH25FcgAAAA==",
+    "hash": "d24ffa2629ac"
+  },
+  "residences/3br-apartment/master-bedroom": {
+    "src": "/images/residences/3br-apartment/master-bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAkAA4BaJZQC7AYultsWiMtsAP7Vr5oNquCu7noryfN8o42lm5/tNw25AktO+LydKOkMPQyWeqRIc7Ke+QSgGAA=",
+    "hash": "5537817ea36b"
+  },
+  "residences/3br-apartment/bedroom": {
+    "src": "/images/residences/3br-apartment/bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwAgCdASoQAAkAA4BaJYgCw7EDpFka5an+AAD+bDJSl2pvtGlyQy2aWiIfdj7fFYOEV1REOWqxf+09M6oImDK/Yb1egX+HcHczK0qwAAA=",
+    "hash": "a0842e4ff9f4"
+  },
+  "residences/3br-apartment/guest-bedroom": {
+    "src": "/images/residences/3br-apartment/guest-bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoQAAkAA4BaJQBOgBGw4AAA/lv2J3h28bn+pMZuwSW28sk6YOJkddfnvK76nP48sdP8+09fRvVAk5U8WZd/9o05Hua5AAAA",
+    "hash": "95f56c421047"
+  },
+  "residences/3br-apartment/twin-bedroom": {
+    "src": "/images/residences/3br-apartment/twin-bedroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoQAAkAA4BaJZACdAEQZ0Y9HD6ecAD+WjRoyZnYxuck1ua9s4b1GFRvlVYgzNymHrqxsQKx/CSVIrqM8je6+cOKUvSAAA==",
+    "hash": "fe6f91689cdb"
+  },
+  "residences/3br-apartment/bathroom": {
+    "src": "/images/residences/3br-apartment/bathroom.jpg",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoQAAkAA4BaJZQCdADJ+9L93AAA/mrs4rG5qDD59azFe0+XQKQeg1j8yV3f1w3HSbHJPOUoecbuYAAA",
+    "hash": "6c1239c78c36"
+  },
+  "residences/3br-apartment/plan": {
+    "src": "/images/residences/3br-apartment/plan.webp",
+    "width": 642,
+    "height": 644,
+    "blurDataURL": "data:image/webp;base64,UklGRiIBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSI8AAAABgJtt27Hn+m3bDlpNkgGSFVL+VdTZlW0uoNYVp/nw4sgIETEBhEulUilOolQqlYLAkmEYxjp7hmEYE8Cp1iawoTUDPApfkWfhRmWk/1SzsgehCxzK9oQNYFN2KcwD47J7YRQYM4yX3cdEd/fTMEYAV0+fB9HX13Hyv65MttFsNKtuRbhnoL/dagwHFDjQBQBWUDggbAAAALACAJ0BKhAAEAADgFollAJ0B3AuBPgd4s3843nIAAD+kb2MnYnI3TwDpIgaVok+6/CSJgVNQk+/bi+bU7vKg2qWLPkvah0DDP7upsZjv0x0dUeTuWfuwu1JOmUQWP1iggQOUZPDgz36D5wCAA==",
+    "hash": "219710fa8ec9"
+  },
+  "residences/2br-town-villa/living-room": {
+    "src": "/images/residences/2br-town-villa/living-room.jpg",
+    "width": 1920,
+    "height": 960,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAgAA4BaJQBOgCPRybx1cSgAAP5b+O9oXDdWHkZ1fmJwI123jjGpBf1T9AGBpbv9kdw/wCkIi1a40RIZDL+ulDn9WzOc8ACtmva+0OHQAA==",
+    "og": "/images/og/two-bedroom-town-villa.jpg",
+    "hash": "40f8309cbcc5"
+  },
+  "residences/2br-town-villa/living-room-2": {
+    "src": "/images/residences/2br-town-villa/living-room-2.jpg",
+    "width": 1500,
+    "height": 1000,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQAAsAA4BaJQBOgCIewWwjQkAAAP7hpB6RegYn0cDt1+wpVnsZ/YATmFs6GVLvufecJLZHzsQOqaf0ksHTb9gdCfM4/z2Gs3F98SGXgIpjmnaN7uKSQrh5By0JUIGeiWAAAA==",
+    "hash": "fa04475c20c7"
+  },
+  "residences/2br-town-villa/dining": {
+    "src": "/images/residences/2br-town-villa/dining.jpg",
+    "width": 1024,
+    "height": 683,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAQCdASoQAAsAA4BaJYgCdAEDHWIPHVQA4mSRDFhHTou2V0xiOY9fl32dY1bG180nk3mFPJv8PfEpweDcQfTFeTJb68ifIa2L7LVtZJ/V+tUipiUZKEolTTIwKwYwAAA=",
+    "hash": "9a788e5d6d08"
+  },
+  "residences/2br-town-villa/twin-bedroom": {
+    "src": "/images/residences/2br-town-villa/twin-bedroom.jpg",
+    "width": 1025,
+    "height": 683,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAsAA4BaJQBOgBRvgIvcaAAA/tdhHP+HcQRfK/Zj/lBZ/ewfG/BLeWu8WZ1VJE/BjzTRGDNkHyuvpKSYp4BVE9sopj0ib+W6SnB8WezQ+AQdYAA=",
+    "hash": "ef8452f1fe25"
+  },
+  "residences/2br-town-villa/plan": {
+    "src": "/images/residences/2br-town-villa/plan.webp",
+    "width": 787,
+    "height": 685,
+    "blurDataURL": "data:image/webp;base64,UklGRvgAAABXRUJQVlA4WAoAAAAQAAAADwAADQAAQUxQSHAAAAABcFvbtqKckTeDe0jqRO5SAwWQ0cRUgLtFdEJKCdRC6E4DETEBKCIiACIiKgjwwAEY4Bl22627zi5CCMLn8/l4dzjvF6k3zud/OZWf1EIQnFml4J21rbt1UEXEvPu0GW/Wc7mmQiBdL+XT4OCxbnAPVlA4IGIAAAAwAgCdASoQAA4AA4BaJZQAD5Jr2D5j62eWAAD+yPZvXGv04PrkCZ6O0CkmG8yMMMvmrXlgrE+cWDNvyjP/QiQUhaH5sbm0b4ZhHpnKpXTgmvbzd/bY38ntf6pGrx11rYeQAA==",
+    "hash": "dafcee7f20ee"
+  },
+  "residences/3br-town-villa/living-room": {
+    "src": "/images/residences/3br-town-villa/living-room.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAQCdASoQAAsAA4BaJbACdAEf268LwAD+62dld1DvjQs+oSX7lDcDtYnnPbivfTE89JjOJGd4AtS8f0XFxPQqgUxU0FSO6oXJZAuWhBffX4D06ctwCo/6mxgS8SN6AAA=",
+    "og": "/images/og/three-bedroom-town-villa.jpg",
+    "hash": "3e7a627e2407"
+  },
+  "residences/3br-town-villa/living-portrait": {
+    "src": "/images/residences/3br-town-villa/living-portrait.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoLABAAA4BaJbACdAEOJm+4UaRIAP7uT5PknKDmx0Oxs7dtCVn8HBowPRIgtjcfa+26X6f7S/9Vcj6mD2l89mcuBsABPeusVorm+AAA",
+    "hash": "69a7e2826a20"
+  },
+  "residences/3br-town-villa/living-dining": {
+    "src": "/images/residences/3br-town-villa/living-dining.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAQCdASoQAAsAA4BaJbACdAEFqLyAAP7oPjjkqxUr2jKL5wr6KJ6kHoJGo/IgnW85XuZ84GTdKAdpSirSy6bld704e8BYgUdUzbQZbnZQAAAA",
+    "hash": "7446da1ff176"
+  },
+  "residences/3br-town-villa/dining": {
+    "src": "/images/residences/3br-town-villa/dining.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoQAAsAA4BaJbACdAEQCxWCMAAA/vCWDfmn0Orup2X+MDOmqMJm1U/TSEPUr69/8Hgv4Z9JeTO1PJaYEl72KkLdq3Ai6UI/nm3AAA==",
+    "hash": "e4f2f42892de"
+  },
+  "residences/3br-town-villa/kitchen": {
+    "src": "/images/residences/3br-town-villa/kitchen.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwAgCdASoQAAsAA4BaJaACdAEf+ofzY08MAAD5XdkUegWJq2JvrhLsWBQdFyKliOBxT8w8bNcY30Y1E2n+hXO/8pQL5R2C96WuQCKvWiKgAA==",
+    "hash": "e45a2775b422"
+  },
+  "residences/3br-town-villa/master-bedroom": {
+    "src": "/images/residences/3br-town-villa/master-bedroom.jpg",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAAsAA4BaJbACdAERAqutHZQAAM44Q2EmnqrqLddv1D9hvdCaDeVFXRU/5dzjyFJR1N1Ol2VeCDA6ZbW4LQevmRk7wu+kfN/k9qg035a0VAAA",
+    "hash": "1981170288ca"
+  },
+  "residences/3br-town-villa/master-detail": {
+    "src": "/images/residences/3br-town-villa/master-detail.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsAA4BaJbACdAC1jL8bZUAA/t8i3+HCCKkJaa5gJePQGLnFJOhx+5DQLXWFYB+XczeTbvDGtBBxkESecwRueDUmdc9wjOdGTfSvKwAAAA==",
+    "hash": "aaf93157342f"
+  },
+  "residences/3br-town-villa/bedroom": {
+    "src": "/images/residences/3br-town-villa/bedroom.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAsAA4BaJbACdADDGUtlpCAA+W595ceo2Pn+PnL2tCDQNHV6gfrbwud3bemNo+tPT8Obhijq0iyQF8HLw9SYuPehTOyquzy2YzfkPzkcnvo2oAAAAA==",
+    "hash": "c7d7041c3111"
+  },
+  "residences/3br-town-villa/twin-bedroom": {
+    "src": "/images/residences/3br-town-villa/twin-bedroom.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsAA4BaJbACdAD2NCeiJYZrIAD+uE4nEuBJqzjAVJibIomSj5qdj1qBnMceDNGyvxNgoFndNPLvB5rL2QaNFbn/0IzBczzkv6YqxjBcT4zCjfF5qJ8OAAA=",
+    "hash": "7f7b731d54e8"
+  },
+  "residences/3br-town-villa/hallway": {
+    "src": "/images/residences/3br-town-villa/hallway.jpg",
+    "width": 1280,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoLABAAA4BaJZgCdAELVB4MlkAA/vI5tI/OyeLdz+um18qMg3PMq7+6L/a1bhNM9oDcYKVCY0AGlDnffqfDdGbxPMMAAA==",
+    "hash": "3f066c56239a"
+  },
+  "residences/3br-town-villa/study": {
+    "src": "/images/residences/3br-town-villa/study.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoQAAsAA4BaJaACdADxMElZk2QAAP7wd4ksb4UPLz+KtJY7fE+HcZHNNcA9gZrMiliOMRRl8hgqwWXG6nHxqgdUfMw5ySU5Tc7EgAAA",
+    "hash": "21650176ae7d"
+  },
+  "residences/3br-town-villa/entrance": {
+    "src": "/images/residences/3br-town-villa/entrance.jpg",
+    "width": 1920,
+    "height": 1280,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAsAA4BaJZgCsADPl4KZRgAA/j//FxFYFbOjJdBvB+Al2s1n5LmugxucAVcGLezxyfyHn9Phxam5FKvdB9BSi5dzroXFdqpap5MAAAA=",
+    "hash": "7ece13a2d25c"
+  },
+  "residences/3br-town-villa/plan": {
+    "src": "/images/residences/3br-town-villa/plan.webp",
+    "width": 879,
+    "height": 689,
+    "blurDataURL": "data:image/webp;base64,UklGRgIBAABXRUJQVlA4WAoAAAAQAAAADwAADAAAQUxQSJIAAAABuS5E9D8ANdu2ZdmFu1eHyBY+AEMwAIlKZhLtWl2aZdfm7vL/G0RMwAQQv+vdbInsAVI3gMARgCKXoawIwCMuIcZsCICBjpsZAA23qCU/fC9nIvDDP95cALgBzt5dtEW82QjqAiAQttFxBqAupGTlAMBNHt72ZeCtjYnUnsBOD+xMTkQEWoC5iyNABJi5OIIIAFZQOCBKAAAAkAEAnQEqEAANAAOAWiWcAALj/1CAAP7nH0YLQgOhjYBEx8RdwCuCYnqINtfStP9M1cbvY0ZGzTLnyq3o/LeThGfqCfoXCJDAAAA=",
+    "hash": "3d81fcad11b1"
+  },
+  "residences/3br-executive-villa/living-room": {
+    "src": "/images/residences/3br-executive-villa/living-room.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACwAQCdASoQAAkAA4BaJQBOgBnPEvUgAP3weCBr2z3VvgLhpb4gHrjgzy/qMpDdRRbCRxmwZEu1Lu9RYRfLA/Ga60nkF5gAAAA=",
+    "og": "/images/og/three-bedroom-executive-villa.jpg",
+    "hash": "9646823b3171"
+  },
+  "residences/3br-executive-villa/lounge": {
+    "src": "/images/residences/3br-executive-villa/lounge.jpg",
+    "width": 1920,
+    "height": 960,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAgAA4BaJYwCdADavN4j8AD+13GYfc1BF6CcqFgj0NWRGvzwBZ9ovWdxZ8F3T6cdtYUbZSsg5d/z6bvoJk3BNPOrZ5JBAAA=",
+    "hash": "3c0fc3aea242"
+  },
+  "residences/3br-executive-villa/dining-stair": {
+    "src": "/images/residences/3br-executive-villa/dining-stair.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoQAAkAA4BaJYwCdAEVzMwyDrkAAP60DCx33yTV6o7Pbbx6TatGnYiNs0GBuVsLJnOQFhD+C9ZPXIyru/AwEW+VL1ncgAAA",
+    "hash": "3b93235f976b"
+  },
+  "residences/3br-executive-villa/dining": {
+    "src": "/images/residences/3br-executive-villa/dining.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAkAA4BaJQBOgCHcpbhEgAD+kWMv5kqMWjuq4mRGuKfrj3+yGoiBUmEw0HkFYura+J9L9cTEkyq08XwAAA==",
+    "hash": "02d58d2cda2c"
+  },
+  "residences/3br-executive-villa/kitchen": {
+    "src": "/images/residences/3br-executive-villa/kitchen.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAQCdASoQAAkAA4BaJZACdADOn86E5wAA4mWri4Izfkr8adq1J7yoh3IB70mJrw2mvonG/C2bwtVq2a06kwGOAwd6oUAkUNXikoMAAAA=",
+    "hash": "8d7a9715c210"
+  },
+  "residences/3br-executive-villa/master-bedroom": {
+    "src": "/images/residences/3br-executive-villa/master-bedroom.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAQCdASoQAAkAA4BaJQBOgBhxAZtCAAD+miQa3kHncsfrtAfFed8GIAHodZmumG++zwFlhici/NoFjsFgmNV4JazKb15HA8OvxxvZC2qRfEmrVdAAAA==",
+    "hash": "837ff60ec5bd"
+  },
+  "residences/3br-executive-villa/bedroom": {
+    "src": "/images/residences/3br-executive-villa/bedroom.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJYwCdACnZAoYgAD+x27WFHdBMzP9edxY4nB8KtZ0UxsSbPADxUZF5DhibPQO0sG/1fnNY8DOnpJRVW2OEDwgAAA=",
+    "hash": "9543f2a66388"
+  },
+  "residences/3br-executive-villa/twin-bedroom": {
+    "src": "/images/residences/3br-executive-villa/twin-bedroom.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAkAA4BaJYwCdACeiSGAAP6Q1IGewdyu9WlwKNTYXjdCVTmH2KlkNrSMfF2Y9JXmGq4j8CBUDN0ZAkLkEUAA",
+    "hash": "b59d9470defa"
+  },
+  "residences/3br-executive-villa/backyard": {
+    "src": "/images/residences/3br-executive-villa/backyard.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJZgCdH8AEbyu+qZUAPjW5BG3daABR3FWd9/K7RVdilmYeNhNXlceS/N/YYDde3DN8/ObVUMK1uv14/EJWGtkgZAAAA==",
+    "hash": "218a2db38194"
+  },
+  "residences/3br-executive-villa/plan": {
+    "src": "/images/residences/3br-executive-villa/plan.webp",
+    "width": 937,
+    "height": 671,
+    "blurDataURL": "data:image/webp;base64,UklGRvwAAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSIMAAAABcFpt27K8+Pvjrs2h0WjOGO4S3RbwykAM4jQYgcMT/h8ZISImQMnMLCiI1MzMemKaLwoJDZGgmfdIIHa9gb3IhddxSlzFhymAJXEDwEi0A9AirgBoifoA4hL3vMiXfZ7CxIXHoaERud3JgIH+6A5HYxGR3R8Ku4msBqXSIDKalWqBAABWUDggUgAAANABAJ0BKhAACwADgFollALDsNAuRA9AAP7IoqsgA0lP107+Tbq82Old3sMLRYSiJSSmUpBZevfzIiH4Zvbb1vB3BegvTyWbtmM0m+VfcEQAAAA=",
+    "hash": "77b596aa8597"
+  },
+  "residences/4br-executive-villa/living-dining": {
+    "src": "/images/residences/4br-executive-villa/living-dining.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAkAA4BaJYwCdAD8oTti5MAA/sTWZJEYyLwvdS/z9uQLn2OLrxqPtiXLk0mk/+4Y+gEyvwTx5fS6T9KPhxwcuHDRCrhWVJhxNl9xICACPFTAEgAAAA==",
+    "og": "/images/og/four-bedroom-executive-villa.jpg",
+    "hash": "f671f8a3e259"
+  },
+  "residences/4br-executive-villa/living-room": {
+    "src": "/images/residences/4br-executive-villa/living-room.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJYwCdAD0fnsUEUAA/PR7SMFk5GfV/Us1xdIPWgAl1tq4oXxjXoAM5b/zlX72pqphp0mhGusNpuDrtzAAAA==",
+    "hash": "9e72f1866a5e"
+  },
+  "residences/4br-executive-villa/kitchen": {
+    "src": "/images/residences/4br-executive-villa/kitchen.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAkAA4BaJYgCdAD5Ogbw9YRAAP60IcC/hulCg3HQl8safZBIWipFtoAVEvWs8IS9DYJ32dUQzYGL1wEydWduydSv3TGMw05koyqiptiMoBJAAAA=",
+    "hash": "9f46dfd4422a"
+  },
+  "residences/4br-executive-villa/kitchen-garden": {
+    "src": "/images/residences/4br-executive-villa/kitchen-garden.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAkAA4BaJQBOgBxvAi0ZxXeAAP388Qvpk/BaWRWbaX2mFZ4craGg1iK0NuwzGULYyToX2XeV3aekR3B+XV5SeKs/qHKm2OHgF7ocNL0R1RM/f8AAAA==",
+    "hash": "2c8901bddcb7"
+  },
+  "residences/4br-executive-villa/master-bedroom": {
+    "src": "/images/residences/4br-executive-villa/master-bedroom.jpg",
+    "width": 1920,
+    "height": 960,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAgAA4BaJQBOgBpHZTLrwAD+7miC7a4TKtkbS0EDrRdVp6G7ieRdVztEDNk1RVZv+n6busA5V47uzPzgAA==",
+    "hash": "89df040398ff"
+  },
+  "residences/4br-executive-villa/master-suite": {
+    "src": "/images/residences/4br-executive-villa/master-suite.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAkAA4BaJZQCdADutdZSAADOMzP525q+R5QpEsg7HXlRKq5jPj7v/PIf96M9UqZoY+nBymKmQWPmTgYgzoQAzcNnE60ggAA=",
+    "hash": "f3176dc91969"
+  },
+  "residences/4br-executive-villa/twin-bedroom": {
+    "src": "/images/residences/4br-executive-villa/twin-bedroom.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQAgCdASoQAAkAA4BaJYwCdADjSwiQjkwAAP7FeXVl9vxZDbYm3WiCj0NrQHAAezcNgIP9+S8EvShf5/Z+oWHfGjIw41cxksVxzuOtlIYAAA==",
+    "hash": "b2abe39b0a6d"
+  },
+  "residences/4br-executive-villa/vanity": {
+    "src": "/images/residences/4br-executive-villa/vanity.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAkAA4BaJZACdACysnjrAAD+6xdGnkm98N+D48zKWyvUJJ/QrDD/frF7LQ3MOeCCl3WkVsE/CujNB6gAAA==",
+    "hash": "63c49296e3b6"
+  },
+  "residences/4br-executive-villa/backyard": {
+    "src": "/images/residences/4br-executive-villa/backyard.jpg",
+    "width": 1609,
+    "height": 905,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoQAAkAA4BaJZgCdACqxwVgVgAA/o8iBF9a0xT+QoRxD3LFjT5CZyffIjn3NyPalFRZyCzNPnMy+T+EFnIV41yqakQAAA==",
+    "hash": "c049574fa850"
+  },
+  "residences/4br-executive-villa/plan": {
+    "src": "/images/residences/4br-executive-villa/plan.webp",
+    "width": 1092,
+    "height": 720,
+    "blurDataURL": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4WAoAAAAQAAAADwAACgAAQUxQSIoAAAABgBtb27LoGXhwd0J3SqAHhoxYY88YMgg329wa8NyLcI13tgB7gne2h4iYAHqsE3B5rINAKhsmQFiy+3p0t2MWz/sffXIsac9sJc3IkaTD/zZkW9KFGUpakz1J52b786kJ2fn+0q5Z3bcaQZLe9O2SgMvlCcVjTkTzjXoeAMK5Ss0PeHyAx7j9oANWUDggVAAAABACAJ0BKhAACwADgFoliALsAN0g+jIOhAAA/utpdEbPFofwhWByA8bSMA5zB2n5397t33/uNqzF0uaF2tn93E/6SR2HnxKYEMEYQaxnjtI+PegAAA==",
+    "hash": "f9154adfc324"
+  },
+  "map/neighborhood": {
+    "src": "/images/map/neighborhood.jpg",
+    "width": 1920,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAACwAQCdASoQAAoAA4BaJZwAAudVXbaAAP700YIkM/ETcyAA",
+    "hash": "c78ecb69cb66"
+  },
+  "map/neighborhood-portrait": {
+    "src": "/images/map/neighborhood-portrait.jpg",
+    "width": 1536,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRi4AAABXRUJQVlA4ICIAAAAwAQCdASoNABAAA4BaJZwAA3AA/vDUkOzQB1R0CarbAAAA",
+    "hash": "09e0f304889c"
+  },
+  "tour/lobby": {
+    "src": "/images/tour/lobby.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAQCdASoQAAoAA4BaJYgCdADzmWAAAP61mR6//9YvV0w78wUwW5OWChubR4XQUhwUKxKwH+EOHTNSKaDGwOwAAAA=",
+    "pano": {
+      "yaw": -3.3,
+      "pitch": -7.8,
+      "desktop": "/images/tour/lobby-desktop.jpg",
+      "mobile": "/images/tour/lobby-mobile.jpg"
+    },
+    "files": [
+      "tour/lobby-desktop.jpg",
+      "tour/lobby-mobile.jpg",
+      "tour/lobby.jpg"
+    ],
+    "hash": "948cab184553"
+  },
+  "tour/entrance": {
+    "src": "/images/tour/entrance.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAoAA4BaJQBOgMX15nyqUZVWAAD+nAHL0p3p5ORh0d5RZUjEOrwpG8rUVMGLTFxDpvZN5aHS0fyDdbVYH2/dgIHpZL+EYjJSpN0/QUEopycBD1p1baWQQAA=",
+    "pano": {
+      "yaw": 177.3,
+      "pitch": -2.7,
+      "desktop": "/images/tour/entrance-desktop.jpg",
+      "mobile": "/images/tour/entrance-mobile.jpg"
+    },
+    "files": [
+      "tour/entrance-desktop.jpg",
+      "tour/entrance-mobile.jpg",
+      "tour/entrance.jpg"
+    ],
+    "hash": "b18f989e23d0"
+  },
+  "tour/restaurant": {
+    "src": "/images/tour/restaurant.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAQCdASoQAAoAA4BaJQAATPkj8/5iAAD+YMpJwCGVM4y1on/rXacYc/O/rGePyLOjYFL9FMy2uMgk+J02vreEb1ZYTwiN/Zw6lrtKKMiu/+g++oxGCwAA",
+    "pano": {
+      "yaw": -156.3,
+      "pitch": -7.1,
+      "desktop": "/images/tour/restaurant-desktop.jpg",
+      "mobile": "/images/tour/restaurant-mobile.jpg"
+    },
+    "files": [
+      "tour/restaurant-desktop.jpg",
+      "tour/restaurant-mobile.jpg",
+      "tour/restaurant.jpg"
+    ],
+    "hash": "1e9568e0cf8f"
+  },
+  "tour/library": {
+    "src": "/images/tour/library.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAQCdASoQAAoAA4BaJbACdAEWb+TO0AAA/qlbTiv8tZwvFJZLvmb1ebWc7Qef99nvwXxblGhZVoe+VR6LIO/ttLAWw+ME4rB5dd3JqliiUt4m3m5zA0SF0qgAAA==",
+    "pano": {
+      "yaw": -21.8,
+      "pitch": -2.9,
+      "desktop": "/images/tour/library-desktop.jpg",
+      "mobile": "/images/tour/library-mobile.jpg"
+    },
+    "files": [
+      "tour/library-desktop.jpg",
+      "tour/library-mobile.jpg",
+      "tour/library.jpg"
+    ],
+    "hash": "68852401e894"
+  },
+  "tour/business-centre": {
+    "src": "/images/tour/business-centre.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoQAAoAA4BaJYwAAj02JUzoAAD+6KeQCk2vaP8lhZ9VcSQ7UBWFX5Jl/HMx99KrlcJyfVg069zk2iWIDURHbovbElb6g/WihAA=",
+    "pano": {
+      "yaw": 24.2,
+      "pitch": -12.4,
+      "desktop": "/images/tour/business-centre-desktop.jpg",
+      "mobile": "/images/tour/business-centre-mobile.jpg"
+    },
+    "files": [
+      "tour/business-centre-desktop.jpg",
+      "tour/business-centre-mobile.jpg",
+      "tour/business-centre.jpg"
+    ],
+    "hash": "d832f045a236"
+  },
+  "tour/supermarket": {
+    "src": "/images/tour/supermarket.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoQAAoAA4BaJZQCdACUxrwAAP5HQ+kQbwZD0OCVaGUr1P6i3jtn/PtQP6XwS86V2AMbdMOOhoXcVcs0QgMUAAAA",
+    "pano": {
+      "yaw": -19.4,
+      "pitch": -14.8,
+      "desktop": "/images/tour/supermarket-desktop.jpg",
+      "mobile": "/images/tour/supermarket-mobile.jpg"
+    },
+    "files": [
+      "tour/supermarket-desktop.jpg",
+      "tour/supermarket-mobile.jpg",
+      "tour/supermarket.jpg"
+    ],
+    "hash": "3b44ecb798ef"
+  },
+  "tour/early-learning": {
+    "src": "/images/tour/early-learning.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoQAAoAA4BaJagCdAD7j8vSGUn0AAD97icJHuopggCLKPAWX+a4GVlL4gPH5qqvsVkgbCuN4J3/E8rmxBQ95x9VMlMvi4rIBFHMt0WDT/ZV58g1QpUO1TYPJ6AAAA==",
+    "pano": {
+      "yaw": 139.8,
+      "pitch": -8.3,
+      "desktop": "/images/tour/early-learning-desktop.jpg",
+      "mobile": "/images/tour/early-learning-mobile.jpg"
+    },
+    "files": [
+      "tour/early-learning-desktop.jpg",
+      "tour/early-learning-mobile.jpg",
+      "tour/early-learning.jpg"
+    ],
+    "hash": "302542ff33a1"
+  },
+  "tour/event-hall": {
+    "src": "/images/tour/event-hall.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADQAQCdASoQAAoAA4BaJQBOgB2WJygqYAD94fgePDLvJbmR0G97CQGejIeA2V1dkPCOGLjcS6JcW48wcnIPwPJuJIH3JlqpweURKjCQXcgAAA==",
+    "pano": {
+      "yaw": 141.2,
+      "pitch": -0.7,
+      "desktop": "/images/tour/event-hall-desktop.jpg",
+      "mobile": "/images/tour/event-hall-mobile.jpg"
+    },
+    "files": [
+      "tour/event-hall-desktop.jpg",
+      "tour/event-hall-mobile.jpg",
+      "tour/event-hall.jpg"
+    ],
+    "hash": "50ef3ccab8ba"
+  },
+  "tour/salon": {
+    "src": "/images/tour/salon.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwAgCdASoQAAoAA4BaJYgCdAEYH/ns+8HpAAD+5vdurtHymK1E1cR3fNLauL0rBiVhX5OXRZWwspmUeK2uuRoIl/ga/9eFUtFqKZJrGCHZyv16+h1JLfwS5O7By4AA",
+    "pano": {
+      "yaw": 56.6,
+      "pitch": -18.9,
+      "desktop": "/images/tour/salon-desktop.jpg",
+      "mobile": "/images/tour/salon-mobile.jpg"
+    },
+    "files": [
+      "tour/salon-desktop.jpg",
+      "tour/salon-mobile.jpg",
+      "tour/salon.jpg"
+    ],
+    "hash": "e829c255fe3a"
+  },
+  "tour/spa": {
+    "src": "/images/tour/spa.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQAgCdASoQAAoAA4BaJQBOja/gWqo93J48DdAA/rOufZo6VL5we3YJOvQXX9E/DeK4Xpo+gudLCKX5xR+3MBtSxa509m3KYBmPgw5AMN5ftAlqBHMFPWnQ5iArMpyQ0AA=",
+    "pano": {
+      "yaw": -141.5,
+      "pitch": -38,
+      "desktop": "/images/tour/spa-desktop.jpg",
+      "mobile": "/images/tour/spa-mobile.jpg"
+    },
+    "files": [
+      "tour/spa-desktop.jpg",
+      "tour/spa-mobile.jpg",
+      "tour/spa.jpg"
+    ],
+    "hash": "af53180a586c"
+  },
+  "tour/sauna": {
+    "src": "/images/tour/sauna.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAoAA4BaJYwCdADpxUJcqaAA/r/wykfwz+jrZL+AFNWFOBSxu5PPp9ceMyzQnUhOwW+o7Cm/rpNbmgDRTEXL2E0cEGAA",
+    "pano": {
+      "yaw": -146.4,
+      "pitch": -23.8,
+      "desktop": "/images/tour/sauna-desktop.jpg",
+      "mobile": "/images/tour/sauna-mobile.jpg"
+    },
+    "files": [
+      "tour/sauna-desktop.jpg",
+      "tour/sauna-mobile.jpg",
+      "tour/sauna.jpg"
+    ],
+    "hash": "2f5641b8db21"
+  },
+  "tour/moroccan-bath": {
+    "src": "/images/tour/moroccan-bath.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAQCdASoQAAoAA4BaJZwC7AE+KVkAAPzz/Q8LJVpfwwQILTNLC91HsRlfiO1847MyVmev8FziEFvM72AAAA==",
+    "pano": {
+      "yaw": -4.7,
+      "pitch": -16.2,
+      "desktop": "/images/tour/moroccan-bath-desktop.jpg",
+      "mobile": "/images/tour/moroccan-bath-mobile.jpg"
+    },
+    "files": [
+      "tour/moroccan-bath-desktop.jpg",
+      "tour/moroccan-bath-mobile.jpg",
+      "tour/moroccan-bath.jpg"
+    ],
+    "hash": "454cee0a1523"
+  },
+  "tour/jacuzzi": {
+    "src": "/images/tour/jacuzzi.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAoAA4BaJbACdAEVa2QZl2iAAPzgGRWKp7aCiDO7/e1wBEfn/CVsS6akh4VVAIKrUTFaUhe8lAryummd3Jbz0W4iDnkuZfZVJzfMRidcpD+XgCvNZDvNAAA=",
+    "pano": {
+      "yaw": -69,
+      "pitch": -9.3,
+      "desktop": "/images/tour/jacuzzi-desktop.jpg",
+      "mobile": "/images/tour/jacuzzi-mobile.jpg"
+    },
+    "files": [
+      "tour/jacuzzi-desktop.jpg",
+      "tour/jacuzzi-mobile.jpg",
+      "tour/jacuzzi.jpg"
+    ],
+    "hash": "8ee1a9080997"
+  },
+  "tour/cinema": {
+    "src": "/images/tour/cinema.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQAgCdASoQAAoAA4BaJZwC/OYuRvQoS2Hiy0gA/vTEEne9WDzwR2L0+GWgJpxx1e/Gr8OOcJHAL+/SYOuTduW0PA280UWayNpvZKfxHXzcYO84G1ycN+3imnmFRYmzxPsqoAAA",
+    "pano": {
+      "yaw": 59.7,
+      "pitch": -7.4,
+      "desktop": "/images/tour/cinema-desktop.jpg",
+      "mobile": "/images/tour/cinema-mobile.jpg"
+    },
+    "files": [
+      "tour/cinema-desktop.jpg",
+      "tour/cinema-mobile.jpg",
+      "tour/cinema.jpg"
+    ],
+    "hash": "056b3a40a66a"
+  },
+  "tour/bowling": {
+    "src": "/images/tour/bowling.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAoAA4BaJZQC7AEe4JF5XMu4AP7T5ioOA9lUtjghREVkQJn2+XMClBQVDTfTBywo0pDViu3z4J/NHX977+iNxh0pqPJTUhNsOyv19afywrJjihhAAA==",
+    "pano": {
+      "yaw": -158,
+      "pitch": -1.2,
+      "desktop": "/images/tour/bowling-desktop.jpg",
+      "mobile": "/images/tour/bowling-mobile.jpg"
+    },
+    "files": [
+      "tour/bowling-desktop.jpg",
+      "tour/bowling-mobile.jpg",
+      "tour/bowling.jpg"
+    ],
+    "hash": "bd33e890aecb"
+  },
+  "tour/billiards": {
+    "src": "/images/tour/billiards.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoQAAoAA4BaJbACdAEXfzN/p5gAAP6Rus+h8KXE7VPtA8W/o4NmVxAD+zmgsPvDcT93RdQ6bCQcLFIYe4wkByofIJRYBUuy8wlIiGpqV7/T8MYEAAA=",
+    "pano": {
+      "yaw": 86.3,
+      "pitch": -6.2,
+      "desktop": "/images/tour/billiards-desktop.jpg",
+      "mobile": "/images/tour/billiards-mobile.jpg"
+    },
+    "files": [
+      "tour/billiards-desktop.jpg",
+      "tour/billiards-mobile.jpg",
+      "tour/billiards.jpg"
+    ],
+    "hash": "986b961651b0"
+  },
+  "tour/games-room": {
+    "src": "/images/tour/games-room.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAoAA4BaJYwC7AC6fNwSfgAA/pGvBC1zCMjmnMalud3lyfZJ/T34fbIfJW1sn/kiIz5qgwkTAc8XcbCa/qK1HTY0Eu7powYt+gJMAAA=",
+    "pano": {
+      "yaw": 65.1,
+      "pitch": -4.5,
+      "desktop": "/images/tour/games-room-desktop.jpg",
+      "mobile": "/images/tour/games-room-mobile.jpg"
+    },
+    "files": [
+      "tour/games-room-desktop.jpg",
+      "tour/games-room-mobile.jpg",
+      "tour/games-room.jpg"
+    ],
+    "hash": "1d67ab5b7865"
+  },
+  "tour/play-area": {
+    "src": "/images/tour/play-area.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAADQAQCdASoQAAoAA4BaJQBOgBKOG7puAAD+6eQzqXmuXVVEpY6qFFhpUVL3fNkFbhDfL+BQ1yOdEwMbK6CVD04Lxvt8B3RNSiLTiDG40SU3Wo/485JEiqxdC41sg7lBE2wGy3AC+I/VcAAA",
+    "pano": {
+      "yaw": -120.3,
+      "pitch": -2.2,
+      "desktop": "/images/tour/play-area-desktop.jpg",
+      "mobile": "/images/tour/play-area-mobile.jpg"
+    },
+    "files": [
+      "tour/play-area-desktop.jpg",
+      "tour/play-area-mobile.jpg",
+      "tour/play-area.jpg"
+    ],
+    "hash": "69b9cbe6f68c"
+  },
+  "tour/play-area-2": {
+    "src": "/images/tour/play-area-2.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQAgCdASoQAAoAA4BaJQBOhgjQHERRTYAAAMtDVlkcIAI6Do4oglqLoodo5yD1oUui2NHErIaB1XTGNg59Y3ResS2ocj/A13Onp1sfoGE9BUwIAAA=",
+    "pano": {
+      "yaw": -65.8,
+      "pitch": 2.6,
+      "desktop": "/images/tour/play-area-2-desktop.jpg",
+      "mobile": "/images/tour/play-area-2-mobile.jpg"
+    },
+    "files": [
+      "tour/play-area-2-desktop.jpg",
+      "tour/play-area-2-mobile.jpg",
+      "tour/play-area-2.jpg"
+    ],
+    "hash": "3bfac69f2133"
+  },
+  "tour/gym": {
+    "src": "/images/tour/gym.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwAgCdASoQAAoAA4BaJZgCsAEQFVdCXXf9EAD+x13CGl8cgRiGNtijlLgaCIrgvkOcgIBGQfMnw/d70rrXPcTJgIK5bKeyqV9Qbg7hjdHqD1SC1iTayNoPDGurM7Frsi+MptBloQK6yuk8YAA=",
+    "pano": {
+      "yaw": 13.8,
+      "pitch": -10.4,
+      "desktop": "/images/tour/gym-desktop.jpg",
+      "mobile": "/images/tour/gym-mobile.jpg"
+    },
+    "files": [
+      "tour/gym-desktop.jpg",
+      "tour/gym-mobile.jpg",
+      "tour/gym.jpg"
+    ],
+    "hash": "e811f27cc4a0"
+  },
+  "tour/indoor-pool": {
+    "src": "/images/tour/indoor-pool.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAoAA4BaJbACdAEfxH3tXmNDAAD+5Gu3m134dUF04wN+vhGtKfYwVm/CdTk5zuRbas2n5odl3iOY0yKtSCsyneTqb7YOEHiAA0PrMRQAAA==",
+    "pano": {
+      "yaw": 29.2,
+      "pitch": -4.5,
+      "desktop": "/images/tour/indoor-pool-desktop.jpg",
+      "mobile": "/images/tour/indoor-pool-mobile.jpg"
+    },
+    "files": [
+      "tour/indoor-pool-desktop.jpg",
+      "tour/indoor-pool-mobile.jpg",
+      "tour/indoor-pool.jpg"
+    ],
+    "hash": "214f677c1289"
+  },
+  "tour/pool-terrace": {
+    "src": "/images/tour/pool-terrace.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoQAAoAA4BaJbACdADhSVeP7gAA/qwnTy8fF1YM9FVRhHOJyvp75BMCOdOvMdLVU23HziOOEOJexZJZxcaG+yeMV5PWPjXg+9UoRYsllwr97OhAAAA=",
+    "pano": {
+      "yaw": 108,
+      "pitch": -8,
+      "desktop": "/images/tour/pool-terrace-desktop.jpg",
+      "mobile": "/images/tour/pool-terrace-mobile.jpg"
+    },
+    "files": [
+      "tour/pool-terrace-desktop.jpg",
+      "tour/pool-terrace-mobile.jpg",
+      "tour/pool-terrace.jpg"
+    ],
+    "hash": "0860213aba45"
+  },
+  "tour/pool-deck": {
+    "src": "/images/tour/pool-deck.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQAQCdASoQAAoAA4BaJbACdAELfJ70AAD+yONB5zknhckBp6/AYRbDZygjdHL569JClCuP/2nqLnTmfB5nxwwT5HhRDoHpvA6BH74eC0Cg577x6hxgLD5vNyDiDCAA",
+    "pano": {
+      "yaw": -82.4,
+      "pitch": -13.6,
+      "desktop": "/images/tour/pool-deck-desktop.jpg",
+      "mobile": "/images/tour/pool-deck-mobile.jpg"
+    },
+    "files": [
+      "tour/pool-deck-desktop.jpg",
+      "tour/pool-deck-mobile.jpg",
+      "tour/pool-deck.jpg"
+    ],
+    "hash": "ae9950d02743"
+  },
+  "tour/sports-hall": {
+    "src": "/images/tour/sports-hall.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAgCdASoQAAoAA4BaJZQC7AEeoiZIHzAoAP7WIrg3h9HznJTg/2d80mbhna2Q2WAmKIEAAAA=",
+    "pano": {
+      "yaw": -42.1,
+      "pitch": 0.8,
+      "desktop": "/images/tour/sports-hall-desktop.jpg",
+      "mobile": "/images/tour/sports-hall-mobile.jpg"
+    },
+    "files": [
+      "tour/sports-hall-desktop.jpg",
+      "tour/sports-hall-mobile.jpg",
+      "tour/sports-hall.jpg"
+    ],
+    "hash": "328a48e62f30"
+  },
+  "tour/squash": {
+    "src": "/images/tour/squash.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAQAgCdASoQAAoAA4BaJZACsAEf/xsIoO4AAP7IXThuA+kYrQNsrJpHcFSgUW6bm8IAAA==",
+    "pano": {
+      "yaw": 61.3,
+      "pitch": -10.2,
+      "desktop": "/images/tour/squash-desktop.jpg",
+      "mobile": "/images/tour/squash-mobile.jpg"
+    },
+    "files": [
+      "tour/squash-desktop.jpg",
+      "tour/squash-mobile.jpg",
+      "tour/squash.jpg"
+    ],
+    "hash": "9ddaa34926ee"
+  },
+  "tour/tennis": {
+    "src": "/images/tour/tennis.jpg",
+    "width": 1440,
+    "height": 900,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADQAQCdASoQAAoAA4BaJYwC7AEUUrc0UAD+1z/dwoXBeUpQ0SFw92/fRqULVVrvlQAanwm9DzXwA8IAAAA=",
+    "pano": {
+      "yaw": -26.4,
+      "pitch": -2,
+      "desktop": "/images/tour/tennis-desktop.jpg",
+      "mobile": "/images/tour/tennis-mobile.jpg"
+    },
+    "files": [
+      "tour/tennis-desktop.jpg",
+      "tour/tennis-mobile.jpg",
+      "tour/tennis.jpg"
+    ],
+    "hash": "0d916da50df4"
+  }
+}

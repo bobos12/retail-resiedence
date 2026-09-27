@@ -1,0 +1,410 @@
+@import 'tailwindcss';
+
+@custom-variant fullscreen (&:fullscreen, :fullscreen &);
+
+/* ------------------------------------------------------------------ */
+/* Tokens. Palette derived from the Retal logo: copper mark #A97C6A,   */
+/* stone wordmark #D5D2C4.                                             */
+/* ------------------------------------------------------------------ */
+@theme {
+  --color-*: initial;
+  --color-transparent: transparent;
+  --color-current: currentColor;
+  --color-canvas: #f3f1eb;
+  --color-canvas-deep: #e9e6de;
+  --color-line: #d6d2c6;
+  --color-ink: #1a1816;
+  --color-ink-soft: #4d4943;
+  --color-ink-muted: #6b665d;
+  --color-night: #161412;
+  --color-night-raised: #1f1c19;
+  --color-night-line: #3a3631;
+  --color-bone: #efece4;
+  --color-bone-soft: #aca69c;
+  --color-copper: #a97c6a;
+  --color-copper-deep: #8b5d4b;
+  --color-stone: #d5d2c4;
+
+  --text-*: initial;
+  --text-display: clamp(2.75rem, 0.9rem + 7vw, 10rem);
+  --text-display--line-height: var(--lh-display);
+  --text-display--letter-spacing: var(--ls-display);
+  --text-hero-center: clamp(2.5rem, 0.5rem + 4.4vw, 5.75rem);
+  --text-hero-center--line-height: var(--lh-h1);
+  --text-hero-center--letter-spacing: var(--ls-h1);
+  --text-h1: clamp(2.5rem, 1rem + 4.4vw, 6rem);
+  --text-h1--line-height: var(--lh-h1);
+  --text-h1--letter-spacing: var(--ls-h1);
+  --text-h2: clamp(2rem, 1.1rem + 2.9vw, 4.5rem);
+  --text-h2--line-height: var(--lh-h2);
+  --text-h2--letter-spacing: var(--ls-h2);
+  --text-h3: clamp(1.5rem, 1.05rem + 1.3vw, 2.375rem);
+  --text-h3--line-height: var(--lh-h3);
+  --text-h3--letter-spacing: var(--ls-h3);
+  --text-h4: clamp(1.1875rem, 1rem + 0.5vw, 1.5rem);
+  --text-h4--line-height: 1.3;
+  --text-h4--letter-spacing: var(--ls-h4);
+  --text-stat: clamp(2.75rem, 1.5rem + 3.6vw, 5.75rem);
+  --text-stat--line-height: 0.9;
+  --text-stat--letter-spacing: -0.045em;
+  --text-lead: clamp(1.125rem, 0.98rem + 0.5vw, 1.5rem);
+  --text-lead--line-height: var(--lh-lead);
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-small: 0.9375rem;
+  --text-small--line-height: 1.55;
+  --text-micro: 0.75rem;
+  --text-micro--line-height: 1.3;
+
+  --spacing-section: clamp(6rem, 3rem + 8vw, 12.5rem);
+  --spacing-section-sm: clamp(4rem, 2.5rem + 5vw, 8rem);
+  --spacing-gutter: clamp(1.25rem, 0.5rem + 3vw, 3.5rem);
+  --spacing-gap: clamp(1rem, 0.6rem + 1.2vw, 1.5rem);
+  --spacing-header: 4.5rem;
+  --spacing-tap: 2.75rem;
+  --spacing-hero: 36rem;
+  --spacing-gallery-sm: clamp(12rem, 9rem + 10vw, 22rem);
+  --spacing-gallery-md: clamp(16rem, 12rem + 14vw, 30rem);
+  --spacing-gallery-lg: clamp(22rem, 16rem + 20vw, 40rem);
+  --spacing-hero-top: calc(var(--spacing-header) + clamp(1.5rem, 0.5rem + 6vh, 6rem));
+
+  --container-page: 120rem;
+  --container-prose: 36rem;
+  --container-measure: 65ch;
+  --container-hero: 16ch;
+  --container-statement: 30ch;
+
+  --radius-*: initial;
+  --radius-pill: 999px;
+
+  --shadow-*: initial;
+
+  --ease-*: initial;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --animate-scroll-cue: scroll-cue 2.4s var(--ease-in-out) infinite;
+  --animate-tour-ping: tour-ping 2.2s var(--ease-out) infinite;
+  --animate-tour-load: tour-load 1.2s var(--ease-in-out) infinite;
+  @keyframes tour-load {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(300%);
+    }
+  }
+  @keyframes tour-ping {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.7);
+      opacity: 0;
+    }
+  }
+  @keyframes scroll-cue {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(200%);
+    }
+  }
+}
+
+@theme inline {
+  --font-*: initial;
+  --font-sans: var(--font-general), var(--font-arabic), 'Helvetica Neue', Arial, sans-serif;
+}
+
+:root {
+  --dur-fast: 220ms;
+  --dur-base: 450ms;
+  --dur-reveal: 800ms;
+  --dur-slow: 1000ms;
+
+  --lh-display: 0.92;
+  --ls-display: -0.045em;
+  --lh-h1: 0.98;
+  --ls-h1: -0.04em;
+  --lh-h2: 1.02;
+  --ls-h2: -0.032em;
+  --lh-h3: 1.12;
+  --ls-h3: -0.02em;
+  --ls-h4: -0.01em;
+  --lh-lead: 1.45;
+  --ls-eyebrow: 0.14em;
+
+  --focus: var(--color-copper-deep);
+}
+
+/* Arabic: no negative tracking, taller lines for ascenders and dots. */
+:root:lang(ar) {
+  /* Arabic glyphs read smaller than Latin at the same size; lift every rem-based size a touch. */
+  font-size: 106.25%;
+  --lh-display: 1.14;
+  --ls-display: 0;
+  --lh-h1: 1.18;
+  --ls-h1: 0;
+  --lh-h2: 1.24;
+  --ls-h2: 0;
+  --lh-h3: 1.35;
+  --ls-h3: 0;
+  --ls-h4: 0;
+  --lh-lead: 1.7;
+  --ls-eyebrow: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Base                                                                */
+/* ------------------------------------------------------------------ */
+@layer base {
+  html {
+    background: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: var(--spacing-header);
+  }
+  body {
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    overflow-x: clip;
+  }
+  :lang(ar) body {
+    line-height: 1.75;
+  }
+  ::selection {
+    background: var(--color-copper);
+    color: var(--color-canvas);
+  }
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+  }
+  [data-theme='dark'] {
+    --focus: var(--color-copper);
+    color: var(--color-bone);
+    background: var(--color-night);
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 500;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  img {
+    user-select: none;
+  }
+  button {
+    cursor: pointer;
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* ------------------------------------------------------------------ */
+/* Utilities                                                           */
+/* ------------------------------------------------------------------ */
+
+/* 4 columns on phones, 6 on tablets, 12 on desktop. */
+@utility grid-page {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: var(--spacing-gap);
+  @variant md {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  @variant lg {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+
+@utility page-x {
+  width: 100%;
+  max-width: var(--container-page);
+  margin-inline: auto;
+  padding-inline: var(--spacing-gutter);
+}
+
+@utility eyebrow {
+  font-size: var(--text-micro);
+  line-height: var(--text-micro--line-height);
+  letter-spacing: var(--ls-eyebrow);
+  text-transform: uppercase;
+  font-weight: 500;
+  &:lang(ar) {
+    font-size: var(--text-small);
+    text-transform: none;
+  }
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
+
+@utility hairline {
+  border-color: var(--color-line);
+  [data-theme='dark'] & {
+    border-color: var(--color-night-line);
+  }
+}
+
+/* Flip directional glyphs (arrows) in RTL. */
+@utility flip-rtl {
+  &:where([dir='rtl'] *) {
+    transform: scaleX(-1);
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* A line of a headline that slides up from behind its own edge. */
+@utility line-mask {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+}
+
+/* Hero intro: runs on first paint, before hydration. */
+@keyframes rise {
+  from {
+    transform: translateY(110%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes settle {
+  from {
+    transform: scale(1.04);
+  }
+  to {
+    transform: none;
+  }
+}
+@utility intro-line {
+  display: block;
+  animation: rise var(--dur-slow) var(--ease-out) both;
+  animation-delay: calc(150ms + var(--i, 0) * 90ms);
+}
+@utility intro-fade {
+  animation: fade-up var(--dur-reveal) var(--ease-out) both;
+  animation-delay: calc(450ms + var(--i, 0) * 90ms);
+}
+@utility intro-settle {
+  animation: settle var(--dur-slow) var(--ease-out) both;
+}
+
+@utility icon-em {
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+
+/* The arch's crown would sit behind the navigation; lift the frame so the lit sign leads. */
+/* Soft fades at the foot (behind the copy) and the head (behind the navigation) only. */
+@utility hero-fade {
+  background: linear-gradient(to top, color-mix(in srgb, var(--color-night) 82%, transparent), transparent);
+}
+@utility hero-fade-top {
+  background: linear-gradient(to bottom, color-mix(in srgb, var(--color-night) 45%, transparent), transparent);
+}
+
+
+/* Horizontal card rail that bleeds to the viewport edge but starts on the page gutter. */
+@utility rail {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 82%;
+  gap: var(--spacing-gap);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: var(--spacing-gutter);
+  padding-inline: var(--spacing-gutter);
+  padding-bottom: var(--spacing-gap);
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  @variant md {
+    grid-auto-columns: 44%;
+  }
+  @variant lg {
+    grid-auto-columns: calc((100% - 2 * var(--spacing-gutter) - 2 * var(--spacing-gap)) / 2.4);
+  }
+}
+
+/* Media in a modal: as wide as fits, keeping a 16:9 frame inside the viewport. */
+@utility modal-media {
+  max-width: min(100%, calc((100svh - var(--spacing-header) - 3rem) * 16 / 9));
+}
+
+/* Photo Sphere Viewer: our own loading state and controls replace its defaults. */
+.psv-container {
+  background: var(--color-night);
+}
+.psv-loader-container {
+  display: none;
+}
+.psv-overlay,
+.psv-notification-content {
+  font-family: var(--font-sans);
+}
+
+/* Home gallery: two equal rows on desktop so every tile shares one outline. */
+@utility gallery-mosaic {
+  @variant lg {
+    grid-template-rows: repeat(2, var(--spacing-gallery-sm));
+  }
+}
