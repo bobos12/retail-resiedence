@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Logo } from '@/components/brand/Logo';
-import { generalSans, plexArabic } from './fonts';
+import { generalSans, alexandria } from './fonts';
 import './globals.css';
 
 export const metadata: Metadata = { title: 'Page not found · Retal Residence', robots: { index: false } };
@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: 'Page not found · Retal Residence', 
 // Requests outside the locale routes (e.g. a missing file) land here, with no locale to go on.
 export default function GlobalNotFound() {
   return (
-    <html lang="en" className={`${generalSans.variable} ${plexArabic.variable}`}>
+    <html lang="en" className={`${generalSans.variable} ${alexandria.variable}`}>
       <body suppressHydrationWarning>
         <main className="page-x flex min-h-svh flex-col justify-between py-10">
           <Link href="/en" className="inline-flex w-fit">

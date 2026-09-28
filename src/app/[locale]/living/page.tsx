@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: PageProps<'/[locale]/living'>
   return pageMetadata({ locale, path: '/living', title: t('title'), description: t('description'), image: 'living/playground' });
 }
 
-// Each theme pairs a landscape photograph with a portrait one, each in a frame of its own shape.
-const themes: { key: 'schools' | 'shopping' | 'healthcare' | 'community'; minutes?: number; images: [ImageId, ImageId] }[] = [
-  { key: 'schools', minutes: destinations.find((d) => d.key === 'bisak')?.minutes, images: ['living/playground-train', 'living/wayfinding-nursery'] },
-  { key: 'shopping', minutes: destinations.find((d) => d.key === 'mall')?.minutes, images: ['clubhouse/arcade', 'clubhouse/mini-market'] },
-  { key: 'healthcare', minutes: destinations.find((d) => d.key === 'hospital')?.minutes, images: ['site/villa-corner', 'site/villa-corner-portrait'] },
-  { key: 'community', images: ['clubhouse/pool-umbrellas', 'living/fitness-portrait'] },
+// One photograph per theme, beside its drive time and copy.
+const themes: { key: 'schools' | 'shopping' | 'healthcare' | 'community'; minutes?: number; image: ImageId }[] = [
+  { key: 'schools', minutes: destinations.find((d) => d.key === 'bisak')?.minutes, image: 'living/playground-train' },
+  { key: 'shopping', minutes: destinations.find((d) => d.key === 'mall')?.minutes, image: 'clubhouse/arcade' },
+  { key: 'healthcare', minutes: destinations.find((d) => d.key === 'hospital')?.minutes, image: 'site/villa-corner' },
+  { key: 'community', image: 'clubhouse/pool-umbrellas' },
 ];
 
 export default async function LivingPage({ params }: PageProps<'/[locale]/living'>) {
@@ -75,18 +75,11 @@ export default async function LivingPage({ params }: PageProps<'/[locale]/living
                   <p className="mt-6 max-w-prose text-lead text-ink-soft">{t(`themes.${theme.key}.body`)}</p>
                 </Reveal>
               </div>
-              <div className={cn('col-span-4 grid grid-cols-5 items-end gap-gap md:col-span-6 lg:col-span-7', flip ? 'lg:order-1' : 'lg:col-start-6')}>
-                <ParallaxImage
-                  photo={photo(theme.images[0], tAlt)}
-                  sizes="(min-width: 1024px) 36vw, 60vw"
-                  className={cn('col-span-3 aspect-3/2', flip && 'order-2')}
-                />
-                <ParallaxImage
-                  photo={photo(theme.images[1], tAlt)}
-                  sizes="(min-width: 1024px) 25vw, 40vw"
-                  className={cn('col-span-2 aspect-3/4', flip && 'order-1')}
-                />
-              </div>
+              <ParallaxImage
+                photo={photo(theme.image, tAlt)}
+                sizes="(min-width: 1024px) 58vw, 100vw"
+                className={cn('col-span-4 aspect-3/2 md:col-span-6 lg:col-span-7', flip ? 'lg:order-1' : 'lg:col-start-6')}
+              />
             </div>
           </section>
         );

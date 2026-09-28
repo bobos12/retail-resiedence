@@ -142,8 +142,12 @@
 
 /* Arabic: no negative tracking, taller lines for ascenders and dots. */
 :root:lang(ar) {
-  /* Arabic glyphs read smaller than Latin at the same size; lift every rem-based size a touch. */
-  font-size: 106.25%;
+  /* Short centred hero titles (Clubhouse, Living) sit on one line in Arabic, a step smaller. */
+  --text-hero-center: clamp(2.25rem, 0.6rem + 3.4vw, 4.5rem);
+  /* Alexandria sets wider than General Sans: display and section titles one step smaller. */
+  --text-display: clamp(2.5rem, 0.9rem + 5.4vw, 7.25rem);
+  --text-h1: clamp(2.25rem, 1rem + 3.6vw, 5rem);
+  --text-h2: clamp(1.875rem, 1rem + 2.5vw, 3.75rem);
   --lh-display: 1.14;
   --ls-display: 0;
   --lh-h1: 1.18;
@@ -175,6 +179,12 @@
     font-size: var(--text-body);
     line-height: var(--text-body--line-height);
     overflow-x: clip;
+  }
+  /* Arabic pages: Alexandria first. General Sans's metric fallback is Arial, which has Arabic
+     glyphs of its own, so with General Sans first the Arabic face would never be reached.
+     Latin words and digits have no glyphs in Alexandria and fall through to General Sans. */
+  html:lang(ar) {
+    font-family: var(--font-arabic), var(--font-general), 'Helvetica Neue', Arial, sans-serif;
   }
   :lang(ar) body {
     line-height: 1.75;

@@ -36,7 +36,6 @@ export const images = [
   { id: 'site/street-palms', dir: OUT, file: '6I1A8880.jpg', hero: true },
   { id: 'site/street-palms-portrait', dir: OUT, file: '6I1A8883.jpg', hero: true },
   { id: 'site/villa-corner', dir: OUT, file: '6I1A8889.jpg' },
-  { id: 'site/villa-corner-portrait', dir: OUT, file: '6I1A8894.jpg' },
 
   // Clubhouse
   { id: 'clubhouse/facade-night-wide', dir: CLUB, file: '6I1A5035-Pano.jpg', hero: true, og: 'clubhouse', crop: { left: 0.068, top: 0, width: 0.864, height: 1 } },
@@ -69,10 +68,8 @@ export const images = [
   { id: 'living/playground', dir: OUT, file: '6I1A8815.jpg', hero: true, og: 'living' },
   { id: 'living/playground-train', dir: OUT, file: '6I1A8816.jpg', hero: true },
   { id: 'living/kids-zone-dusk', dir: OUT, file: '6I1A8903.jpg' },
-  { id: 'living/fitness-portrait', dir: OUT, file: '6I1A8844.jpg' },
   { id: 'living/garden-bench', dir: OUT, file: '6I1A8878.jpg' },
   { id: 'living/benches-evening', dir: OUT, file: '6I1A8910.jpg' },
-  { id: 'living/wayfinding-nursery', dir: OUT, file: '6I1A8837.jpg' },
 
   // 1BR Apartment (client folder)
   { id: 'residences/1br-apartment/living-kitchen', dir: APT1, file: '6I1A4796-HDR-Pano-Edit.jpg', hero: true, og: 'one-bedroom-apartment' },

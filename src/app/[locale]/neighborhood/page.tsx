@@ -71,9 +71,10 @@ export default async function NeighborhoodPage({ params }: PageProps<'/[locale]/
             <p className="max-w-prose text-lead text-ink-soft">{t('aerial.body')}</p>
           </Reveal>
         </div>
-        <div className="page-x mt-12 grid grid-cols-2 gap-gap">
-          <ParallaxImage photo={photo('site/aerial-villas', tAlt)} sizes="50vw" className="aspect-4/3" />
-          <ParallaxImage photo={photo('site/aerial-clubhouse-dusk', tAlt)} sizes="50vw" className="aspect-4/3 md:mt-section-sm" />
+        {/* The villas and the Clubhouse from the air, side by side at one height. */}
+        <div className="page-x mt-12 grid gap-gap md:grid-cols-2">
+          <ParallaxImage photo={photo('site/aerial-villas', tAlt)} sizes="(min-width: 768px) 50vw, 100vw" className="aspect-4/3" />
+          <ParallaxImage photo={photo('site/aerial-clubhouse-dusk', tAlt)} sizes="(min-width: 768px) 50vw, 100vw" className="aspect-4/3" />
         </div>
       </section>
 

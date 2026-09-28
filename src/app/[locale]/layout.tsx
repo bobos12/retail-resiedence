@@ -10,7 +10,7 @@ import { MotionProvider } from '@/components/motion/MotionProvider';
 import { SITE_URL } from '@/content/contact';
 import { dirFor, routing } from '@/i18n/routing';
 import { JsonLd, organizationJsonLd } from '@/lib/seo';
-import { generalSans, plexArabic } from '../fonts';
+import { generalSans, alexandria } from '../fonts';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -52,7 +52,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps<'/[
   const t = await getTranslations('nav');
 
   return (
-    <html lang={locale} dir={dirFor(locale)} className={`${generalSans.variable} ${plexArabic.variable}`}>
+    <html lang={locale} dir={dirFor(locale)} className={`${generalSans.variable} ${alexandria.variable}`}>
       <body suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={clientMessages}>
           <MotionProvider>

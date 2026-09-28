@@ -105,13 +105,6 @@
     "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsAA4BaJZACdAELM8ReEw7gAP7wDwLAft5liDG+acnN8wXxT7yfUbQxGfecD8YoF50/MNiXyJQYiRMtJDrzp27AAA==",
     "hash": "f0c3df1d5971"
   },
-  "site/villa-corner-portrait": {
-    "src": "/images/site/villa-corner-portrait.jpg",
-    "width": 1280,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwAgCdASoLABAAA4BaJZgCdAEPAiIkJKgEAAD+56iXKG4+319qJ9k1iAuJYpvl2InorGh04OD065W6+fFI7U4fyD3v1FzaZlUAAA==",
-    "hash": "c0ca15507df7"
-  },
   "clubhouse/facade-night-wide": {
     "src": "/images/clubhouse/facade-night-wide.jpg",
     "width": 2560,
@@ -311,13 +304,6 @@
     "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoLABAAA4BaJbACdAEWYUUdTzOwAP6zvH8IrI8SJPAnVUNg+kAbdWM9Iym6Ta/o12Xy22nxKkXNbleEvaZSOYUoyqq/luUlrMybabAkFv7cjsia27EhnvpzmLAAAA==",
     "hash": "d19df2d9e838"
   },
-  "living/fitness-portrait": {
-    "src": "/images/living/fitness-portrait.jpg",
-    "width": 1280,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABQAgCdASoLABAAA4BaJZACdAE2QMoeZq2tCBAA/t3g9O1b1SkM/gz82pvv2fhkLSIKZrifvcVRdgua1rJk5UNmqVioambTa/GZzhk5QGYuhn5AAAA=",
-    "hash": "eaf8a9e9dbe3"
-  },
   "living/garden-bench": {
     "src": "/images/living/garden-bench.jpg",
     "width": 1280,
@@ -331,13 +317,6 @@
     "height": 1280,
     "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAQCdASoQAAsAA4BaJbACdADMk5M01AD+7BG6xpPu7aySoOwvCm6CZN1cnIHAerg68Nkx/fknd0z+Gbwb180QHr3YAChVaRAAAA==",
     "hash": "686e39b1f4c6"
-  },
-  "living/wayfinding-nursery": {
-    "src": "/images/living/wayfinding-nursery.jpg",
-    "width": 1280,
-    "height": 1920,
-    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAgCdASoLABAAA4BaJaACdADdIaU1NcIAAP7v15htn9O8vUWp8SOgM9lQxguTVJfw3kAx7gIDy6L67BiAAA==",
-    "hash": "fef23f62fcff"
   },
   "residences/1br-apartment/living-kitchen": {
     "src": "/images/residences/1br-apartment/living-kitchen.jpg",
