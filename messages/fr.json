@@ -28,6 +28,10 @@
     },
     "notFound": {
       "title": "Page introuvable"
+    },
+    "book": {
+      "title": "Réserver une visite",
+      "description": "Réservez une visite de Retal Residence à Al Khobar : choisissez un jour et une heure, dites-nous ce que vous souhaitez voir et envoyez la réservation sur WhatsApp."
     }
   },
   "nav": {
@@ -285,6 +289,17 @@
       "otherDate": "Autre date",
       "scrollPrev": "Jours précédents",
       "scrollNext": "Jours suivants"
+    },
+    "bookTeaser": {
+      "eyebrow": "Visiter Retal",
+      "title": "Venez voir par vous-même,\nquand vous le souhaitez",
+      "body": "Parcourez les rues, entrez dans une résidence meublée et passez par le Clubhouse. Choisissez le jour et l’heure qui vous conviennent, nous serons prêts à vous accueillir.",
+      "facts": {
+        "day": "Le jour de votre choix",
+        "hour": "Visites d’une heure",
+        "whatsapp": "Confirmation sur WhatsApp"
+      },
+      "cta": "Réserver votre visite"
     }
   },
   "residences": {

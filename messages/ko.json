@@ -28,6 +28,10 @@
     },
     "notFound": {
       "title": "페이지를 찾을 수 없습니다"
+    },
+    "book": {
+      "title": "방문 예약",
+      "description": "알코바르의 Retal Residence 방문을 예약하세요. 원하는 날짜와 시간을 고르고, 보고 싶은 곳을 알려 주신 뒤 WhatsApp으로 예약을 보내 주세요."
     }
   },
   "nav": {
@@ -285,6 +289,17 @@
       "otherDate": "다른 날짜",
       "scrollPrev": "이전 날짜",
       "scrollNext": "다음 날짜"
+    },
+    "bookTeaser": {
+      "eyebrow": "Retal 방문",
+      "title": "직접 와서 보세요,\n원하는 시간에",
+      "body": "거리를 걷고, 가구가 갖춰진 집에 들어가 보고, 클럽하우스에도 들러 보세요. 편한 날짜와 시간을 고르시면 준비해 두겠습니다.",
+      "facts": {
+        "day": "원하는 날짜",
+        "hour": "1시간 방문",
+        "whatsapp": "WhatsApp으로 확정"
+      },
+      "cta": "방문 예약하기"
     }
   },
   "residences": {

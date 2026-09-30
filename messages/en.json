@@ -28,6 +28,10 @@
     },
     "notFound": {
       "title": "Page not found"
+    },
+    "book": {
+      "title": "Book a visit",
+      "description": "Book a visit to Retal Residence in Al Khobar: pick any day and time, tell us what you would like to see, and send the booking on WhatsApp."
     }
   },
   "nav": {
@@ -285,6 +289,17 @@
       "otherDate": "Other date",
       "scrollPrev": "Earlier days",
       "scrollNext": "Later days"
+    },
+    "bookTeaser": {
+      "eyebrow": "Visit Retal",
+      "title": "See it in person,\non your schedule",
+      "body": "Walk the streets, step inside a furnished residence and stop at the Clubhouse. Choose the day and the hour that suit you, and we will be ready for you.",
+      "facts": {
+        "day": "Any day you like",
+        "hour": "One-hour visits",
+        "whatsapp": "Confirmed on WhatsApp"
+      },
+      "cta": "Book your visit"
     }
   },
   "residences": {

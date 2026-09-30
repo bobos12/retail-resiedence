@@ -6,7 +6,7 @@ import { localePath } from '@/lib/seo';
 
 export const dynamic = 'force-static';
 
-const pages = ['/', '/residences', ...residences.map((r) => `/residences/${r.slug}`), '/clubhouse', '/living', '/neighborhood', '/contact'];
+const pages = ['/', '/residences', ...residences.map((r) => `/residences/${r.slug}`), '/clubhouse', '/living', '/neighborhood', '/book', '/contact'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

@@ -22,7 +22,7 @@ export async function Footer() {
         <div className="grid-page items-end gap-y-10">
           <RevealLines text={t('statement')} as="p" className="col-span-4 text-display font-medium md:col-span-6 lg:col-span-8" />
           <div className="col-span-4 md:col-span-6 lg:col-span-4 lg:justify-self-end">
-            <ButtonLink href="/contact" variant="light">
+            <ButtonLink href="/book" variant="light">
               {t('cta')}
             </ButtonLink>
           </div>

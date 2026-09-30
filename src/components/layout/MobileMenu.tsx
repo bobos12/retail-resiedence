@@ -94,7 +94,7 @@ export function MobileMenu({ open, onClose }: Props) {
             animate={{ opacity: 1 }}
             transition={{ duration: DUR.reveal, delay: 0.35 }}
           >
-            <Link href="/contact" onClick={onClose} className={buttonClass('solid', 'w-full')}>
+            <Link href="/book" onClick={onClose} className={buttonClass('solid', 'w-full')}>
               {t('cta')}
             </Link>
             <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 text-small">

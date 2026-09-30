@@ -18,6 +18,9 @@ const paths = {
   expand: 'M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5',
   pin: 'M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0C18.5 15.4 12 21 12 21ZM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z',
   shield: 'M12 3 19.5 6v6c0 4.5-3.2 7.8-7.5 9-4.3-1.2-7.5-4.5-7.5-9V6L12 3ZM9 12l2 2 4-4',
+  calendar: 'M4 6h16v14H4zM4 10h16M8 4v4M16 4v4',
+  clock: 'M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17ZM12 7.5V12l3 2',
+  chat: 'M4.5 19.5 5.6 16A8 8 0 1 1 8.4 18.6Z',
 } as const;
 
 export type IconName = keyof typeof paths;

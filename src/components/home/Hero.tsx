@@ -54,7 +54,7 @@ export async function Hero() {
               <ButtonLink href="/residences" variant="light" className="max-sm:px-4">
                 {t('primary')}
               </ButtonLink>
-              <ButtonLink href="/contact" variant="outline-light" arrow={false} className="max-sm:px-4">
+              <ButtonLink href="/book" variant="outline-light" arrow={false} className="max-sm:px-4">
                 {t('secondary')}
               </ButtonLink>
             </div>

@@ -24,7 +24,7 @@ export async function VisitCta() {
         <Reveal className="col-span-4 md:col-span-6 lg:col-span-4 lg:col-start-9" delay={0.1}>
           <p className="max-w-prose text-lead text-ink-soft">{t('body')}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <ButtonLink href="/contact">{t('primary')}</ButtonLink>
+            <ButtonLink href="/book">{t('primary')}</ButtonLink>
             <ButtonAnchor href={contact.whatsapp.href} target="_blank" variant="outline" newTabLabel={tc('opensNewTab')}>
               {t('whatsapp')}
             </ButtonAnchor>

@@ -97,7 +97,7 @@ export function Header() {
             </ul>
             <span className={cn('h-5 w-px', overlayTone === 'dark' ? 'bg-line' : 'bg-bone/35')} aria-hidden />
             <LanguageSwitcher tone={overlayTone === 'dark' ? 'light' : 'dark'} />
-            <Link href="/contact" className={buttonClass(overlayTone === 'dark' ? 'solid' : 'light', 'px-5')}>
+            <Link href="/book" className={buttonClass(overlayTone === 'dark' ? 'solid' : 'light', 'px-5')}>
               {t('cta')}
             </Link>
           </nav>

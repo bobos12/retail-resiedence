@@ -121,8 +121,8 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   const fmt = (iso: string, opts: Intl.DateTimeFormatOptions, lang: string = locale) => new Intl.DateTimeFormat(lang, { timeZone: 'UTC', ...opts }).format(isoDate(iso));
   const clock = (h: number, lang: string, short = false) =>
     new Intl.DateTimeFormat(lang, { timeZone: 'UTC', hour: 'numeric', ...(short ? {} : { minute: '2-digit' }), hour12: true }).format(new Date(Date.UTC(2000, 0, 1, h)));
-  /** "10 AM – 11 AM" on the buttons; the full "10:00 AM – 11:00 AM" in the summary and message. */
-  const slotText = (h: number, lang: string, short = false) => `${clock(h, lang, short)} – ${clock(h + 1, lang, short)}`;
+  /** "10 AM" on the buttons; "10:00 AM" in the summary and message. */
+  const slotText = (h: number, lang: string, short = false) => clock(h, lang, short);
   const timeText = (lang: string) => (hour === null ? null : slotText(hour, lang));
   const passed = (h: number) => day === today && h * 60 <= nowMinutes();
 
@@ -150,18 +150,30 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
     setErrors(bad);
     if (bad.length || !day) return;
 
-    // One message format for the team, whatever language the visitor used.
+    // A clean card in the chat, one format for the team whatever language the visitor used.
+    // Only WhatsApp's own formatting (*bold*, _italic_, "> " quote bar) and plain characters:
+    // emoji sent through wa.me links arrive broken on some WhatsApp clients.
+    const language = new Intl.DisplayNames(['en'], { type: 'language' }).of(locale) ?? locale;
+    const date = fmt(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }, 'en-GB');
+    const seeing = interests.length ? interests.map((i) => bookingInterestNames[i]).join('  ·  ') : 'Not decided yet';
+    const guest = name.trim().replace(/\s+/g, ' ').replace(/(^|\s)\p{Ll}/gu, (c) => c.toUpperCase());
     const text = [
-      '*Visit booking · Retal Residence*',
-      'حجز زيارة جديد',
+      '*R E T A L   R E S I D E N C E*',
+      '_Private visit request_',
       '',
-      `*Name / الاسم:* ${name.trim()}`,
-      `*Phone / الجوال:* ${phone.trim()}`,
-      `*Date / التاريخ:* ${fmt(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }, 'en-GB')}`,
-      `*Time / الوقت:* ${timeText('en-US')}`,
-      `*Interested in / مهتم بـ:* ${interests.length ? interests.map((i) => bookingInterestNames[i]).join(', ') : 'Not decided yet'}`,
-      ...(notes.trim() ? [`*Notes / ملاحظات:* ${notes.trim()}`] : []),
-      `*Language / اللغة:* ${locale.toUpperCase()}`,
+      `> *${date}*`,
+      `> ${timeText('en-US')}`,
+      '',
+      '*VIEWING*',
+      seeing,
+      '',
+      '*GUEST*',
+      guest,
+      phone.trim(),
+      ...(notes.trim() ? ['', '*NOTES*', `_${notes.trim()}_`] : []),
+      '',
+      '───────────────',
+      `_retalresidence.com  ·  ${language}_`,
     ].join('\n');
     const url = `https://wa.me/${bookingWhatsApp}?text=${encodeURIComponent(text)}`;
     setLink(url);
@@ -281,7 +293,7 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
             {/* 02 Time: one-hour slots; those already past today are greyed out */}
             <fieldset className="min-w-0" aria-describedby={errors.includes('time') ? 'booking-time-error' : undefined}>
               <legend className={legend}>{step('02', labels.time)}</legend>
-              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+              <div className="grid grid-cols-3 gap-2">
                 {bookingSlots.map((h) => (
                   <button
                     key={h}
