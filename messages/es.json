@@ -283,8 +283,6 @@
         "timePast": "Elija una hora posterior a la actual."
       },
       "otherDate": "Otra fecha",
-      "hour": "Hora",
-      "minutes": "Minutos",
       "scrollPrev": "Días anteriores",
       "scrollNext": "Días siguientes"
     }

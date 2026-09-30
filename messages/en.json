@@ -283,8 +283,6 @@
         "timePast": "Please choose a time later than now."
       },
       "otherDate": "Other date",
-      "hour": "Hour",
-      "minutes": "Minutes",
       "scrollPrev": "Earlier days",
       "scrollNext": "Later days"
     }

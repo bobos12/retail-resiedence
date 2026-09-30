@@ -45,8 +45,6 @@ export async function BookingSection() {
               day: t('day'),
               otherDate: t('otherDate'),
               time: t('time'),
-              hour: t('hour'),
-              minutes: t('minutes'),
               interest: t('interest'),
               interests: Object.fromEntries(bookingInterests.map((i) => [i, t(`interests.${i}`)])) as Record<(typeof bookingInterests)[number], string>,
               details: t('details'),

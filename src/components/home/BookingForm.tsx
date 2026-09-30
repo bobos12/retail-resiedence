@@ -5,7 +5,7 @@ import { useLocale } from 'next-intl';
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import { Arrow } from '@/components/ui/Arrow';
 import { buttonClass } from '@/components/ui/ButtonLink';
-import { bookingDays, bookingInterestNames, bookingInterests, bookingMinutes, bookingWhatsApp, type BookingInterest } from '@/content/booking';
+import { bookingDays, bookingInterestNames, bookingInterests, bookingSlots, bookingWhatsApp, type BookingInterest } from '@/content/booking';
 import { cn } from '@/lib/cn';
 import { DUR, EASE_OUT } from '@/lib/motion';
 
@@ -13,8 +13,6 @@ export type BookingLabels = {
   day: string;
   otherDate: string;
   time: string;
-  hour: string;
-  minutes: string;
   interest: string;
   interests: Record<BookingInterest, string>;
   details: string;
@@ -35,11 +33,9 @@ export type BookingLabels = {
   errors: { day: string; time: string; timePast: string; name: string; phone: string };
 };
 
-type Period = 'am' | 'pm';
 type Field = 'day' | 'time' | 'name' | 'phone';
 
 const TZ = 'Asia/Riyadh';
-const HOURS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const noop = () => () => {};
 
 /** Today in Al Khobar as YYYY-MM-DD (never the build machine's clock). */
@@ -57,7 +53,6 @@ function nowMinutes() {
     .map(Number) as [number, number];
   return h * 60 + min;
 }
-const to24 = (hour: number, period: Period) => (hour % 12) + (period === 'pm' ? 12 : 0);
 
 const chip = (on: boolean) =>
   cn(
@@ -84,9 +79,8 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   );
 
   const [day, setDay] = useState<string | null>(null);
+  /** Start of the chosen one-hour slot, 24-hour clock. */
   const [hour, setHour] = useState<number | null>(null);
-  const [minute, setMinute] = useState<string>(bookingMinutes[0]!);
-  const [period, setPeriod] = useState<Period | null>(null);
   const [interests, setInterests] = useState<BookingInterest[]>([]);
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('+966 ');
@@ -125,15 +119,12 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   };
 
   const fmt = (iso: string, opts: Intl.DateTimeFormatOptions, lang: string = locale) => new Intl.DateTimeFormat(lang, { timeZone: 'UTC', ...opts }).format(isoDate(iso));
-  const timeText = (lang: string) =>
-    hour !== null && period
-      ? new Intl.DateTimeFormat(lang, { timeZone: 'UTC', hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(Date.UTC(2000, 0, 1, to24(hour, period), Number(minute))))
-      : null;
-  // AM / PM in the visitor's language (ص / م, 오전 / 오후, 上午 / 下午…).
-  const periodName = (p: Period) =>
-    new Intl.DateTimeFormat(locale, { timeZone: 'UTC', hour: 'numeric', hour12: true })
-      .formatToParts(new Date(Date.UTC(2000, 0, 1, p === 'am' ? 9 : 15)))
-      .find((part) => part.type === 'dayPeriod')?.value ?? p.toUpperCase();
+  const clock = (h: number, lang: string, short = false) =>
+    new Intl.DateTimeFormat(lang, { timeZone: 'UTC', hour: 'numeric', ...(short ? {} : { minute: '2-digit' }), hour12: true }).format(new Date(Date.UTC(2000, 0, 1, h)));
+  /** "10 AM – 11 AM" on the buttons; the full "10:00 AM – 11:00 AM" in the summary and message. */
+  const slotText = (h: number, lang: string, short = false) => `${clock(h, lang, short)} – ${clock(h + 1, lang, short)}`;
+  const timeText = (lang: string) => (hour === null ? null : slotText(hour, lang));
+  const passed = (h: number) => day === today && h * 60 <= nowMinutes();
 
   const custom = day !== null && !days.includes(day);
   const summary = [
@@ -150,9 +141,9 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     const bad: Field[] = [];
-    const tooSoon = day === today && hour !== null && period !== null && to24(hour, period) * 60 + Number(minute) <= nowMinutes();
+    const tooSoon = hour !== null && passed(hour);
     if (!day) bad.push('day');
-    if (hour === null || !period || tooSoon) bad.push('time');
+    if (hour === null || tooSoon) bad.push('time');
     if (name.trim().length < 2) bad.push('name');
     if (phone.replace(/\D/g, '').length < 8) bad.push('phone');
     setPastTime(tooSoon);
@@ -287,63 +278,25 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
               {error('day')}
             </fieldset>
 
-            {/* 02 Time: any hour, in quarter hours, AM or PM */}
+            {/* 02 Time: one-hour slots; those already past today are greyed out */}
             <fieldset className="min-w-0" aria-describedby={errors.includes('time') ? 'booking-time-error' : undefined}>
-              <legend className={legend}>
-                {step('02', labels.time)}
-                <span className="tabular text-h4 font-medium" aria-live="polite">
-                  {timeText(locale) ?? ''}
-                </span>
-              </legend>
-              <p className="mb-2 text-micro text-ink-muted">{labels.hour}</p>
-              <div className="grid grid-cols-6 gap-2">
-                {HOURS.map((h) => (
+              <legend className={legend}>{step('02', labels.time)}</legend>
+              <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+                {bookingSlots.map((h) => (
                   <button
                     key={h}
                     type="button"
                     aria-pressed={h === hour}
+                    disabled={passed(h)}
                     onClick={() => {
                       setHour(h);
                       clear('time');
                     }}
-                    className={cn(chip(h === hour), 'tabular py-2')}
+                    className={cn(chip(h === hour), 'tabular whitespace-nowrap px-2 py-2 disabled:cursor-not-allowed disabled:opacity-35')}
                   >
-                    {h}
+                    {slotText(h, locale, true)}
                   </button>
                 ))}
-              </div>
-              <div className="mt-4 grid gap-4 sm:grid-cols-[1fr_auto]">
-                <div>
-                  <p className="mb-2 text-micro text-ink-muted">{labels.minutes}</p>
-                  <div className="grid grid-cols-4 gap-2" dir="ltr">
-                    {bookingMinutes.map((mm) => (
-                      <button key={mm} type="button" aria-pressed={mm === minute} onClick={() => setMinute(mm)} className={cn(chip(mm === minute), 'tabular py-2')}>
-                        {mm}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <p className="mb-2 text-micro text-ink-muted" aria-hidden>
-                    &nbsp;
-                  </p>
-                  <div className="grid grid-cols-2 gap-2">
-                    {(['am', 'pm'] as const).map((p) => (
-                      <button
-                        key={p}
-                        type="button"
-                        aria-pressed={p === period}
-                        onClick={() => {
-                          setPeriod(p);
-                          clear('time');
-                        }}
-                        className={cn(chip(p === period), 'min-w-16 px-4 py-2')}
-                      >
-                        {periodName(p)}
-                      </button>
-                    ))}
-                  </div>
-                </div>
               </div>
               {error('time')}
             </fieldset>

@@ -283,8 +283,6 @@
         "timePast": "현재보다 늦은 시간을 선택해 주세요."
       },
       "otherDate": "다른 날짜",
-      "hour": "시",
-      "minutes": "분",
       "scrollPrev": "이전 날짜",
       "scrollNext": "다음 날짜"
     }

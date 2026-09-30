@@ -283,8 +283,6 @@
         "timePast": "请选择晚于现在的时间。"
       },
       "otherDate": "其他日期",
-      "hour": "小时",
-      "minutes": "分钟",
       "scrollPrev": "前几天",
       "scrollNext": "后几天"
     }

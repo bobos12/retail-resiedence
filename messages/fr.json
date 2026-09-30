@@ -283,8 +283,6 @@
         "timePast": "Veuillez choisir une heure plus tardive."
       },
       "otherDate": "Autre date",
-      "hour": "Heure",
-      "minutes": "Minutes",
       "scrollPrev": "Jours précédents",
       "scrollNext": "Jours suivants"
     }
