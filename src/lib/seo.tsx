@@ -4,7 +4,7 @@ import { contact, SITE_URL, social } from '@/content/contact';
 import { getImage, ogImage, type ImageId } from '@/content/images';
 import { GEO } from '@/content/neighborhood';
 import { residences } from '@/content/residences';
-import { routing, type Locale } from '@/i18n/routing';
+import { ogLocales, routing, type Locale } from '@/i18n/routing';
 
 // Trailing slash: the site is exported as folders (en/residences/index.html) for Apache hosting.
 export const localePath = (locale: Locale, path: string) => `/${locale}${path === '/' ? '' : path}/`;
@@ -37,8 +37,8 @@ export async function pageMetadata({ locale, path, title, description, image, ab
       title,
       description,
       url: localePath(locale, path),
-      locale: locale === 'ar' ? 'ar_SA' : 'en_GB',
-      alternateLocale: locale === 'ar' ? ['en_GB'] : ['ar_SA'],
+      locale: ogLocales[locale],
+      alternateLocale: routing.locales.filter((l) => l !== locale).map((l) => ogLocales[l]),
       images: [{ url: og, width: 1200, height: 630 }],
     },
     twitter: { card: 'summary_large_image', title, description, images: [og], site: '@retalresidence' },

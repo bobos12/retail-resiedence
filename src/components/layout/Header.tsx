@@ -96,14 +96,14 @@ export function Header() {
               ))}
             </ul>
             <span className={cn('h-5 w-px', overlayTone === 'dark' ? 'bg-line' : 'bg-bone/35')} aria-hidden />
-            <LanguageSwitcher />
+            <LanguageSwitcher tone={overlayTone === 'dark' ? 'light' : 'dark'} />
             <Link href="/contact" className={buttonClass(overlayTone === 'dark' ? 'solid' : 'light', 'px-5')}>
               {t('cta')}
             </Link>
           </nav>
 
           <div className="flex items-center gap-2 lg:hidden">
-            <LanguageSwitcher className="px-2" />
+            <LanguageSwitcher tone={overlayTone === 'dark' ? 'light' : 'dark'} className="px-1" />
             <button
               type="button"
               onClick={() => {

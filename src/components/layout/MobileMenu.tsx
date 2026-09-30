@@ -104,8 +104,8 @@ export function MobileMenu({ open, onClose }: Props) {
               <a href={contact.whatsapp.href} className="inline-flex min-h-tap items-center" target="_blank" rel="noopener noreferrer">
                 {t('whatsapp')}
               </a>
-              <LanguageSwitcher onNavigate={onClose} />
             </div>
+            <LanguageSwitcher variant="list" onNavigate={onClose} className="border-t border-line pt-3" />
           </m.div>
         </m.div>
       )}

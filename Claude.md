@@ -12,7 +12,7 @@ This is a new marketing website for **Retal Residence**, a gated luxury resident
 - Next.js (latest stable, App Router), TypeScript strict. Use Server Components by default and client components only where there's interaction.
 - Tailwind CSS v4. All colors, type sizes, spacing, radii, durations and easings are CSS-variable tokens, with no hardcoded values in components.
 - `motion/react` for reveals, page transitions and layout animation. Lenis for smooth scroll.
-- next-intl with **English + Arabic**, full RTL. Routes are `/en/...` and `/ar/...`, default `en`. Use logical properties (`ms-/me-/ps-/pe-/start/end`) and mirror arrows and layouts. All copy goes in the message files. The Arabic must be natural, well-written copy, not literal translation.
+- next-intl with **English, Arabic (full RTL), French, Italian, Spanish, Chinese and Korean**. Routes are `/en/...`, `/ar/...`, `/fr/...`, `/it/...`, `/es/...`, `/zh/...`, `/ko/...`, default `en`. Use logical properties (`ms-/me-/ps-/pe-/start/end`) and mirror arrows and layouts. All copy goes in the message files. The Arabic must be natural, well-written copy, not literal translation.
 - `next/image` for every image. `next/font` with self-hosted fonts.
 - Content lives in typed data files under `src/content/` (residences, amenities, neighborhood, contact).
 - No UI kits (shadcn default look, MUI, etc.). Every component is custom.

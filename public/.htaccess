@@ -21,9 +21,9 @@ ErrorDocument 404 /404.html
   RewriteCond %{HTTP:X-Forwarded-Proto} !=https
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-  # The home page opens in Arabic for Arabic browsers, English for everyone else.
-  RewriteCond %{HTTP:Accept-Language} ^ar [NC]
-  RewriteRule ^$ /ar/ [L,R=302]
+  # The home page opens in the browser's language when the site has it, English otherwise.
+  RewriteCond %{HTTP:Accept-Language} ^(ar|fr|it|es|zh|ko) [NC]
+  RewriteRule ^$ /%1/ [L,R=302]
   RewriteRule ^$ /en/ [L,R=302]
 
   # Pages live in folders: /en/residences -> /en/residences/

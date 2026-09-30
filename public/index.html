@@ -7,7 +7,8 @@
     <link rel="canonical" href="https://retalresidence.com/en/" />
     <!-- Normally .htaccess sends / to /en/ or /ar/ first; this page is the fallback. -->
     <script>
-      location.replace(/^ar\b/i.test(navigator.language || '') ? '/ar/' : '/en/');
+      var l = (navigator.language || 'en').slice(0, 2).toLowerCase();
+      location.replace('/' + (['ar', 'fr', 'it', 'es', 'zh', 'ko'].indexOf(l) >= 0 ? l : 'en') + '/');
     </script>
     <meta http-equiv="refresh" content="0; url=/en/" />
   </head>

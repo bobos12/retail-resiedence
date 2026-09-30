@@ -161,6 +161,30 @@
   --ls-eyebrow: 0;
 }
 
+/* Chinese and Korean: the system's own CJK faces after General Sans (Latin and digits),
+   no negative tracking, and more generous line heights for dense characters. */
+:root:lang(zh),
+:root:lang(ko) {
+  --lh-display: 1.12;
+  --ls-display: 0;
+  --lh-h1: 1.16;
+  --ls-h1: 0;
+  --lh-h2: 1.22;
+  --ls-h2: 0;
+  --lh-h3: 1.34;
+  --ls-h3: 0;
+  --ls-h4: 0;
+  --lh-lead: 1.7;
+  --ls-eyebrow: 0.04em;
+}
+html:lang(zh) {
+  font-family: var(--font-general), 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+}
+html:lang(ko) {
+  font-family: var(--font-general), 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
+}
+
 /* ------------------------------------------------------------------ */
 /* Base                                                                */
 /* ------------------------------------------------------------------ */
@@ -183,7 +207,8 @@
   /* Arabic pages: Alexandria first. General Sans's metric fallback is Arial, which has Arabic
      glyphs of its own, so with General Sans first the Arabic face would never be reached.
      Latin words and digits have no glyphs in Alexandria and fall through to General Sans. */
-  html:lang(ar) {
+  html:lang(ar),
+  [lang='ar'] {
     font-family: var(--font-arabic), var(--font-general), 'Helvetica Neue', Arial, sans-serif;
   }
   :lang(ar) body {

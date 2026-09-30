@@ -43,7 +43,8 @@ $email     = $get('email', 200);
 $residence = $get('residence', 60) ?: 'any';
 $date      = $get('date', 10);
 $message   = $get('message', 2000);
-$locale    = $get('locale', 2) === 'ar' ? 'Arabic' : 'English';
+$languages = ['en' => 'English', 'ar' => 'Arabic', 'fr' => 'French', 'it' => 'Italian', 'es' => 'Spanish', 'zh' => 'Chinese', 'ko' => 'Korean'];
+$locale    = $languages[$get('locale', 2)] ?? 'English';
 
 $invalid = [];
 if (mb_strlen($name) < 2) $invalid[] = 'name';

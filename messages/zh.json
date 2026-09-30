@@ -1,0 +1,776 @@
+{
+  "meta": {
+    "siteName": "Retal Residence",
+    "titleTemplate": "%s · Retal Residence",
+    "home": {
+      "title": "Retal Residence · 胡拜尔精装公寓与别墅",
+      "description": "七种由建筑师设计的户型，面积 84 至 363 平方米，全屋配齐家具，环绕设有泳池、影院与保龄球馆的会所。封闭式社区，24 小时安保。"
+    },
+    "residences": {
+      "title": "户型",
+      "description": "公寓、联排别墅与行政别墅，面积 84 至 363 平方米。每套住宅均全屋配齐家具，含欧洲品牌家电、单车位车库与网络。"
+    },
+    "clubhouse": {
+      "title": "会所",
+      "description": "餐厅与咖啡馆、便利店、38 座影院、四道保龄球馆、室内外泳池、健身房与网球场，位于 Retal Residence 中心。"
+    },
+    "living": {
+      "title": "在 Retal 生活",
+      "description": "距英国国际学校三分钟车程，社区内设便利店，别墅间遍布游乐区。这就是 Retal Residence 的日常。"
+    },
+    "neighborhood": {
+      "title": "周边",
+      "description": "Retal Residence 位于胡拜尔：距 BISAK 3 分钟，距达兰购物中心与滨海大道 10 分钟，距法赫德国王大桥 30 分钟。"
+    },
+    "contact": {
+      "title": "预约参观",
+      "description": "预约参观位于胡拜尔的 Retal Residence。请致电 +966 13 825 9600、通过 WhatsApp 联系我们或提交咨询。"
+    },
+    "notFound": {
+      "title": "页面未找到"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "residences": "户型",
+    "clubhouse": "会所",
+    "living": "社区生活",
+    "neighborhood": "周边",
+    "contact": "联系我们",
+    "cta": "预约参观",
+    "menu": "菜单",
+    "close": "关闭",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "skip": "跳至正文",
+    "primary": "主导航",
+    "language": "语言",
+    "whatsapp": "WhatsApp",
+    "whatsappLabel": "通过 WhatsApp 联系 Retal Residence"
+  },
+  "common": {
+    "sqm": "{value} 平方米",
+    "sqmUnit": "平方米",
+    "bedrooms": "{n, plural, other {{num} 间卧室}}",
+    "bathrooms": "{n, plural, other {{num} 间浴室}}",
+    "beds": "{n, plural, other {{num} 卧}}",
+    "baths": "{n, plural, other {{num} 卫}}",
+    "minutes": "{num} 分钟",
+    "minutesLong": "{n, plural, other {{num} 分钟}}",
+    "minUnit": "分钟",
+    "explore": "了解更多",
+    "viewAll": "查看全部户型",
+    "view": "查看",
+    "cards": "卡片",
+    "table": "表格",
+    "viewAs": "显示方式",
+    "opensNewTab": "在新标签页中打开",
+    "previous": "上一张",
+    "next": "下一张",
+    "close": "关闭",
+    "of": "/",
+    "zoomHint": "双指或双击可放大"
+  },
+  "home": {
+    "hero": {
+      "title": "欢迎入住\n您的设计之家",
+      "subtitle": "胡拜尔精装公寓与别墅。",
+      "description": "七种户型，面积 84 至 363 平方米，会所位于社区中心，大门全天候安保。",
+      "primary": "浏览户型",
+      "secondary": "预约参观",
+      "location": "沙特阿拉伯 · 胡拜尔",
+      "scroll": "向下滚动"
+    },
+    "statement": {
+      "eyebrow": "Retal Residence",
+      "text": "每一套住宅都由建筑师设计，是休憩、相聚与安居之所，配以高品质的装修与用心的室内设计。",
+      "principles": {
+        "design": {
+          "title": "建筑师设计",
+          "body": "窗饰格栅、充足采光与清晰的格局，配欧洲品牌家电，全屋配齐家具。"
+        },
+        "stroll": {
+          "title": "一切近在咫尺",
+          "body": "会所位于社区中心：餐厅与咖啡馆、便利店、泳池和影院均步行可达。"
+        },
+        "security": {
+          "title": "安心无忧",
+          "body": "门禁出入、24 小时安保值守，并以周全措施守护您的家人。"
+        }
+      }
+    },
+    "stats": {
+      "label": "Retal 数据一览",
+      "types": {
+        "value": "7",
+        "label": "种户型，从公寓到行政别墅"
+      },
+      "size": {
+        "value": "84–363",
+        "unit": "平方米",
+        "label": "精装居住面积"
+      },
+      "security": {
+        "value": "24/7",
+        "label": "大门安保"
+      },
+      "school": {
+        "value": "3",
+        "unit": "分钟",
+        "label": "车程至胡拜尔英国国际学校"
+      }
+    },
+    "residences": {
+      "eyebrow": "户型",
+      "title": "七种方式，\n安居 Retal",
+      "intro": "从一居室公寓到四居室行政别墅。每个家都全屋配齐家具，含欧洲品牌家电、单车位车库与网络。",
+      "specs": {
+        "furnished": "家具",
+        "furnishedValue": "全屋配齐",
+        "appliances": "家电",
+        "appliancesValue": "欧洲品牌",
+        "internet": "网络",
+        "internetValue": "包含",
+        "extras": "附加",
+        "none": "—"
+      },
+      "actions": {
+        "gallery": "图库",
+        "video": "视频",
+        "tour": "3D 导览",
+        "plan": "平面图",
+        "view": "查看户型",
+        "play": "播放视频导览",
+        "tourLoading": "正在加载 3D 导览…",
+        "fullscreen": "全屏",
+        "nextResidence": "下一个："
+      }
+    },
+    "clubhouse": {
+      "eyebrow": "会所",
+      "title": "社区的\n中心",
+      "intro": "餐饮、家庭娱乐与运动汇于一处，从每户门前步行即达。",
+      "cta": "了解会所",
+      "items": {
+        "pools": {
+          "title": "泳池",
+          "body": "室内与室外泳池，另设儿童浅水池。"
+        },
+        "cinema": {
+          "title": "影院",
+          "body": "一座 38 座私人影院。"
+        },
+        "bowling": {
+          "title": "保龄球",
+          "body": "四道保龄球馆。"
+        },
+        "games": {
+          "title": "游戏",
+          "body": "台球、乒乓球与电子游戏室。"
+        },
+        "sport": {
+          "title": "运动",
+          "body": "网球场、健身房，以及可进行排球、篮球和室内足球的多功能馆。"
+        },
+        "everyday": {
+          "title": "日常",
+          "body": "餐厅与咖啡馆、便利店、洗衣房、美容院与水疗，以及商务中心。"
+        }
+      },
+      "tour": "360° 导览"
+    },
+    "living": {
+      "eyebrow": "在 Retal 生活",
+      "title": "离家不远的\n每一天",
+      "intro": "学校三分钟车程，日常采购在会所即可完成。看看寻常一周如何安排。",
+      "cta": "了解 Retal 的生活",
+      "themes": {
+        "schools": {
+          "label": "学校",
+          "title": "3 分钟到 BISAK",
+          "body": "胡拜尔英国国际学校仅三分钟车程，早教中心就在会所内。"
+        },
+        "shopping": {
+          "label": "购物",
+          "title": "社区内的便利店",
+          "body": "日常所需在会所便利店即可购得。达兰购物中心车程十分钟。"
+        },
+        "healthcare": {
+          "label": "医疗",
+          "title": "最近的医院",
+          "body": "距大门十分钟车程。"
+        },
+        "community": {
+          "label": "社区",
+          "title": "共享的泳池、球场与游乐区",
+          "body": "傍晚在泳池边，周末在网球场，孩子们在别墅之间的游乐区玩耍。"
+        }
+      }
+    },
+    "security": {
+      "eyebrow": "安心",
+      "title": "门前有安保，\n上门有服务",
+      "body": "Retal 是一座封闭式社区，安保人员昼夜值守。家政与洗衣服务为您打理其余一切。",
+      "services": {
+        "security": "24 小时安保",
+        "housekeeping": "家政服务",
+        "laundry": "洗衣服务",
+        "supermarket": "超市",
+        "facilities": "五星级设施"
+      }
+    },
+    "neighborhood": {
+      "eyebrow": "位置",
+      "title": "三分钟到学校，\n十分钟到海边。",
+      "intro": "Retal 位于胡拜尔，毗邻海湾沿岸，达兰与通往巴林的跨海大桥都近在咫尺。",
+      "cta": "了解周边"
+    },
+    "gallery": {
+      "eyebrow": "社区一隅",
+      "hint": "点按照片可放大",
+      "open": "放大照片"
+    },
+    "visit": {
+      "eyebrow": "参观",
+      "title": "亲临现场，眼见为实",
+      "body": "漫步街道，走进一套精装住宅，再到会所看看。我们的预约团队将为您安排参观。",
+      "primary": "预约参观",
+      "whatsapp": "WhatsApp 联系我们",
+      "call": "致电预约部"
+    },
+    "tour": {
+      "eyebrow": "360° 导览",
+      "title": "走进\n会所",
+      "body": "38 座影院、四道保龄球馆、室内外泳池、健身房、餐厅和图书馆，全部集于一处，离家仅几步之遥。选择一个空间，四处看看。"
+    }
+  },
+  "residences": {
+    "index": {
+      "eyebrow": "户型",
+      "title": "七种户型，\n拎包入住",
+      "intro": "公寓为单层，联排别墅与行政别墅为两层。每套住宅均全屋配齐家具，含欧洲品牌家电、单车位车库与网络。",
+      "filter": "筛选户型",
+      "all": "全部",
+      "count": "{n, plural, other {{num} 种户型}}",
+      "included": "每套住宅均包含",
+      "compound": "所有住宅都位于同一封闭社区内，步行即可到达会所。"
+    },
+    "types": {
+      "apartment": "公寓",
+      "town-villa": "联排别墅",
+      "executive-villa": "行政别墅"
+    },
+    "typesPlural": {
+      "apartment": "公寓",
+      "town-villa": "联排别墅",
+      "executive-villa": "行政别墅"
+    },
+    "table": {
+      "name": "户型",
+      "type": "类型",
+      "size": "面积",
+      "beds": "卧室",
+      "baths": "浴室",
+      "open": "打开"
+    },
+    "features": {
+      "furnished": "全屋配齐家具",
+      "appliances": "欧洲品牌家电",
+      "garage": "单车位车库",
+      "internet": "含网络"
+    },
+    "extras": {
+      "backyard-option": "可选后院",
+      "servants-quarter": "佣人房",
+      "private-backyard": "私家后院"
+    },
+    "detail": {
+      "back": "全部户型",
+      "specs": "主要数据",
+      "size": "居住面积",
+      "bedrooms": "卧室",
+      "bathrooms": "浴室",
+      "floors": "楼层",
+      "garage": "车库",
+      "garageValue": "1 个车位",
+      "features": "包含内容",
+      "extras": "本户型另含",
+      "gallery": "图库",
+      "galleryOpen": "打开第 {num} 张，共 {total} 张",
+      "plan": "平面图",
+      "planZoom": "放大平面图",
+      "planHint": "滚动或双指缩放，拖动可移动。",
+      "zoomIn": "放大",
+      "zoomOut": "缩小",
+      "zoomReset": "重置缩放",
+      "video": "视频导览",
+      "videoPlay": "播放视频导览：{name}",
+      "videoNote": "通过 YouTube 播放。",
+      "tour": "虚拟导览",
+      "tourBody": "按您自己的节奏，以 3D 方式走遍每个房间。",
+      "tourCta": "开始 3D 导览",
+      "tourNone": "该户型暂未提供 3D 导览。视频与平面图可展示完整格局。",
+      "other": "其他户型",
+      "enquireEyebrow": "咨询",
+      "enquireTitle": "参观：{name}",
+      "enquireBody": "告诉我们您方便的时间，我们将安排参观此户型。",
+      "enquireCta": "咨询此户型",
+      "tourTitle": "3D 导览：{name}",
+      "tourHint": "互动导览将在此处打开",
+      "tourOpen": "全屏打开导览",
+      "heroTour": "开始 3D 导览",
+      "planDownload": "下载平面图"
+    },
+    "items": {
+      "one-bedroom-apartment": {
+        "name": "一居室公寓",
+        "summary": "84 平方米单层，两间浴室。",
+        "description": "开放式客厅与带早餐岛台的厨房相连，卧室配有梳妆台，另有一间客用浴室。每扇窗都设有格栅，让光线更加柔和。"
+      },
+      "two-bedroom-apartment": {
+        "name": "两居室公寓",
+        "summary": "141 平方米，两间卧室、三间浴室。",
+        "description": "客厅、餐厅与厨房共享一个狭长明亮的空间。主卧带步入式衣帽间与独立浴室，另设独立洗衣房，配洗衣机与烘干机。"
+      },
+      "three-bedroom-apartment": {
+        "name": "三居室公寓",
+        "summary": "174 平方米，三间卧室，可选后院。",
+        "description": "6.2 米长的餐厅连通客厅与厨房。三间卧室中含一间带步入式衣帽间的主卧套房，并可选配后院。"
+      },
+      "two-bedroom-town-villa": {
+        "name": "两居室联排别墅",
+        "summary": "179 平方米，两层，带私家后院。",
+        "description": "一层为客厅、餐厅、厨房与露台，另有佣人房和车库。二层为带步入式衣帽间的主卧套房、第二间卧室、阳台与屋顶花园。"
+      },
+      "three-bedroom-town-villa": {
+        "name": "三居室联排别墅",
+        "summary": "213 平方米，两层，带私家后院。",
+        "description": "4.7 × 6 米的客厅连通餐厅与露台，厨房旁设佣人房。二层有三间卧室，含一间带步入式衣帽间的主卧套房，另有阳台与屋顶花园。"
+      },
+      "three-bedroom-executive-villa": {
+        "name": "三居室行政别墅",
+        "summary": "236 平方米，两层，带私家后院。",
+        "description": "门廊入口、4.9 × 6 米的客厅，以及可容纳八人、通往露台的餐厅。二层有三间卧室，主卧套房带步入式衣帽间与阳台。"
+      },
+      "four-bedroom-executive-villa": {
+        "name": "四居室行政别墅",
+        "summary": "363 平方米，两层，Retal 最大的户型。",
+        "description": "一层设客厅、餐厅与家庭厅，另有一间带独立浴室的客房。二层的第二家庭厅位于三间主卧之间，配有阳台与屋顶花园。"
+      }
+    },
+    "tours": {
+      "eyebrow": "3D 导览",
+      "title": "3D 漫游六种户型",
+      "body": "参观之前，按您的节奏看遍每个房间。选择一个户型，开始导览。",
+      "badge": "3D 导览",
+      "start": "3D 导览"
+    }
+  },
+  "clubhouse": {
+    "hero": {
+      "eyebrow": "会所",
+      "title": "Retal 的\n核心",
+      "subtitle": "餐饮、家庭娱乐与运动，汇聚在社区中心。",
+      "tourCta": "开始 360° 导览",
+      "explore": "浏览设施"
+    },
+    "intro": "会所是 Retal 生活的中心：用餐、购物、游泳、健身、度过夜晚，都无需离开社区。",
+    "categories": {
+      "dining": {
+        "title": "餐饮与服务",
+        "body": "在咖啡馆吃早餐，在便利店买菜，顺路把衣物送去洗衣房。"
+      },
+      "family": {
+        "title": "家庭",
+        "body": "电影之夜、保龄球与适合各年龄段的游戏室。"
+      },
+      "sport": {
+        "title": "运动",
+        "body": "室内外泳池、健身房、网球场，以及团体运动场馆。"
+      }
+    },
+    "amenities": {
+      "restaurant": "国际餐厅与咖啡馆",
+      "learning": "早教中心",
+      "guesthouse": "宾馆",
+      "salon": "美容院与水疗",
+      "market": "便利店",
+      "laundry": "洗衣房",
+      "business": "商务中心",
+      "cinema": "影院，38 座",
+      "bowling": "保龄球馆，4 道",
+      "library": "图书馆",
+      "games": "电子游戏室",
+      "billiards": "台球",
+      "tableTennis": "乒乓球",
+      "tennis": "网球场",
+      "gym": "健身房",
+      "pools": "室内与室外泳池",
+      "kidsPool": "儿童浅水池",
+      "hall": "多功能馆：排球、篮球、室内足球"
+    },
+    "tour": {
+      "eyebrow": "360° 导览",
+      "title": "360°\n漫游会所",
+      "body": "会所全部 26 个空间，从大堂到壁球场。选择一个，然后拖动即可环顾四周。",
+      "enter": "进入 360°",
+      "loading": "正在加载…",
+      "drag": "拖动以环顾四周",
+      "viewer": "{name} 的 360° 视图。可使用方向键环顾四周。",
+      "previous": "上一个空间",
+      "next": "下一个空间",
+      "rotate": "自动旋转",
+      "gyro": "移动手机以环顾四周",
+      "fullscreen": "全屏",
+      "exitFullscreen": "退出全屏",
+      "ctrlZoom": "按住 Ctrl 并滚动即可缩放",
+      "twoFingers": "请用两根手指移动视图",
+      "posterAlt": "{name}，360° 导览的起始画面",
+      "all": "查看完整导览的全部 {count} 个空间",
+      "scenes": {
+        "label": "空间",
+        "lobby": "会所大堂",
+        "entrance": "入口",
+        "restaurant": "餐厅",
+        "library": "图书馆",
+        "business-centre": "商务中心",
+        "supermarket": "超市",
+        "early-learning": "早教中心",
+        "event-hall": "宴会厅",
+        "salon": "美容院",
+        "spa": "水疗",
+        "sauna": "桑拿",
+        "moroccan-bath": "摩洛哥浴",
+        "jacuzzi": "按摩浴池",
+        "cinema": "影院",
+        "bowling": "保龄球馆",
+        "billiards": "台球室",
+        "games-room": "游戏室",
+        "play-area": "儿童游乐区",
+        "play-area-2": "帆船游乐场",
+        "gym": "健身房",
+        "indoor-pool": "室内泳池",
+        "pool-terrace": "泳池露台",
+        "pool-deck": "室外泳池",
+        "sports-hall": "多功能馆",
+        "squash": "壁球场",
+        "tennis": "网球场"
+      },
+      "choose": "选择一个空间开始浏览"
+    },
+    "figures": {
+      "cinema": {
+        "value": "38",
+        "label": "影院座位"
+      },
+      "bowling": {
+        "value": "4",
+        "label": "保龄球道"
+      },
+      "amenities": {
+        "value": "18",
+        "label": "会所内外设施"
+      }
+    },
+    "arrival": {
+      "eyebrow": "抵达",
+      "title": "大理石地面，\n垂吊灯光",
+      "body": "步入会所，是一座大理石大堂，头顶一排排垂吊灯，前台就在门口。"
+    },
+    "gallery": {
+      "eyebrow": "夜色中的泳池"
+    }
+  },
+  "living": {
+    "hero": {
+      "eyebrow": "在 Retal 生活",
+      "title": "日常生活，\n近在家门口",
+      "subtitle": "学校、购物与会所，离家门只有几分钟。"
+    },
+    "intro": "Retal 围绕日常生活而规划：出行路程短、街道安全，还有邻里相聚的共享空间。",
+    "themes": {
+      "schools": {
+        "label": "学校",
+        "title": "三分钟到英国国际学校",
+        "body": "BISAK 距大门仅三分钟车程。年幼的孩子可以就读会所内的早教中心。"
+      },
+      "shopping": {
+        "label": "购物",
+        "title": "社区内买菜，十分钟到商场",
+        "body": "会所便利店满足日常所需。达兰购物中心车程十分钟。"
+      },
+      "healthcare": {
+        "label": "医疗",
+        "title": "十分钟到最近的医院",
+        "body": "最近的医院距大门十分钟车程。"
+      },
+      "community": {
+        "label": "社区",
+        "title": "共享的泳池、球场与游乐区",
+        "body": "泳池、网球场和游戏室是住户相聚的地方。别墅之间，遮阳的游乐区与户外健身器材离家仅几步之遥。"
+      }
+    },
+    "outdoors": {
+      "eyebrow": "户外",
+      "title": "适合漫步的街道",
+      "body": "林荫街道、遮阳长椅、户外健身器材，以及限速 15 公里/小时的游乐区。"
+    },
+    "services": {
+      "eyebrow": "服务",
+      "title": "打理日常琐事",
+      "body": "家政与洗衣服务、社区内超市，以及 24 小时安保值守。"
+    }
+  },
+  "neighborhood": {
+    "hero": {
+      "eyebrow": "周边",
+      "title": "位于胡拜尔，\n毗邻海岸",
+      "subtitle": "介于达兰与海湾之间，距通往巴林的跨海大桥半小时车程。"
+    },
+    "mapLabel": "Retal Residence 及周边目的地地图",
+    "mapAttribution": "地图数据 © OpenStreetMap 贡献者，© OpenMapTiles",
+    "you": "Retal Residence",
+    "areas": {
+      "khobar": "胡拜尔",
+      "dhahran": "达兰",
+      "gulf": "阿拉伯湾"
+    },
+    "driveTimes": "车程",
+    "byCar": "驾车",
+    "destinations": {
+      "bisak": "胡拜尔英国国际学校（BISAK）",
+      "expo": "达兰会展中心",
+      "mall": "达兰购物中心",
+      "corniche": "胡拜尔滨海大道",
+      "hospital": "最近的医院",
+      "aramco": "沙特阿美",
+      "causeway": "通往巴林的法赫德国王大桥",
+      "airport": "法赫德国王国际机场"
+    },
+    "short": {
+      "bisak": "BISAK",
+      "expo": "达兰会展中心",
+      "mall": "达兰购物中心",
+      "corniche": "滨海大道",
+      "hospital": "医院",
+      "aramco": "沙特阿美",
+      "causeway": "跨海大桥",
+      "airport": "机场"
+    },
+    "address": "地址",
+    "directions": "获取路线",
+    "aerial": {
+      "eyebrow": "俯瞰",
+      "title": "以中心为核心规划的社区",
+      "body": "别墅与公寓楼的街道环绕会所，景观入口位于主干道旁。"
+    },
+    "openMap": "在 Google 地图中打开"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "联系我们",
+      "title": "预约参观",
+      "subtitle": "告诉我们您方便的时间以及想参观的户型。我们的预约团队将通过电话或电子邮件确认。"
+    },
+    "direct": "直接联系我们",
+    "main": "总机",
+    "reservations": "预约",
+    "whatsapp": "WhatsApp",
+    "email": "一般咨询",
+    "sales": "销售",
+    "address": "地址",
+    "directions": "获取路线",
+    "form": {
+      "title": "参观申请",
+      "name": "姓名",
+      "phone": "电话",
+      "phoneHint": "请包含国家代码。",
+      "email": "电子邮件",
+      "residence": "意向户型",
+      "residenceAny": "尚未确定",
+      "date": "首选日期",
+      "message": "留言",
+      "messageHint": "选填。参观前您希望我们了解的任何信息。",
+      "optional": "选填",
+      "honeypot": "请勿填写此栏",
+      "submit": "提交申请",
+      "sending": "正在发送…",
+      "success": "谢谢。您的申请已送达预约团队，他们将与您联系确认参观。",
+      "error": "出现问题，您的申请未能发送。请重试，或致电 +966 13 825 9600。",
+      "fixErrors": "请检查标记的字段。",
+      "errors": {
+        "name": "请输入您的姓名。",
+        "phone": "请输入有效的电话号码。",
+        "email": "请输入有效的电子邮件地址。",
+        "date": "请选择今天或之后的日期。",
+        "message": "留言请控制在 2,000 字以内。"
+      }
+    }
+  },
+  "footer": {
+    "statement": "为生活\n而设计。",
+    "cta": "预约参观",
+    "visit": "地址",
+    "call": "电话",
+    "write": "邮件",
+    "follow": "关注",
+    "reservations": "预约",
+    "language": "语言",
+    "rights": "© {year} Retal Residence。保留所有权利。",
+    "social": {
+      "instagram": "Instagram",
+      "x": "X",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "页面不存在",
+    "body": "地址可能已更改，或该页面从未存在。您可以从这里开始浏览。",
+    "home": "返回首页"
+  },
+  "images": {
+    "site/aerial-compound": "黄昏时的 Retal Residence 航拍：别墅街道环绕会所及其泳池与网球场",
+    "site/aerial-compound-dusk": "黄昏时的 Retal Residence 航拍，会所居中，入口大门位于前景",
+    "site/aerial-clubhouse-dusk": "会所入口航拍，两座亮灯的格栅塔楼分列两侧",
+    "site/aerial-clubhouse-courtyard": "黄昏时俯瞰会所，入口塔楼亮起灯光，后方是泳池与网球场",
+    "site/aerial-courtyard": "俯瞰会所庭院：网球场、主泳池与儿童泳池",
+    "site/aerial-villas": "黄昏时俯瞰 Retal 的别墅、街道与一座泳池",
+    "site/gate-dusk-portrait": "黄昏时入口雨棚下亮起的 Retal Residence 标识",
+    "site/gate-sign-dusk": "棕榈树间门卫亭上亮起的 Retal Residence 标识",
+    "site/gate-guard": "门卫亭外站岗的安保人员",
+    "site/gate-checkpoint": "入口处的安检点，设有道闸，安保人员值守",
+    "site/gate-day": "白天的入口雨棚与门卫亭，安保人员值守",
+    "site/street-dusk": "黄昏时的别墅街道，石墩与立面灯光亮起",
+    "site/street-palms": "两旁种满棕榈树与别墅的笔直住宅街道",
+    "site/street-palms-portrait": "傍晚淡色天空下种满棕榈树的别墅街道",
+    "site/villa-corner": "人行横道旁街角处的别墅",
+    "clubhouse/facade-night-wide": "夜晚的会所：入口两侧亮灯的格栅塔楼，标识与台阶位于灯光树木之间",
+    "clubhouse/facade-night-portrait": "夜晚会所入口与其上亮起的标识",
+    "clubhouse/lobby": "会所大堂，大理石地面、垂吊灯与前台",
+    "clubhouse/lobby-portrait": "会所大堂与前台上方一排排垂吊灯",
+    "clubhouse/arcade": "夜晚便利店外的会所遮阳廊道",
+    "clubhouse/mini-market": "格栅雨棚下的便利店门面",
+    "clubhouse/laundry": "会所廊道内的洗衣收取与交付店",
+    "clubhouse/wayfinding-services": "会所内指向咖啡店、美容院、商务中心与客房的指示牌",
+    "clubhouse/cinema": "会所 38 座影院，阶梯座椅面向银幕",
+    "clubhouse/cinema-portrait": "黑色星光天花板下的影院阶梯座椅",
+    "clubhouse/bowling": "四条球道旁回球架上的保龄球",
+    "clubhouse/bowling-portrait": "保龄球道前端的座位",
+    "clubhouse/billiards-portrait": "垂吊灯下的标准台球桌",
+    "clubhouse/gym": "健身房，木地板上摆放自由重量与器械",
+    "clubhouse/gym-weights": "健身房里的哑铃架",
+    "clubhouse/pool-night": "夜晚的室外泳池，躺椅沿着亮灯的会所露台排开",
+    "clubhouse/pool-night-portrait": "夜晚的室外泳池，倒映着会所",
+    "clubhouse/pool-reflection": "夜晚会所倒映在室外泳池中",
+    "clubhouse/pool-terrace": "夜晚的泳池露台，摆放躺椅与遮阳伞",
+    "clubhouse/pool-umbrellas": "夜晚室外泳池周围的遮阳伞与躺椅",
+    "clubhouse/tennis-sunset": "日落时的网球场，后方是格栅屏风",
+    "living/playground": "别墅之间设有滑梯与跷跷板的遮阳儿童游乐区",
+    "living/playground-train": "儿童游乐区遮阳帆下的玩具小火车",
+    "living/kids-zone-dusk": "黄昏时儿童游乐区旁的 15 公里/小时减速标志",
+    "living/garden-bench": "铺装步道旁树下的木长椅",
+    "living/benches-evening": "黄昏时安静角落里的两张长椅与一盏庭院灯",
+    "residences/1br-apartment/living-kitchen": "一居室公寓的开放式客厅与厨房",
+    "residences/1br-apartment/living-room": "格栅窗下的沙发与茶几",
+    "residences/1br-apartment/open-plan": "从客厅望向厨房岛台",
+    "residences/1br-apartment/kitchen": "带早餐岛台、嵌入式烤箱与冰箱的厨房",
+    "residences/1br-apartment/bedroom": "配特大号床与梳妆台的卧室",
+    "residences/1br-apartment/bedroom-detail": "窗边的床与床头灯",
+    "residences/1br-apartment/dressing-table": "阳光窗边的梳妆台与镜子",
+    "residences/1br-apartment/bathroom": "带玻璃淋浴间的浴室",
+    "residences/1br-apartment/vanity": "客用浴室的大理石洗手台与镜子",
+    "residences/1br-apartment/plan": "一居室公寓平面图",
+    "residences/2br-apartment/living-dining": "两居室公寓明亮空间里的餐桌、客厅与厨房",
+    "residences/2br-apartment/living-room": "配沙发、蓝色扶手椅与嵌入式书架的客厅",
+    "residences/2br-apartment/kitchen": "带岛台、嵌入式烤箱与冰箱的厨房",
+    "residences/2br-apartment/kitchen-window": "宽大格栅窗下的操作台与水槽",
+    "residences/2br-apartment/bedroom": "配双人床与梳妆台的主卧",
+    "residences/2br-apartment/twin-bedroom": "配条纹床品与高窗的双床卧室",
+    "residences/2br-apartment/bathroom": "带玻璃淋浴间的浴室",
+    "residences/2br-apartment/plan": "两居室公寓平面图",
+    "residences/3br-apartment/living-dining": "三居室公寓中客厅与厨房旁的长餐桌",
+    "residences/3br-apartment/living-kitchen": "通往厨房岛台的客厅",
+    "residences/3br-apartment/living-room": "落地格栅窗旁的沙发",
+    "residences/3br-apartment/kitchen": "带岛台的开放式厨房，望向餐桌",
+    "residences/3br-apartment/master-bedroom": "配双人床的主卧，窗外可望社区",
+    "residences/3br-apartment/bedroom": "配双人床与书桌的卧室",
+    "residences/3br-apartment/guest-bedroom": "窗边配扶手椅与五斗柜的卧室",
+    "residences/3br-apartment/twin-bedroom": "配衣柜的双床卧室",
+    "residences/3br-apartment/bathroom": "带玻璃淋浴间的浴室",
+    "residences/3br-apartment/plan": "三居室公寓平面图",
+    "residences/2br-town-villa/living-room": "两居室联排别墅的客厅，电视墙配书架",
+    "residences/2br-town-villa/living-room-2": "吊灯下的客厅座位",
+    "residences/2br-town-villa/dining": "窗边的餐桌与餐椅",
+    "residences/2br-town-villa/twin-bedroom": "配书桌与阳台门的双床卧室",
+    "residences/2br-town-villa/plan": "两居室联排别墅一层与二层平面图",
+    "residences/3br-town-villa/living-room": "三居室联排别墅的客厅，配蓝色扶手椅与吊灯",
+    "residences/3br-town-villa/living-portrait": "挂着窗帘的花园窗旁的沙发与扶手椅",
+    "residences/3br-town-villa/living-dining": "从客厅通往餐桌",
+    "residences/3br-town-villa/dining": "配吊灯、餐边柜与花园门的餐厅",
+    "residences/3br-town-villa/kitchen": "木质橱柜的 U 形厨房，带花园窗",
+    "residences/3br-town-villa/master-bedroom": "配特大号床与格栅窗的主卧",
+    "residences/3br-town-villa/master-detail": "主卧里的五斗柜与扶手椅",
+    "residences/3br-town-villa/bedroom": "格栅窗旁配双人床的卧室",
+    "residences/3br-town-villa/twin-bedroom": "配书桌的双床卧室",
+    "residences/3br-town-villa/hallway": "圆镜下的玄关桌",
+    "residences/3br-town-villa/study": "格栅光影下的两张书桌",
+    "residences/3br-town-villa/entrance": "绿植后带格栅与推拉门的别墅入口",
+    "residences/3br-town-villa/plan": "三居室联排别墅一层与二层平面图",
+    "residences/3br-executive-villa/living-room": "三居室行政别墅的客厅，望向餐厅",
+    "residences/3br-executive-villa/lounge": "客厅，远处是楼梯",
+    "residences/3br-executive-villa/dining-stair": "楼梯旁的餐桌",
+    "residences/3br-executive-villa/dining": "配吊灯与餐边柜的餐厅",
+    "residences/3br-executive-villa/kitchen": "带嵌入式烤箱、窗外是花园的厨房",
+    "residences/3br-executive-villa/master-bedroom": "配推拉门与格栅的主卧",
+    "residences/3br-executive-villa/bedroom": "高窗旁配双人床的卧室",
+    "residences/3br-executive-villa/twin-bedroom": "配通顶衣柜的双床卧室",
+    "residences/3br-executive-villa/backyard": "私家后院：别墅旁的草坪与树篱",
+    "residences/3br-executive-villa/plan": "三居室行政别墅一层与二层平面图",
+    "residences/4br-executive-villa/living-dining": "四居室行政别墅中通往花园的餐桌与客厅",
+    "residences/4br-executive-villa/living-room": "吊灯下配蓝色扶手椅的客厅",
+    "residences/4br-executive-villa/kitchen": "带岛台、嵌入式烤箱与冰箱的厨房",
+    "residences/4br-executive-villa/kitchen-garden": "窗下的厨房水槽，旁边有门通往花园",
+    "residences/4br-executive-villa/master-bedroom": "四居室行政别墅的主卧，带起居区",
+    "residences/4br-executive-villa/master-suite": "主卧套房的起居区与五斗柜，设有通往阳台的门",
+    "residences/4br-executive-villa/twin-bedroom": "配花纹床品的双床卧室",
+    "residences/4br-executive-villa/vanity": "双人大理石洗手台",
+    "residences/4br-executive-villa/backyard": "私家后院的草坪与树篱",
+    "residences/4br-executive-villa/plan": "四居室行政别墅一层与二层平面图",
+    "map/neighborhood": "胡拜尔与达兰地图，标出靠近海湾沿岸的 Retal Residence",
+    "map/neighborhood-portrait": "胡拜尔与达兰地图，标出靠近海湾沿岸的 Retal Residence",
+    "clubhouse/table-tennis-portrait": "游戏室里的两张乒乓球桌",
+    "clubhouse/marble-bench": "石灰华墙面挂画下的木长椅，黑色大理石地面",
+    "clubhouse/reception": "会所大堂的 Retal Residence 前台，两侧摆放休闲椅",
+    "clubhouse/corridor": "石灰华饰面并挂有装裱画作的会所走廊"
+  },
+  "rooms": {
+    "backyard": "后院",
+    "bathroom": "浴室",
+    "bedroom": "卧室",
+    "bedroom-detail": "卧室",
+    "dining": "餐厅",
+    "dining-stair": "餐厅与楼梯",
+    "dressing-table": "梳妆台",
+    "entrance": "玄关",
+    "guest-bedroom": "客房",
+    "hallway": "走廊",
+    "kitchen": "厨房",
+    "kitchen-garden": "厨房（面向花园）",
+    "kitchen-window": "厨房",
+    "living-dining": "客厅与餐厅",
+    "living-kitchen": "客厅与厨房",
+    "living-portrait": "客厅",
+    "living-room": "客厅",
+    "living-room-2": "客厅",
+    "lounge": "起居室",
+    "master-bedroom": "主卧",
+    "master-detail": "主卧",
+    "master-suite": "主卧套房",
+    "open-plan": "开放式起居空间",
+    "study": "书房",
+    "twin-bedroom": "双床卧室",
+    "vanity": "洗手台"
+  }
+}

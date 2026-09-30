@@ -96,7 +96,7 @@ export async function Footer() {
           </div>
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             <h2 className="eyebrow mb-4 text-bone">{t('language')}</h2>
-            <LanguageSwitcher className="text-bone" />
+            <LanguageSwitcher variant="list" className="text-bone" />
             <ul className="mt-4">
               {navItems.map((item) => (
                 <li key={item.key}>

@@ -44,8 +44,7 @@
     "closeMenu": "Close menu",
     "skip": "Skip to content",
     "primary": "Main",
-    "language": "العربية",
-    "languageLabel": "Read this page in Arabic",
+    "language": "Language",
     "whatsapp": "WhatsApp",
     "whatsappLabel": "Message Retal Residence on WhatsApp"
   },
@@ -638,7 +637,6 @@
     "site/aerial-clubhouse-courtyard": "The Clubhouse from above at dusk, its lit entrance towers with the pool and tennis court behind",
     "site/aerial-courtyard": "The Clubhouse courtyard from above: tennis court, main pool and children’s pool",
     "site/aerial-villas": "Aerial view over Retal’s villas, streets and a pool at dusk",
-    "site/gate-arch-dusk": "The arched entrance gate at dusk, the Retal Residence sign lit beyond landscaped planting",
     "site/gate-dusk-portrait": "The Retal Residence sign lit beneath the entrance canopy at dusk",
     "site/gate-sign-dusk": "The illuminated Retal Residence sign on the gatehouse between palms",
     "site/gate-guard": "A security officer standing outside the gatehouse",
@@ -652,7 +650,6 @@
     "clubhouse/facade-night-portrait": "The Clubhouse entrance at night beneath its lit sign",
     "clubhouse/lobby": "The Clubhouse lobby with marble floor, pendant lights and reception desk",
     "clubhouse/lobby-portrait": "Rows of pendant lights above the Clubhouse lobby and reception",
-    "clubhouse/lobby-angle": "The Clubhouse lobby: marble floor, travertine walls and pendant lights above the reception",
     "clubhouse/arcade": "The shaded Clubhouse arcade outside the mini market at night",
     "clubhouse/mini-market": "The mini market shopfront under the lattice canopy",
     "clubhouse/laundry": "The laundry pick-up and drop-off shop in the Clubhouse arcade",
@@ -675,7 +672,6 @@
     "living/kids-zone-dusk": "A 15 km/h slow-down sign beside a kids' play zone at dusk",
     "living/garden-bench": "A timber bench beneath trees on a paved walk",
     "living/benches-evening": "Two benches and a garden light in a quiet corner at dusk",
-    "living/wayfinding-nursery": "Signs pointing to the multipurpose hall, restaurant, main lobby, nursery and retail area",
     "residences/1br-apartment/living-kitchen": "Open-plan living room and kitchen in the one-bedroom apartment",
     "residences/1br-apartment/living-room": "Sofas and a coffee table under lattice-screened windows",
     "residences/1br-apartment/open-plan": "Living area looking towards the kitchen island",
@@ -747,9 +743,7 @@
     "clubhouse/table-tennis-portrait": "Two table tennis tables in the games room",
     "clubhouse/marble-bench": "A timber bench beneath framed art on a travertine wall, with a black marble floor",
     "clubhouse/reception": "The Retal Residence reception desk in the Clubhouse lobby, with lounge chairs either side",
-    "clubhouse/corridor": "A travertine-lined Clubhouse corridor with framed art",
-    "site/villa-corner-portrait": "A villa on a street corner beside a pedestrian crossing, under a pale evening sky",
-    "living/fitness-portrait": "Outdoor fitness equipment on a lawn beneath trees, villas beyond"
+    "clubhouse/corridor": "A travertine-lined Clubhouse corridor with framed art"
   },
   "rooms": {
     "backyard": "Backyard",

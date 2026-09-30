@@ -1,0 +1,776 @@
+{
+  "meta": {
+    "siteName": "Retal Residence",
+    "titleTemplate": "%s · Retal Residence",
+    "home": {
+      "title": "Retal Residence · 알코바르의 가구 완비 아파트와 빌라",
+      "description": "건축가가 설계한 84–363㎡ 규모의 일곱 가지 주거 유형, 모두 가구 완비. 수영장, 영화관, 볼링장을 갖춘 클럽하우스를 중심으로 한 게이티드 단지, 24시간 보안."
+    },
+    "residences": {
+      "title": "주거 유형",
+      "description": "84–363㎡의 아파트, 타운 빌라, 이그제큐티브 빌라. 모든 주거는 가구 완비이며 유럽산 가전, 1대 주차 차고, 인터넷이 포함됩니다."
+    },
+    "clubhouse": {
+      "title": "클럽하우스",
+      "description": "레스토랑과 카페, 미니마켓, 38석 영화관, 4레인 볼링장, 실내·실외 수영장, 피트니스와 테니스까지, Retal Residence의 중심에 있습니다."
+    },
+    "living": {
+      "title": "Retal에서의 생활",
+      "description": "영국 국제학교까지 3분, 단지 내 미니마켓, 빌라 사이의 놀이 공간. Retal Residence의 일상입니다."
+    },
+    "neighborhood": {
+      "title": "주변 환경",
+      "description": "Retal Residence는 알코바르에 있습니다. BISAK까지 3분, 다란 몰과 코니시까지 10분, 킹 파드 코즈웨이까지 30분."
+    },
+    "contact": {
+      "title": "방문 예약",
+      "description": "알코바르의 Retal Residence 방문을 예약하세요. +966 13 825 9600으로 전화하시거나 WhatsApp 또는 문의 양식으로 연락해 주세요."
+    },
+    "notFound": {
+      "title": "페이지를 찾을 수 없습니다"
+    }
+  },
+  "nav": {
+    "home": "홈",
+    "residences": "주거 유형",
+    "clubhouse": "클럽하우스",
+    "living": "라이프",
+    "neighborhood": "주변 환경",
+    "contact": "문의",
+    "cta": "방문 예약",
+    "menu": "메뉴",
+    "close": "닫기",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기",
+    "skip": "본문으로 건너뛰기",
+    "primary": "주 메뉴",
+    "language": "언어",
+    "whatsapp": "WhatsApp",
+    "whatsappLabel": "WhatsApp으로 Retal Residence에 메시지 보내기"
+  },
+  "common": {
+    "sqm": "{value}㎡",
+    "sqmUnit": "㎡",
+    "bedrooms": "{n, plural, other {침실 {num}개}}",
+    "bathrooms": "{n, plural, other {욕실 {num}개}}",
+    "beds": "{n, plural, other {침실 {num}}}",
+    "baths": "{n, plural, other {욕실 {num}}}",
+    "minutes": "{num}분",
+    "minutesLong": "{n, plural, other {{num}분}}",
+    "minUnit": "분",
+    "explore": "둘러보기",
+    "viewAll": "모든 주거 유형 보기",
+    "view": "보기",
+    "cards": "카드",
+    "table": "표",
+    "viewAs": "보기 방식",
+    "opensNewTab": "새 탭에서 열림",
+    "previous": "이전",
+    "next": "다음",
+    "close": "닫기",
+    "of": "/",
+    "zoomHint": "두 손가락으로 벌리거나 두 번 탭해 확대"
+  },
+  "home": {
+    "hero": {
+      "title": "당신을 위해\n디자인된 집",
+      "subtitle": "알코바르의 가구 완비 아파트와 빌라.",
+      "description": "84–363㎡의 일곱 가지 주거 유형, 중심에 자리한 클럽하우스, 정문의 24시간 보안.",
+      "primary": "주거 유형 보기",
+      "secondary": "방문 예약",
+      "location": "사우디아라비아 알코바르",
+      "scroll": "스크롤"
+    },
+    "statement": {
+      "eyebrow": "Retal Residence",
+      "text": "모든 주거는 건축가가 설계한 공간입니다. 쉬고, 모이고, 잘 살기 위한 곳으로, 고품질 마감재와 세심한 인테리어로 완성했습니다.",
+      "principles": {
+        "design": {
+          "title": "건축가의 설계",
+          "body": "격자 스크린 창, 풍부한 채광, 명확한 평면. 유럽산 가전과 가구를 모두 갖췄습니다."
+        },
+        "stroll": {
+          "title": "모든 것이 걸어서 가까이",
+          "body": "클럽하우스는 단지 중심에 있습니다. 레스토랑과 카페, 미니마켓, 수영장, 영화관까지 모두 도보 거리입니다."
+        },
+        "security": {
+          "title": "완벽한 안심",
+          "body": "출입이 통제되는 정문, 24시간 근무하는 보안 요원, 가족의 안전을 위한 모든 대비."
+        }
+      }
+    },
+    "stats": {
+      "label": "숫자로 보는 Retal",
+      "types": {
+        "value": "7",
+        "label": "가지 주거 유형, 아파트부터 이그제큐티브 빌라까지"
+      },
+      "size": {
+        "value": "84–363",
+        "unit": "㎡",
+        "label": "가구 완비 주거 면적"
+      },
+      "security": {
+        "value": "24/7",
+        "label": "정문 보안"
+      },
+      "school": {
+        "value": "3",
+        "unit": "분",
+        "label": "알코바르 영국 국제학교까지"
+      }
+    },
+    "residences": {
+      "eyebrow": "주거 유형",
+      "title": "Retal에서 사는\n일곱 가지 방법",
+      "intro": "침실 1개 아파트부터 침실 4개의 이그제큐티브 빌라까지. 모든 집은 가구 완비이며 유럽산 가전, 1대 주차 차고, 인터넷이 포함됩니다.",
+      "specs": {
+        "furnished": "가구",
+        "furnishedValue": "완비",
+        "appliances": "가전",
+        "appliancesValue": "유럽산",
+        "internet": "인터넷",
+        "internetValue": "포함",
+        "extras": "추가",
+        "none": "—"
+      },
+      "actions": {
+        "gallery": "갤러리",
+        "video": "영상",
+        "tour": "3D 투어",
+        "plan": "평면도",
+        "view": "자세히 보기",
+        "play": "영상 투어 재생",
+        "tourLoading": "3D 투어를 불러오는 중…",
+        "fullscreen": "전체 화면",
+        "nextResidence": "다음:"
+      }
+    },
+    "clubhouse": {
+      "eyebrow": "클럽하우스",
+      "title": "커뮤니티의\n중심",
+      "intro": "다이닝, 가족 엔터테인먼트, 스포츠가 한 지붕 아래. 어느 집에서나 걸어서 몇 분 거리입니다.",
+      "cta": "클럽하우스 둘러보기",
+      "items": {
+        "pools": {
+          "title": "수영장",
+          "body": "실내·실외 수영장과 어린이용 얕은 풀."
+        },
+        "cinema": {
+          "title": "영화관",
+          "body": "38석 규모의 전용 영화관."
+        },
+        "bowling": {
+          "title": "볼링",
+          "body": "4레인 볼링장."
+        },
+        "games": {
+          "title": "게임",
+          "body": "당구, 탁구, 비디오 게임룸."
+        },
+        "sport": {
+          "title": "스포츠",
+          "body": "테니스 코트, 피트니스, 배구·농구·실내 축구를 위한 다목적 홀."
+        },
+        "everyday": {
+          "title": "일상",
+          "body": "레스토랑과 카페, 미니마켓, 세탁소, 살롱과 스파, 비즈니스 센터."
+        }
+      },
+      "tour": "360° 투어"
+    },
+    "living": {
+      "eyebrow": "Retal에서의 생활",
+      "title": "집 가까이에서\n보내는 하루",
+      "intro": "학교는 3분 거리, 장보기는 클럽하우스에서. 평범한 한 주가 이렇게 흘러갑니다.",
+      "cta": "Retal의 생활 더 보기",
+      "themes": {
+        "schools": {
+          "label": "학교",
+          "title": "BISAK까지 3분",
+          "body": "알코바르 영국 국제학교까지 차로 3분, 유아 교육 센터는 클럽하우스 안에 있습니다."
+        },
+        "shopping": {
+          "label": "쇼핑",
+          "title": "단지 내 미니마켓",
+          "body": "생활필수품은 클럽하우스 미니마켓에서. 다란 몰까지 차로 10분입니다."
+        },
+        "healthcare": {
+          "label": "의료",
+          "title": "가장 가까운 병원",
+          "body": "정문에서 차로 10분 거리입니다."
+        },
+        "community": {
+          "label": "커뮤니티",
+          "title": "함께 쓰는 수영장, 코트, 놀이터",
+          "body": "저녁에는 수영장 곁에서, 주말에는 테니스 코트에서, 아이들은 빌라 사이 놀이터에서."
+        }
+      }
+    },
+    "security": {
+      "eyebrow": "안심",
+      "title": "정문에는 보안을,\n현관에는 서비스를",
+      "body": "Retal은 보안 요원이 밤낮으로 근무하는 게이티드 단지입니다. 하우스키핑과 세탁 서비스가 나머지를 챙깁니다.",
+      "services": {
+        "security": "24시간 보안",
+        "housekeeping": "하우스키핑 서비스",
+        "laundry": "세탁 서비스",
+        "supermarket": "슈퍼마켓",
+        "facilities": "5성급 시설"
+      }
+    },
+    "neighborhood": {
+      "eyebrow": "위치",
+      "title": "학교까지 3분,\n바다까지 10분.",
+      "intro": "Retal은 걸프 해안 가까이 알코바르에 있으며, 다란과 바레인으로 가는 코즈웨이도 가깝습니다.",
+      "cta": "주변 환경 보기"
+    },
+    "gallery": {
+      "eyebrow": "단지 곳곳",
+      "hint": "사진을 탭하면 확대됩니다",
+      "open": "사진 확대"
+    },
+    "visit": {
+      "eyebrow": "방문",
+      "title": "직접 와서 보세요",
+      "body": "거리를 걷고, 가구가 갖춰진 집에 들어가 보고, 클럽하우스에도 들러 보세요. 예약팀이 방문을 준비해 드립니다.",
+      "primary": "방문 예약",
+      "whatsapp": "WhatsApp 문의",
+      "call": "예약팀에 전화"
+    },
+    "tour": {
+      "eyebrow": "360° 투어",
+      "title": "클럽하우스\n안으로",
+      "body": "38석 영화관, 4레인 볼링장, 실내·실외 수영장, 피트니스, 레스토랑, 도서관이 모두 한 지붕 아래, 집에서 걸어서 몇 분 거리에 있습니다. 공간을 골라 둘러보세요."
+    }
+  },
+  "residences": {
+    "index": {
+      "eyebrow": "주거 유형",
+      "title": "일곱 가지 주거 유형,\n바로 입주 가능",
+      "intro": "단층 아파트, 2층 타운 빌라와 이그제큐티브 빌라. 모든 주거는 가구 완비이며 유럽산 가전, 1대 주차 차고, 인터넷이 포함됩니다.",
+      "filter": "주거 유형 필터",
+      "all": "전체",
+      "count": "{n, plural, other {{num}개 유형}}",
+      "included": "모든 주거에 포함",
+      "compound": "모든 주거는 하나의 게이티드 단지 안에 있으며, 클럽하우스까지 걸어서 가깝습니다."
+    },
+    "types": {
+      "apartment": "아파트",
+      "town-villa": "타운 빌라",
+      "executive-villa": "이그제큐티브 빌라"
+    },
+    "typesPlural": {
+      "apartment": "아파트",
+      "town-villa": "타운 빌라",
+      "executive-villa": "이그제큐티브 빌라"
+    },
+    "table": {
+      "name": "주거",
+      "type": "유형",
+      "size": "면적",
+      "beds": "침실",
+      "baths": "욕실",
+      "open": "열기"
+    },
+    "features": {
+      "furnished": "가구 완비",
+      "appliances": "유럽산 가전",
+      "garage": "1대 주차 차고",
+      "internet": "인터넷 포함"
+    },
+    "extras": {
+      "backyard-option": "뒷마당 선택 가능",
+      "servants-quarter": "가사도우미실",
+      "private-backyard": "전용 뒷마당"
+    },
+    "detail": {
+      "back": "모든 주거 유형",
+      "specs": "주요 정보",
+      "size": "주거 면적",
+      "bedrooms": "침실",
+      "bathrooms": "욕실",
+      "floors": "층수",
+      "garage": "차고",
+      "garageValue": "1대",
+      "features": "포함 사항",
+      "extras": "이 주거의 추가 사항",
+      "gallery": "갤러리",
+      "galleryOpen": "사진 {num}/{total} 열기",
+      "plan": "평면도",
+      "planZoom": "평면도 확대",
+      "planHint": "스크롤하거나 두 손가락으로 확대하고, 드래그해 이동하세요.",
+      "zoomIn": "확대",
+      "zoomOut": "축소",
+      "zoomReset": "확대 초기화",
+      "video": "영상 투어",
+      "videoPlay": "영상 투어 재생: {name}",
+      "videoNote": "YouTube에서 재생됩니다.",
+      "tour": "가상 투어",
+      "tourBody": "모든 방을 3D로, 원하는 속도로 둘러보세요.",
+      "tourCta": "3D 투어 시작",
+      "tourNone": "이 주거 유형은 아직 3D 투어가 없습니다. 영상과 평면도로 전체 구조를 확인할 수 있습니다.",
+      "other": "다른 주거 유형",
+      "enquireEyebrow": "문의",
+      "enquireTitle": "{name} 방문",
+      "enquireBody": "편한 시간을 알려 주시면 이 주거의 방문을 준비해 드립니다.",
+      "enquireCta": "이 주거에 대해 문의",
+      "tourTitle": "{name} 3D 투어",
+      "tourHint": "인터랙티브 투어가 이곳에서 열립니다",
+      "tourOpen": "전체 화면으로 투어 열기",
+      "heroTour": "3D 투어 보기",
+      "planDownload": "평면도 다운로드"
+    },
+    "items": {
+      "one-bedroom-apartment": {
+        "name": "침실 1개 아파트",
+        "summary": "단층 84㎡, 욕실 2개.",
+        "description": "브렉퍼스트 아일랜드가 있는 주방과 이어진 오픈 거실, 화장대를 갖춘 침실, 손님용 두 번째 욕실. 모든 창의 격자 스크린이 빛을 부드럽게 걸러 줍니다."
+      },
+      "two-bedroom-apartment": {
+        "name": "침실 2개 아파트",
+        "summary": "141㎡, 침실 2개와 욕실 3개.",
+        "description": "거실, 다이닝, 주방이 길고 밝은 하나의 공간을 이룹니다. 안방에는 워크인 클로짓과 전용 욕실이 있고, 별도의 세탁실에 세탁기와 건조기가 있습니다."
+      },
+      "three-bedroom-apartment": {
+        "name": "침실 3개 아파트",
+        "summary": "174㎡, 침실 3개, 뒷마당 선택 가능.",
+        "description": "6.2미터 길이의 다이닝룸이 거실과 주방으로 이어집니다. 워크인 클로짓이 있는 안방 스위트를 포함한 침실 3개, 뒷마당은 선택 가능합니다."
+      },
+      "two-bedroom-town-villa": {
+        "name": "침실 2개 타운 빌라",
+        "summary": "2개 층 179㎡, 전용 뒷마당.",
+        "description": "1층에는 거실, 다이닝, 주방, 테라스와 가사도우미실, 차고가 있습니다. 2층에는 워크인 클로짓이 있는 안방 스위트, 두 번째 침실, 발코니, 옥상 정원이 있습니다."
+      },
+      "three-bedroom-town-villa": {
+        "name": "침실 3개 타운 빌라",
+        "summary": "2개 층 213㎡, 전용 뒷마당.",
+        "description": "4.7 × 6m 거실이 다이닝룸과 테라스로 이어지고, 주방 옆에 가사도우미실이 있습니다. 2층에는 워크인 클로짓이 있는 안방 스위트를 포함한 침실 3개와 발코니, 옥상 정원이 있습니다."
+      },
+      "three-bedroom-executive-villa": {
+        "name": "침실 3개 이그제큐티브 빌라",
+        "summary": "2개 층 236㎡, 전용 뒷마당.",
+        "description": "포치 현관, 4.9 × 6m 거실, 테라스로 열리는 8인용 다이닝룸. 2층에는 침실 3개가 있으며, 안방 스위트에는 워크인 클로짓과 발코니가 있습니다."
+      },
+      "four-bedroom-executive-villa": {
+        "name": "침실 4개 이그제큐티브 빌라",
+        "summary": "2개 층 363㎡, Retal에서 가장 넓은 평면.",
+        "description": "1층에는 거실, 다이닝룸, 패밀리룸과 전용 욕실이 딸린 게스트룸이 있습니다. 2층에는 세 개의 안방 사이에 두 번째 패밀리룸이 있고, 발코니와 옥상 정원이 있습니다."
+      }
+    },
+    "tours": {
+      "eyebrow": "3D 투어",
+      "title": "여섯 가지 주거를 3D로 둘러보기",
+      "body": "방문 전에 모든 방을 원하는 속도로. 주거 유형을 고르고 투어를 시작하세요.",
+      "badge": "3D 투어",
+      "start": "3D 투어"
+    }
+  },
+  "clubhouse": {
+    "hero": {
+      "eyebrow": "클럽하우스",
+      "title": "Retal의\n중심",
+      "subtitle": "단지 중심에 모인 다이닝, 가족 엔터테인먼트, 스포츠.",
+      "tourCta": "360° 투어 시작",
+      "explore": "편의시설 둘러보기"
+    },
+    "intro": "클럽하우스는 Retal 생활의 중심입니다. 먹고, 장 보고, 수영하고, 운동하고, 저녁 시간을 보내는 모든 일을 단지를 떠나지 않고 할 수 있습니다.",
+    "categories": {
+      "dining": {
+        "title": "다이닝 & 서비스",
+        "body": "카페에서 아침을, 미니마켓에서 장보기를, 지나는 길에 세탁물 맡기기."
+      },
+      "family": {
+        "title": "가족",
+        "body": "영화의 밤, 볼링, 모든 연령을 위한 게임룸."
+      },
+      "sport": {
+        "title": "스포츠",
+        "body": "실내·실외 수영장, 피트니스, 테니스 코트, 단체 운동을 위한 홀."
+      }
+    },
+    "amenities": {
+      "restaurant": "인터내셔널 레스토랑 & 카페",
+      "learning": "유아 교육 센터",
+      "guesthouse": "게스트하우스",
+      "salon": "살롱 & 스파",
+      "market": "미니마켓",
+      "laundry": "세탁소",
+      "business": "비즈니스 센터",
+      "cinema": "영화관, 38석",
+      "bowling": "볼링장, 4레인",
+      "library": "도서관",
+      "games": "비디오 게임룸",
+      "billiards": "당구",
+      "tableTennis": "탁구",
+      "tennis": "테니스 코트",
+      "gym": "피트니스",
+      "pools": "실내·실외 수영장",
+      "kidsPool": "어린이용 얕은 풀",
+      "hall": "다목적 홀: 배구, 농구, 실내 축구"
+    },
+    "tour": {
+      "eyebrow": "360° 투어",
+      "title": "360°로 걷는\n클럽하우스",
+      "body": "로비부터 스쿼시 코트까지, 클럽하우스의 26개 공간 전부. 하나를 고른 뒤 드래그해 둘러보세요.",
+      "enter": "360° 입장",
+      "loading": "화면을 불러오는 중…",
+      "drag": "드래그해 둘러보기",
+      "viewer": "{name} 360° 보기. 방향 키로 둘러볼 수 있습니다.",
+      "previous": "이전 공간",
+      "next": "다음 공간",
+      "rotate": "자동 회전",
+      "gyro": "휴대폰을 움직여 둘러보기",
+      "fullscreen": "전체 화면",
+      "exitFullscreen": "전체 화면 종료",
+      "ctrlZoom": "Ctrl을 누른 채 스크롤하면 확대됩니다",
+      "twoFingers": "두 손가락으로 화면을 움직이세요",
+      "posterAlt": "{name}, 360° 투어의 첫 화면",
+      "all": "전체 투어의 {count}개 공간 모두 보기",
+      "scenes": {
+        "label": "공간",
+        "lobby": "클럽하우스 로비",
+        "entrance": "입구",
+        "restaurant": "레스토랑",
+        "library": "도서관",
+        "business-centre": "비즈니스 센터",
+        "supermarket": "슈퍼마켓",
+        "early-learning": "유아 교육 센터",
+        "event-hall": "이벤트 홀",
+        "salon": "살롱",
+        "spa": "스파",
+        "sauna": "사우나",
+        "moroccan-bath": "모로칸 배스",
+        "jacuzzi": "자쿠지",
+        "cinema": "영화관",
+        "bowling": "볼링장",
+        "billiards": "당구장",
+        "games-room": "게임룸",
+        "play-area": "어린이 놀이터",
+        "play-area-2": "배 모양 놀이터",
+        "gym": "피트니스",
+        "indoor-pool": "실내 수영장",
+        "pool-terrace": "수영장 테라스",
+        "pool-deck": "실외 수영장",
+        "sports-hall": "다목적 홀",
+        "squash": "스쿼시 코트",
+        "tennis": "테니스 코트"
+      },
+      "choose": "둘러볼 공간을 선택하세요"
+    },
+    "figures": {
+      "cinema": {
+        "value": "38",
+        "label": "영화관 좌석"
+      },
+      "bowling": {
+        "value": "4",
+        "label": "볼링 레인"
+      },
+      "amenities": {
+        "value": "18",
+        "label": "클럽하우스 안팎의 편의시설"
+      }
+    },
+    "arrival": {
+      "eyebrow": "도착",
+      "title": "대리석 바닥,\n펜던트 조명",
+      "body": "클럽하우스에 들어서면 줄지어 늘어선 펜던트 조명 아래 대리석 로비가 펼쳐지고, 입구 바로 앞에 리셉션이 있습니다."
+    },
+    "gallery": {
+      "eyebrow": "밤의 수영장"
+    }
+  },
+  "living": {
+    "hero": {
+      "eyebrow": "Retal에서의 생활",
+      "title": "집 가까이에서\n누리는 일상",
+      "subtitle": "학교, 쇼핑, 클럽하우스가 모두 현관에서 몇 분 거리."
+    },
+    "intro": "Retal은 일상을 중심으로 계획되었습니다. 짧은 이동, 안전한 거리, 이웃이 만나는 공용 공간.",
+    "themes": {
+      "schools": {
+        "label": "학교",
+        "title": "영국 국제학교까지 3분",
+        "body": "BISAK까지 정문에서 차로 3분입니다. 어린 자녀를 위한 유아 교육 센터는 클럽하우스 안에 있습니다."
+      },
+      "shopping": {
+        "label": "쇼핑",
+        "title": "장보기는 단지 안에서, 쇼핑몰은 10분 거리",
+        "body": "생활필수품은 클럽하우스 미니마켓에서 해결됩니다. 다란 몰까지 차로 10분입니다."
+      },
+      "healthcare": {
+        "label": "의료",
+        "title": "가장 가까운 병원까지 10분",
+        "body": "가장 가까운 병원은 정문에서 차로 10분 거리입니다."
+      },
+      "community": {
+        "label": "커뮤니티",
+        "title": "함께 쓰는 수영장, 코트, 놀이터",
+        "body": "수영장, 테니스 코트, 게임룸은 주민들이 만나는 곳입니다. 빌라 사이에는 그늘진 놀이터와 야외 운동기구가 집에서 몇 걸음 거리에 있습니다."
+      }
+    },
+    "outdoors": {
+      "eyebrow": "야외",
+      "title": "걷기 좋은 거리",
+      "body": "가로수가 늘어선 거리, 그늘진 벤치, 야외 운동기구, 시속 15km 제한 표지판이 있는 놀이 구역."
+    },
+    "services": {
+      "eyebrow": "서비스",
+      "title": "일상을 돕는 서비스",
+      "body": "하우스키핑과 세탁 서비스, 단지 내 슈퍼마켓, 24시간 근무하는 보안."
+    }
+  },
+  "neighborhood": {
+    "hero": {
+      "eyebrow": "주변 환경",
+      "title": "알코바르,\n해안 가까이",
+      "subtitle": "다란과 걸프 사이, 바레인으로 가는 코즈웨이까지 30분."
+    },
+    "mapLabel": "Retal Residence와 주변 목적지 지도",
+    "mapAttribution": "지도 데이터 © OpenStreetMap 기여자, © OpenMapTiles",
+    "you": "Retal Residence",
+    "areas": {
+      "khobar": "알코바르",
+      "dhahran": "다란",
+      "gulf": "아라비아만"
+    },
+    "driveTimes": "차량 이동 시간",
+    "byCar": "차로",
+    "destinations": {
+      "bisak": "알코바르 영국 국제학교 (BISAK)",
+      "expo": "다란 엑스포",
+      "mall": "다란 몰",
+      "corniche": "알코바르 코니시",
+      "hospital": "가장 가까운 병원",
+      "aramco": "사우디 아람코",
+      "causeway": "바레인행 킹 파드 코즈웨이",
+      "airport": "킹 파드 국제공항"
+    },
+    "short": {
+      "bisak": "BISAK",
+      "expo": "다란 엑스포",
+      "mall": "다란 몰",
+      "corniche": "코니시",
+      "hospital": "병원",
+      "aramco": "사우디 아람코",
+      "causeway": "코즈웨이",
+      "airport": "공항"
+    },
+    "address": "주소",
+    "directions": "길찾기",
+    "aerial": {
+      "eyebrow": "하늘에서",
+      "title": "중심을 둘러싼 단지 설계",
+      "body": "빌라와 아파트 건물이 늘어선 거리가 클럽하우스를 둘러싸고, 조경이 된 정문은 큰길에 있습니다."
+    },
+    "openMap": "Google 지도에서 열기"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "문의",
+      "title": "방문 예약",
+      "subtitle": "편한 시간과 보고 싶은 주거 유형을 알려 주세요. 예약팀이 전화나 이메일로 확인해 드립니다."
+    },
+    "direct": "직접 연락하기",
+    "main": "대표 전화",
+    "reservations": "예약",
+    "whatsapp": "WhatsApp",
+    "email": "일반 문의",
+    "sales": "분양·임대",
+    "address": "주소",
+    "directions": "길찾기",
+    "form": {
+      "title": "방문 신청",
+      "name": "이름",
+      "phone": "전화번호",
+      "phoneHint": "국가 번호를 포함해 주세요.",
+      "email": "이메일",
+      "residence": "관심 주거 유형",
+      "residenceAny": "아직 정하지 않음",
+      "date": "희망 날짜",
+      "message": "메시지",
+      "messageHint": "선택 사항. 방문 전에 알려 주실 내용이 있다면 적어 주세요.",
+      "optional": "선택",
+      "honeypot": "이 칸은 비워 두세요",
+      "submit": "신청하기",
+      "sending": "보내는 중…",
+      "success": "감사합니다. 신청이 예약팀에 전달되었으며, 방문 확정을 위해 곧 연락드리겠습니다.",
+      "error": "문제가 발생해 신청이 전송되지 않았습니다. 다시 시도하시거나 +966 13 825 9600으로 전화해 주세요.",
+      "fixErrors": "표시된 항목을 확인해 주세요.",
+      "errors": {
+        "name": "이름을 입력해 주세요.",
+        "phone": "올바른 전화번호를 입력해 주세요.",
+        "email": "올바른 이메일 주소를 입력해 주세요.",
+        "date": "오늘 이후의 날짜를 선택해 주세요.",
+        "message": "메시지는 2,000자 이내로 작성해 주세요."
+      }
+    }
+  },
+  "footer": {
+    "statement": "살기 위해\n디자인했습니다.",
+    "cta": "방문 예약",
+    "visit": "주소",
+    "call": "전화",
+    "write": "이메일",
+    "follow": "팔로우",
+    "reservations": "예약",
+    "language": "언어",
+    "rights": "© {year} Retal Residence. All rights reserved.",
+    "social": {
+      "instagram": "Instagram",
+      "x": "X",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook"
+    }
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "페이지를 찾을 수 없습니다",
+    "body": "주소가 바뀌었거나 존재하지 않는 페이지입니다. 아래에서 다시 시작해 보세요.",
+    "home": "홈으로 돌아가기"
+  },
+  "images": {
+    "site/aerial-compound": "해 질 녘 Retal Residence 항공 사진: 클럽하우스와 수영장, 테니스 코트를 둘러싼 빌라 거리",
+    "site/aerial-compound-dusk": "해 질 녘 Retal Residence 항공 사진, 중앙의 클럽하우스와 앞쪽의 정문",
+    "site/aerial-clubhouse-dusk": "불 밝힌 두 격자 타워 사이의 클럽하우스 입구 항공 사진",
+    "site/aerial-clubhouse-courtyard": "해 질 녘 위에서 본 클럽하우스, 불 밝힌 입구 타워와 뒤편의 수영장, 테니스 코트",
+    "site/aerial-courtyard": "위에서 본 클럽하우스 중정: 테니스 코트, 메인 수영장, 어린이 풀",
+    "site/aerial-villas": "해 질 녘 Retal의 빌라와 거리, 수영장을 내려다본 항공 사진",
+    "site/gate-dusk-portrait": "해 질 녘 정문 캐노피 아래 불 밝힌 Retal Residence 사인",
+    "site/gate-sign-dusk": "야자수 사이 경비실 위의 Retal Residence 조명 사인",
+    "site/gate-guard": "경비실 앞에 서 있는 보안 요원",
+    "site/gate-checkpoint": "차단기와 근무 중인 보안 요원이 있는 정문 검문소",
+    "site/gate-day": "낮의 정문 캐노피와 경비실, 근무 중인 보안 요원",
+    "site/street-dusk": "석재 볼라드와 외벽 조명이 빛나는 해 질 녘 빌라 거리",
+    "site/street-palms": "야자수와 빌라가 늘어선 곧은 주거 거리",
+    "site/street-palms-portrait": "옅은 저녁 하늘 아래 야자수가 늘어선 빌라 거리",
+    "site/villa-corner": "횡단보도 옆 길모퉁이의 빌라",
+    "clubhouse/facade-night-wide": "밤의 클럽하우스: 입구 양옆의 불 밝힌 격자 타워, 조명 나무 사이의 사인과 계단",
+    "clubhouse/facade-night-portrait": "불 밝힌 사인 아래 밤의 클럽하우스 입구",
+    "clubhouse/lobby": "대리석 바닥, 펜던트 조명, 리셉션 데스크가 있는 클럽하우스 로비",
+    "clubhouse/lobby-portrait": "클럽하우스 로비와 리셉션 위로 줄지어 늘어선 펜던트 조명",
+    "clubhouse/arcade": "밤의 미니마켓 앞 클럽하우스 그늘 아케이드",
+    "clubhouse/mini-market": "격자 캐노피 아래의 미니마켓 매장",
+    "clubhouse/laundry": "클럽하우스 아케이드의 세탁물 접수·수령 매장",
+    "clubhouse/wayfinding-services": "커피숍, 뷰티 살롱, 비즈니스 센터, 게스트룸을 안내하는 클럽하우스 표지판",
+    "clubhouse/cinema": "스크린을 향한 계단식 좌석의 38석 클럽하우스 영화관",
+    "clubhouse/cinema-portrait": "조명이 박힌 검은 천장 아래 영화관 계단식 좌석",
+    "clubhouse/bowling": "4개 레인 옆 리턴 랙 위의 볼링공",
+    "clubhouse/bowling-portrait": "볼링 레인 앞쪽의 좌석",
+    "clubhouse/billiards-portrait": "펜던트 조명 아래의 정규 규격 당구대",
+    "clubhouse/gym": "원목 바닥 위 프리 웨이트와 머신이 있는 피트니스",
+    "clubhouse/gym-weights": "피트니스의 덤벨 랙",
+    "clubhouse/pool-night": "밤의 실외 수영장, 불 밝힌 클럽하우스 테라스를 따라 놓인 선베드",
+    "clubhouse/pool-night-portrait": "클럽하우스가 비친 밤의 실외 수영장",
+    "clubhouse/pool-reflection": "밤의 실외 수영장에 비친 클럽하우스",
+    "clubhouse/pool-terrace": "선베드와 파라솔이 놓인 밤의 수영장 테라스",
+    "clubhouse/pool-umbrellas": "밤의 실외 수영장 주변 파라솔과 선베드",
+    "clubhouse/tennis-sunset": "해 질 녘 테니스 코트, 뒤편의 격자 스크린",
+    "living/playground": "빌라 사이 미끄럼틀과 시소가 있는 그늘진 어린이 놀이터",
+    "living/playground-train": "어린이 놀이터 차양 아래의 놀이 기차",
+    "living/kids-zone-dusk": "해 질 녘 어린이 놀이 구역 옆 시속 15km 감속 표지판",
+    "living/garden-bench": "포장된 산책로 나무 아래의 원목 벤치",
+    "living/benches-evening": "해 질 녘 조용한 구석의 벤치 두 개와 정원등",
+    "residences/1br-apartment/living-kitchen": "침실 1개 아파트의 오픈형 거실과 주방",
+    "residences/1br-apartment/living-room": "격자 스크린 창 아래의 소파와 커피 테이블",
+    "residences/1br-apartment/open-plan": "주방 아일랜드 쪽을 바라본 거실",
+    "residences/1br-apartment/kitchen": "브렉퍼스트 아일랜드, 빌트인 오븐, 냉장고가 있는 주방",
+    "residences/1br-apartment/bedroom": "킹 사이즈 침대와 화장대가 있는 침실",
+    "residences/1br-apartment/bedroom-detail": "창가의 침대와 협탁 조명",
+    "residences/1br-apartment/dressing-table": "햇살 드는 창가의 화장대와 거울",
+    "residences/1br-apartment/bathroom": "유리 워크인 샤워부스가 있는 욕실",
+    "residences/1br-apartment/vanity": "손님용 욕실의 대리석 세면대와 거울",
+    "residences/1br-apartment/plan": "침실 1개 아파트 평면도",
+    "residences/2br-apartment/living-dining": "침실 2개 아파트의 밝은 공간 속 식탁, 거실, 주방",
+    "residences/2br-apartment/living-room": "소파, 파란 암체어, 붙박이 선반이 있는 거실",
+    "residences/2br-apartment/kitchen": "아일랜드, 빌트인 오븐, 냉장고가 있는 주방",
+    "residences/2br-apartment/kitchen-window": "격자 스크린이 있는 넓은 창 아래의 조리대와 싱크대",
+    "residences/2br-apartment/bedroom": "더블 침대와 화장대가 있는 안방",
+    "residences/2br-apartment/twin-bedroom": "줄무늬 침구와 높은 창이 있는 트윈 침실",
+    "residences/2br-apartment/bathroom": "유리 워크인 샤워부스가 있는 욕실",
+    "residences/2br-apartment/plan": "침실 2개 아파트 평면도",
+    "residences/3br-apartment/living-dining": "침실 3개 아파트의 거실과 주방 옆 긴 식탁",
+    "residences/3br-apartment/living-kitchen": "주방 아일랜드로 이어지는 거실",
+    "residences/3br-apartment/living-room": "격자 스크린이 있는 전면 창 옆의 소파",
+    "residences/3br-apartment/kitchen": "식탁 쪽을 바라본 아일랜드 오픈 주방",
+    "residences/3br-apartment/master-bedroom": "더블 침대와 단지가 내려다보이는 창이 있는 안방",
+    "residences/3br-apartment/bedroom": "더블 침대와 책상이 있는 침실",
+    "residences/3br-apartment/guest-bedroom": "창가에 암체어와 서랍장이 있는 침실",
+    "residences/3br-apartment/twin-bedroom": "옷장이 있는 트윈 침실",
+    "residences/3br-apartment/bathroom": "유리 샤워부스가 있는 욕실",
+    "residences/3br-apartment/plan": "침실 3개 아파트 평면도",
+    "residences/2br-town-villa/living-room": "침실 2개 타운 빌라의 거실, 선반이 있는 TV 벽",
+    "residences/2br-town-villa/living-room-2": "샹들리에 아래의 거실 좌석",
+    "residences/2br-town-villa/dining": "창가의 식탁과 의자",
+    "residences/2br-town-villa/twin-bedroom": "책상과 발코니 문이 있는 트윈 침실",
+    "residences/2br-town-villa/plan": "침실 2개 타운 빌라 1층·2층 평면도",
+    "residences/3br-town-villa/living-room": "파란 암체어와 샹들리에가 있는 침실 3개 타운 빌라의 거실",
+    "residences/3br-town-villa/living-portrait": "커튼이 드리운 정원 창가의 소파와 암체어",
+    "residences/3br-town-villa/living-dining": "식탁으로 이어지는 거실",
+    "residences/3br-town-villa/dining": "샹들리에, 사이드보드, 정원 문이 있는 다이닝룸",
+    "residences/3br-town-villa/kitchen": "원목 수납장과 정원 창이 있는 ㄷ자형 주방",
+    "residences/3br-town-villa/master-bedroom": "킹 사이즈 침대와 격자 창이 있는 안방",
+    "residences/3br-town-villa/master-detail": "안방의 서랍장과 암체어",
+    "residences/3br-town-villa/bedroom": "격자 창 옆에 더블 침대가 있는 침실",
+    "residences/3br-town-villa/twin-bedroom": "책상이 있는 트윈 침실",
+    "residences/3br-town-villa/hallway": "둥근 거울 아래의 현관 콘솔",
+    "residences/3br-town-villa/study": "격자 그림자 아래의 책상 두 개",
+    "residences/3br-town-villa/entrance": "식재 뒤로 격자 스크린과 슬라이딩 도어가 있는 빌라 입구",
+    "residences/3br-town-villa/plan": "침실 3개 타운 빌라 1층·2층 평면도",
+    "residences/3br-executive-villa/living-room": "다이닝룸 쪽을 바라본 침실 3개 이그제큐티브 빌라의 거실",
+    "residences/3br-executive-villa/lounge": "계단이 보이는 거실",
+    "residences/3br-executive-villa/dining-stair": "계단 옆의 식탁",
+    "residences/3br-executive-villa/dining": "샹들리에와 사이드보드가 있는 다이닝룸",
+    "residences/3br-executive-villa/kitchen": "빌트인 오븐과 정원 쪽 창이 있는 주방",
+    "residences/3br-executive-villa/master-bedroom": "슬라이딩 도어와 격자 스크린이 있는 안방",
+    "residences/3br-executive-villa/bedroom": "높은 창 옆에 더블 침대가 있는 침실",
+    "residences/3br-executive-villa/twin-bedroom": "천장까지 닿는 옷장이 있는 트윈 침실",
+    "residences/3br-executive-villa/backyard": "전용 뒷마당: 빌라 옆의 잔디와 생울타리",
+    "residences/3br-executive-villa/plan": "침실 3개 이그제큐티브 빌라 1층·2층 평면도",
+    "residences/4br-executive-villa/living-dining": "침실 4개 이그제큐티브 빌라의 정원으로 열린 식탁과 거실",
+    "residences/4br-executive-villa/living-room": "샹들리에 아래 파란 암체어가 있는 거실",
+    "residences/4br-executive-villa/kitchen": "아일랜드, 빌트인 오븐, 냉장고가 있는 주방",
+    "residences/4br-executive-villa/kitchen-garden": "창 아래의 주방 싱크대와 정원으로 나가는 문",
+    "residences/4br-executive-villa/master-bedroom": "좌식 공간이 있는 침실 4개 이그제큐티브 빌라의 안방",
+    "residences/4br-executive-villa/master-suite": "발코니 문이 있는 안방 스위트의 좌식 공간과 서랍장",
+    "residences/4br-executive-villa/twin-bedroom": "패턴 침구가 있는 트윈 침실",
+    "residences/4br-executive-villa/vanity": "대리석 이중 세면대",
+    "residences/4br-executive-villa/backyard": "전용 뒷마당의 잔디와 생울타리",
+    "residences/4br-executive-villa/plan": "침실 4개 이그제큐티브 빌라 1층·2층 평면도",
+    "map/neighborhood": "걸프 해안 가까이 있는 Retal Residence를 표시한 알코바르·다란 지도",
+    "map/neighborhood-portrait": "걸프 해안 가까이 있는 Retal Residence를 표시한 알코바르·다란 지도",
+    "clubhouse/table-tennis-portrait": "게임룸의 탁구대 두 개",
+    "clubhouse/marble-bench": "트래버틴 벽의 액자 아래 원목 벤치와 검은 대리석 바닥",
+    "clubhouse/reception": "양옆에 라운지 체어가 놓인 클럽하우스 로비의 Retal Residence 리셉션",
+    "clubhouse/corridor": "액자가 걸린 트래버틴 마감의 클럽하우스 복도"
+  },
+  "rooms": {
+    "backyard": "뒷마당",
+    "bathroom": "욕실",
+    "bedroom": "침실",
+    "bedroom-detail": "침실",
+    "dining": "다이닝룸",
+    "dining-stair": "다이닝룸과 계단",
+    "dressing-table": "화장대",
+    "entrance": "현관",
+    "guest-bedroom": "게스트룸",
+    "hallway": "복도",
+    "kitchen": "주방",
+    "kitchen-garden": "정원 쪽 주방",
+    "kitchen-window": "주방",
+    "living-dining": "거실과 다이닝",
+    "living-kitchen": "거실과 주방",
+    "living-portrait": "거실",
+    "living-room": "거실",
+    "living-room-2": "거실",
+    "lounge": "라운지",
+    "master-bedroom": "안방",
+    "master-detail": "안방",
+    "master-suite": "안방 스위트",
+    "open-plan": "오픈형 거실",
+    "study": "서재",
+    "twin-bedroom": "트윈 침실",
+    "vanity": "세면대"
+  }
+}
