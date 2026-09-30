@@ -289,17 +289,6 @@
       "otherDate": "其他日期",
       "scrollPrev": "前几天",
       "scrollNext": "后几天"
-    },
-    "bookTeaser": {
-      "eyebrow": "参观 Retal",
-      "title": "亲临现场，\n时间由您决定",
-      "body": "漫步街道，走进一套精装住宅，再到会所看看。选择适合您的日期和时间，我们将恭候您的到来。",
-      "facts": {
-        "day": "任选日期",
-        "hour": "一小时参观",
-        "whatsapp": "WhatsApp 确认"
-      },
-      "cta": "预约参观"
     }
   },
   "residences": {

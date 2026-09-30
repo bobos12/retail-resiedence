@@ -289,17 +289,6 @@
       "otherDate": "Otra fecha",
       "scrollPrev": "Días anteriores",
       "scrollNext": "Días siguientes"
-    },
-    "bookTeaser": {
-      "eyebrow": "Visite Retal",
-      "title": "Véalo en persona,\ncuando mejor le venga",
-      "body": "Recorra las calles, entre en una residencia amueblada y pase por el Clubhouse. Elija el día y la hora que le convengan y le estaremos esperando.",
-      "facts": {
-        "day": "El día que prefiera",
-        "hour": "Visitas de una hora",
-        "whatsapp": "Confirmación por WhatsApp"
-      },
-      "cta": "Reservar su visita"
     }
   },
   "residences": {

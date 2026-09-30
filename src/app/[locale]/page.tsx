@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { BookingTeaser } from '@/components/home/BookingTeaser';
 import { ClubhouseSection } from '@/components/home/ClubhouseSection';
 import { GalleryBand } from '@/components/home/GalleryBand';
 import { Hero } from '@/components/home/Hero';
@@ -44,7 +43,6 @@ export default async function HomePage({ params }: PageProps<'/[locale]'>) {
   return (
     <>
       <Hero />
-      <BookingTeaser />
       <Statement />
       <Stats />
       <ResidencesSection />
