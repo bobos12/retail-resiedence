@@ -7,7 +7,7 @@ import { BookingForm } from './BookingForm';
 
 const steps = ['pick', 'see', 'send'] as const;
 
-// Straight after the hero: book a visit in four taps, sent to the reservations team on WhatsApp.
+// Straight after the hero: book a visit for any day and time, sent to the reservations team on WhatsApp.
 export async function BookingSection() {
   const t = await getTranslations('home.booking');
 
@@ -43,7 +43,10 @@ export async function BookingSection() {
           <BookingForm
             labels={{
               day: t('day'),
+              otherDate: t('otherDate'),
               time: t('time'),
+              hour: t('hour'),
+              minutes: t('minutes'),
               interest: t('interest'),
               interests: Object.fromEntries(bookingInterests.map((i) => [i, t(`interests.${i}`)])) as Record<(typeof bookingInterests)[number], string>,
               details: t('details'),
@@ -55,12 +58,13 @@ export async function BookingSection() {
               summaryEmpty: t('summaryEmpty'),
               submit: t('submit'),
               note: t('note'),
-              noSlots: t('noSlots'),
+              scrollPrev: t('scrollPrev'),
+              scrollNext: t('scrollNext'),
               sentTitle: t('sentTitle'),
               sentBody: t('sentBody'),
               sentAgain: t('sentAgain'),
               sentReset: t('sentReset'),
-              errors: { day: t('errors.day'), time: t('errors.time'), name: t('errors.name'), phone: t('errors.phone') },
+              errors: { day: t('errors.day'), time: t('errors.time'), timePast: t('errors.timePast'), name: t('errors.name'), phone: t('errors.phone') },
             }}
           />
         </div>

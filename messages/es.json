@@ -269,9 +269,8 @@
       "optional": "opcional",
       "today": "Hoy",
       "summaryEmpty": "Elija día y hora para ver aquí su reserva.",
-      "submit": "Reservar por WhatsApp",
+      "submit": "Reservar su visita por WhatsApp",
       "note": "Abre WhatsApp con su reserva ya redactada. Pulse enviar para confirmar.",
-      "noSlots": "No quedan horas hoy. Elija otro día.",
       "sentTitle": "Su reserva está lista en WhatsApp",
       "sentBody": "Pulse enviar en WhatsApp y nuestro equipo de reservas confirmará su visita.",
       "sentAgain": "Abrir WhatsApp de nuevo",
@@ -280,8 +279,14 @@
         "day": "Elija un día.",
         "time": "Elija una hora.",
         "name": "Introduzca su nombre.",
-        "phone": "Introduzca un teléfono válido."
-      }
+        "phone": "Introduzca un teléfono válido.",
+        "timePast": "Elija una hora posterior a la actual."
+      },
+      "otherDate": "Otra fecha",
+      "hour": "Hora",
+      "minutes": "Minutos",
+      "scrollPrev": "Días anteriores",
+      "scrollNext": "Días siguientes"
     }
   },
   "residences": {

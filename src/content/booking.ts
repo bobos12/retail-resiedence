@@ -1,10 +1,10 @@
-// Visit booking on Home (after the hero). Edit the visiting times or the booking window here.
+// Visit booking on Home (after the hero). Visitors pick any date and any time of day.
 
-/** Visiting times offered each day, 24-hour, Al Khobar time. */
-export const bookingSlots = ['10:00', '11:00', '12:00', '13:00', '16:00', '17:00', '18:00', '19:00'];
-
-/** How many days ahead can be booked, starting today. */
+/** Days shown as quick buttons; any later date can be picked from the calendar. */
 export const bookingDays = 14;
+
+/** Minute steps offered after the hour. */
+export const bookingMinutes = ['00', '15', '30', '45'];
 
 /** What a visitor can ask to see. Labels live in messages (home.booking.interests.*). */
 export const bookingInterests = ['apartment', 'town-villa', 'executive-villa', 'clubhouse'] as const;

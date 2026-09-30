@@ -2,15 +2,19 @@
 
 import { AnimatePresence, m } from 'motion/react';
 import { useLocale } from 'next-intl';
-import { useMemo, useState, useSyncExternalStore } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
+import { Arrow } from '@/components/ui/Arrow';
 import { buttonClass } from '@/components/ui/ButtonLink';
-import { bookingDays, bookingInterestNames, bookingInterests, bookingSlots, bookingWhatsApp, type BookingInterest } from '@/content/booking';
+import { bookingDays, bookingInterestNames, bookingInterests, bookingMinutes, bookingWhatsApp, type BookingInterest } from '@/content/booking';
 import { cn } from '@/lib/cn';
 import { DUR, EASE_OUT } from '@/lib/motion';
 
 export type BookingLabels = {
   day: string;
+  otherDate: string;
   time: string;
+  hour: string;
+  minutes: string;
   interest: string;
   interests: Record<BookingInterest, string>;
   details: string;
@@ -22,30 +26,29 @@ export type BookingLabels = {
   summaryEmpty: string;
   submit: string;
   note: string;
-  noSlots: string;
+  scrollPrev: string;
+  scrollNext: string;
   sentTitle: string;
   sentBody: string;
   sentAgain: string;
   sentReset: string;
-  errors: { day: string; time: string; name: string; phone: string };
+  errors: { day: string; time: string; timePast: string; name: string; phone: string };
 };
 
-type Day = { iso: string; date: Date };
+type Period = 'am' | 'pm';
 type Field = 'day' | 'time' | 'name' | 'phone';
 
 const TZ = 'Asia/Riyadh';
+const HOURS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const noop = () => () => {};
 
-/** Today and the next days, as calendar dates in Al Khobar (never the build machine's clock). */
-function upcomingDays(count: number): Day[] {
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date());
-  const [y, mo, d] = today.split('-').map(Number) as [number, number, number];
-  return Array.from({ length: count }, (_, i) => {
-    const date = new Date(Date.UTC(y, mo - 1, d + i, 12));
-    return { iso: date.toISOString().slice(0, 10), date };
-  });
-}
-
+/** Today in Al Khobar as YYYY-MM-DD (never the build machine's clock). */
+const todayIso = () => new Intl.DateTimeFormat('en-CA', { timeZone: TZ }).format(new Date());
+/** A calendar date as a Date at noon UTC, so formatting never slips a day. */
+const isoDate = (iso: string) => {
+  const [y, mo, d] = iso.split('-').map(Number) as [number, number, number];
+  return new Date(Date.UTC(y, mo - 1, d, 12));
+};
 /** Minutes past midnight in Al Khobar right now. */
 function nowMinutes() {
   const [h, min] = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
@@ -54,42 +57,88 @@ function nowMinutes() {
     .map(Number) as [number, number];
   return h * 60 + min;
 }
-
-const toMinutes = (slot: string) => {
-  const [h, min] = slot.split(':').map(Number) as [number, number];
-  return h * 60 + min;
-};
+const to24 = (hour: number, period: Period) => (hour % 12) + (period === 'pm' ? 12 : 0);
 
 const chip = (on: boolean) =>
   cn(
-    'inline-flex min-h-tap items-center justify-center border text-small font-medium transition-colors duration-(--dur-fast) disabled:cursor-not-allowed disabled:opacity-35',
+    'inline-flex min-h-tap items-center justify-center border text-small font-medium transition-colors duration-(--dur-fast)',
     on ? 'border-ink bg-ink text-canvas' : 'border-line bg-canvas hover:border-ink',
   );
 
-// Pick a day, a time and what to see, add a name and number: "Book" opens WhatsApp to the
+// Pick any day and time, say what to see, add a name and number: "Book" opens WhatsApp to the
 // reservations team with the whole booking written out, ready to send.
 export function BookingForm({ labels }: { labels: BookingLabels }) {
   const locale = useLocale();
   const mounted = useSyncExternalStore(noop, () => true, () => false);
-  const days = useMemo(() => (mounted ? upcomingDays(bookingDays) : []), [mounted]);
+  const today = mounted ? todayIso() : '';
+  const days = useMemo(
+    () =>
+      today
+        ? Array.from({ length: bookingDays }, (_, i) => {
+            const d = isoDate(today);
+            d.setUTCDate(d.getUTCDate() + i);
+            return d.toISOString().slice(0, 10);
+          })
+        : [],
+    [today],
+  );
 
   const [day, setDay] = useState<string | null>(null);
-  const [time, setTime] = useState<string | null>(null);
+  const [hour, setHour] = useState<number | null>(null);
+  const [minute, setMinute] = useState<string>(bookingMinutes[0]!);
+  const [period, setPeriod] = useState<Period | null>(null);
   const [interests, setInterests] = useState<BookingInterest[]>([]);
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('+966 ');
   const [notes, setNotes] = useState('');
   const [errors, setErrors] = useState<Field[]>([]);
+  const [pastTime, setPastTime] = useState(false);
   const [link, setLink] = useState<string | null>(null);
 
-  const isToday = day !== null && day === days[0]?.iso;
-  const past = (slot: string) => isToday && toMinutes(slot) <= nowMinutes() + 30;
-  const dayFmt = (d: Date, opts: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat(locale, { timeZone: 'UTC', ...opts }).format(d);
-  const chosen = days.find((d) => d.iso === day);
+  const rail = useRef<HTMLDivElement>(null);
+  const dateInput = useRef<HTMLInputElement>(null);
+  const [edges, setEdges] = useState({ start: false, end: false });
 
+  // Show the arrows only when there is more of the day row to reach in that direction.
+  const measure = useCallback(() => {
+    const el = rail.current;
+    if (!el) return;
+    const x = Math.abs(el.scrollLeft);
+    setEdges({ start: x > 4, end: x + el.clientWidth < el.scrollWidth - 4 });
+  }, []);
+  useEffect(() => {
+    const el = rail.current;
+    if (!el) return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    el.addEventListener('scroll', measure, { passive: true });
+    return () => {
+      ro.disconnect();
+      el.removeEventListener('scroll', measure);
+    };
+  }, [measure, days.length]);
+  const scroll = (dir: 1 | -1) => {
+    const el = rail.current;
+    if (!el) return;
+    const rtl = getComputedStyle(el).direction === 'rtl';
+    el.scrollBy({ left: dir * el.clientWidth * 0.8 * (rtl ? -1 : 1), behavior: 'smooth' });
+  };
+
+  const fmt = (iso: string, opts: Intl.DateTimeFormatOptions, lang: string = locale) => new Intl.DateTimeFormat(lang, { timeZone: 'UTC', ...opts }).format(isoDate(iso));
+  const timeText = (lang: string) =>
+    hour !== null && period
+      ? new Intl.DateTimeFormat(lang, { timeZone: 'UTC', hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(Date.UTC(2000, 0, 1, to24(hour, period), Number(minute))))
+      : null;
+  // AM / PM in the visitor's language (ص / م, 오전 / 오후, 上午 / 下午…).
+  const periodName = (p: Period) =>
+    new Intl.DateTimeFormat(locale, { timeZone: 'UTC', hour: 'numeric', hour12: true })
+      .formatToParts(new Date(Date.UTC(2000, 0, 1, p === 'am' ? 9 : 15)))
+      .find((part) => part.type === 'dayPeriod')?.value ?? p.toUpperCase();
+
+  const custom = day !== null && !days.includes(day);
   const summary = [
-    chosen && dayFmt(chosen.date, { weekday: 'long', day: 'numeric', month: 'long' }),
-    time,
+    day && fmt(day, { weekday: 'long', day: 'numeric', month: 'long' }),
+    timeText(locale),
     new Intl.ListFormat(locale, { type: 'unit', style: 'short' }).format(interests.map((i) => labels.interests[i])),
   ]
     .filter(Boolean)
@@ -101,23 +150,24 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   const submit = (e: React.FormEvent) => {
     e.preventDefault();
     const bad: Field[] = [];
+    const tooSoon = day === today && hour !== null && period !== null && to24(hour, period) * 60 + Number(minute) <= nowMinutes();
     if (!day) bad.push('day');
-    if (!time || past(time)) bad.push('time');
+    if (hour === null || !period || tooSoon) bad.push('time');
     if (name.trim().length < 2) bad.push('name');
     if (phone.replace(/\D/g, '').length < 8) bad.push('phone');
+    setPastTime(tooSoon);
     setErrors(bad);
-    if (bad.length || !chosen || !time) return;
+    if (bad.length || !day) return;
 
     // One message format for the team, whatever language the visitor used.
-    const date = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }).format(chosen.date);
     const text = [
       '*Visit booking · Retal Residence*',
       'حجز زيارة جديد',
       '',
       `*Name / الاسم:* ${name.trim()}`,
       `*Phone / الجوال:* ${phone.trim()}`,
-      `*Date / التاريخ:* ${date}`,
-      `*Time / الوقت:* ${time}`,
+      `*Date / التاريخ:* ${fmt(day, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }, 'en-GB')}`,
+      `*Time / الوقت:* ${timeText('en-US')}`,
       `*Interested in / مهتم بـ:* ${interests.length ? interests.map((i) => bookingInterestNames[i]).join(', ') : 'Not decided yet'}`,
       ...(notes.trim() ? [`*Notes / ملاحظات:* ${notes.trim()}`] : []),
       `*Language / اللغة:* ${locale.toUpperCase()}`,
@@ -130,11 +180,18 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   const error = (f: Field) =>
     errors.includes(f) ? (
       <p id={`booking-${f}-error`} className="mt-2 text-small text-copper-deep" role="alert">
-        {labels.errors[f]}
+        {f === 'time' && pastTime ? labels.errors.timePast : labels.errors[f]}
       </p>
     ) : null;
-  const legend = 'mb-3 flex items-baseline justify-between gap-4 text-small font-medium';
+  const legend = 'mb-3 flex min-h-tap w-full items-center justify-between gap-4 text-small font-medium';
+  const step = (n: string, text: string) => (
+    <span>
+      <span className="tabular me-3 text-ink-muted">{n}</span>
+      {text}
+    </span>
+  );
   const input = 'min-h-tap w-full border-b border-line bg-transparent py-2 text-body outline-none transition-colors duration-(--dur-fast) focus:border-ink aria-invalid:border-copper-deep';
+  const arrowBtn = 'inline-flex size-10 items-center justify-center rounded-pill border border-line bg-canvas transition-[opacity,border-color] duration-(--dur-fast) hover:border-ink disabled:pointer-events-none disabled:opacity-30';
 
   return (
     <div className="min-w-0 border border-line bg-canvas p-5 sm:p-8 lg:p-10">
@@ -168,77 +225,132 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
           </m.div>
         ) : (
           <m.form key="form" onSubmit={submit} noValidate exit={{ opacity: 0 }} transition={{ duration: DUR.fast }} className="grid gap-8">
+            {/* 01 Day: the next two weeks at a glance, or any later date from the calendar */}
             <fieldset className="min-w-0" aria-describedby={errors.includes('day') ? 'booking-day-error' : undefined}>
               <legend className={legend}>
-                <span>
-                  <span className="tabular me-3 text-ink-muted">01</span>
-                  {labels.day}
+                {step('01', labels.day)}
+                <span className="flex gap-2">
+                  <button type="button" className={arrowBtn} onClick={() => scroll(-1)} disabled={!edges.start}>
+                    <Arrow className="rotate-180" />
+                    <span className="sr-only">{labels.scrollPrev}</span>
+                  </button>
+                  <button type="button" className={arrowBtn} onClick={() => scroll(1)} disabled={!edges.end}>
+                    <Arrow />
+                    <span className="sr-only">{labels.scrollNext}</span>
+                  </button>
                 </span>
               </legend>
-              <div className="no-scrollbar -mx-5 flex snap-x gap-2 overflow-x-auto px-5 sm:mx-0 sm:px-0">
+              <div ref={rail} className="no-scrollbar -mx-5 flex snap-x scroll-px-5 gap-2 overflow-x-auto px-5 sm:mx-0 sm:scroll-px-0 sm:px-0">
                 {days.length
-                  ? days.map((d, i) => {
-                      const on = d.iso === day;
+                  ? days.map((iso, i) => {
+                      const on = iso === day;
                       return (
                         <button
-                          key={d.iso}
+                          key={iso}
                           type="button"
                           aria-pressed={on}
                           onClick={() => {
-                            setDay(d.iso);
+                            setDay(iso);
                             clear('day');
-                            if (time && i === 0 && toMinutes(time) <= nowMinutes() + 30) setTime(null);
                           }}
                           className={cn(chip(on), 'w-16 shrink-0 snap-start flex-col gap-0.5 py-2.5')}
                         >
-                          <span className={cn('text-micro', on ? 'text-canvas/70' : 'text-ink-muted')}>
-                            {i === 0 ? labels.today : dayFmt(d.date, { weekday: 'short' })}
-                          </span>
-                          <span className="tabular text-h4 leading-none">{dayFmt(d.date, { day: 'numeric' })}</span>
-                          <span className={cn('text-micro', on ? 'text-canvas/70' : 'text-ink-muted')}>{dayFmt(d.date, { month: 'short' })}</span>
+                          <span className={cn('text-micro', on ? 'text-canvas/70' : 'text-ink-muted')}>{i === 0 ? labels.today : fmt(iso, { weekday: 'short' })}</span>
+                          <span className="tabular text-h4 leading-none">{fmt(iso, { day: 'numeric' })}</span>
+                          <span className={cn('text-micro', on ? 'text-canvas/70' : 'text-ink-muted')}>{fmt(iso, { month: 'short' })}</span>
                         </button>
                       );
                     })
                   : Array.from({ length: 7 }, (_, i) => <span key={i} className="h-20 w-16 shrink-0 border border-line bg-canvas-deep" aria-hidden />)}
+                {/* Any other date: the native calendar, from today onwards. */}
+                <label className={cn(chip(custom), 'relative shrink-0 snap-start cursor-pointer flex-col gap-1 px-4 py-2.5')}>
+                  <svg viewBox="0 0 20 20" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden>
+                    <path d="M3.5 5h13v11.5h-13zM3.5 8.5h13M7 3v3.5M13 3v3.5" />
+                  </svg>
+                  <span className="whitespace-nowrap text-micro">{custom && day ? fmt(day, { day: 'numeric', month: 'short', year: 'numeric' }) : labels.otherDate}</span>
+                  <input
+                    ref={dateInput}
+                    type="date"
+                    min={today || undefined}
+                    value={custom && day ? day : ''}
+                    onClick={() => dateInput.current?.showPicker?.()}
+                    onChange={(e) => {
+                      if (!e.target.value) return;
+                      setDay(e.target.value);
+                      clear('day');
+                    }}
+                    className="absolute inset-0 size-full cursor-pointer opacity-0"
+                    aria-label={labels.otherDate}
+                  />
+                </label>
               </div>
               {error('day')}
             </fieldset>
 
+            {/* 02 Time: any hour, in quarter hours, AM or PM */}
             <fieldset className="min-w-0" aria-describedby={errors.includes('time') ? 'booking-time-error' : undefined}>
               <legend className={legend}>
-                <span>
-                  <span className="tabular me-3 text-ink-muted">02</span>
-                  {labels.time}
+                {step('02', labels.time)}
+                <span className="tabular text-h4 font-medium" aria-live="polite">
+                  {timeText(locale) ?? ''}
                 </span>
               </legend>
-              <div className="grid grid-cols-4 gap-2">
-                {bookingSlots.map((slot) => (
+              <p className="mb-2 text-micro text-ink-muted">{labels.hour}</p>
+              <div className="grid grid-cols-6 gap-2">
+                {HOURS.map((h) => (
                   <button
-                    key={slot}
+                    key={h}
                     type="button"
-                    aria-pressed={slot === time}
-                    disabled={past(slot)}
+                    aria-pressed={h === hour}
                     onClick={() => {
-                      setTime(slot);
+                      setHour(h);
                       clear('time');
                     }}
-                    className={cn(chip(slot === time), 'tabular py-2')}
-                    dir="ltr"
+                    className={cn(chip(h === hour), 'tabular py-2')}
                   >
-                    {slot}
+                    {h}
                   </button>
                 ))}
               </div>
-              {isToday && bookingSlots.every(past) && <p className="mt-2 text-small text-ink-muted">{labels.noSlots}</p>}
+              <div className="mt-4 grid gap-4 sm:grid-cols-[1fr_auto]">
+                <div>
+                  <p className="mb-2 text-micro text-ink-muted">{labels.minutes}</p>
+                  <div className="grid grid-cols-4 gap-2" dir="ltr">
+                    {bookingMinutes.map((mm) => (
+                      <button key={mm} type="button" aria-pressed={mm === minute} onClick={() => setMinute(mm)} className={cn(chip(mm === minute), 'tabular py-2')}>
+                        {mm}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="mb-2 text-micro text-ink-muted" aria-hidden>
+                    &nbsp;
+                  </p>
+                  <div className="grid grid-cols-2 gap-2">
+                    {(['am', 'pm'] as const).map((p) => (
+                      <button
+                        key={p}
+                        type="button"
+                        aria-pressed={p === period}
+                        onClick={() => {
+                          setPeriod(p);
+                          clear('time');
+                        }}
+                        className={cn(chip(p === period), 'min-w-16 px-4 py-2')}
+                      >
+                        {periodName(p)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
               {error('time')}
             </fieldset>
 
             <fieldset className="min-w-0">
               <legend className={legend}>
-                <span>
-                  <span className="tabular me-3 text-ink-muted">03</span>
-                  {labels.interest}
-                </span>
+                {step('03', labels.interest)}
                 <span className="font-normal text-ink-muted">{labels.optional}</span>
               </legend>
               <div className="flex flex-wrap gap-2">
@@ -251,12 +363,7 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
             </fieldset>
 
             <fieldset className="min-w-0">
-              <legend className={legend}>
-                <span>
-                  <span className="tabular me-3 text-ink-muted">04</span>
-                  {labels.details}
-                </span>
-              </legend>
+              <legend className={legend}>{step('04', labels.details)}</legend>
               <div className="grid gap-6 sm:grid-cols-2">
                 <label className="block">
                   <span className="text-small text-ink-muted">{labels.name}</span>
@@ -300,15 +407,24 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
               </div>
             </fieldset>
 
-            <div className="grid gap-4 border-t border-line pt-6 sm:grid-cols-[1fr_auto] sm:items-center">
-              <p className={cn('text-small', summary ? 'font-medium' : 'text-ink-muted')} aria-live="polite">
+            {/* Summary and the one action */}
+            <div className="border-t border-line pt-6">
+              <p className={cn('mb-4 text-body', summary ? 'font-medium' : 'text-ink-muted')} aria-live="polite">
                 {summary || labels.summaryEmpty}
               </p>
-              <button type="submit" className={buttonClass('solid', 'w-full sm:w-auto')}>
-                <WhatsAppMark />
-                {labels.submit}
+              <button
+                type="submit"
+                className="group flex min-h-14 w-full items-center justify-between gap-4 rounded-pill bg-ink py-2 pe-2 ps-6 text-body font-medium text-canvas transition-colors duration-(--dur-fast) hover:bg-copper-deep"
+              >
+                <span className="flex items-center gap-3">
+                  <WhatsAppMark className="size-5" />
+                  {labels.submit}
+                </span>
+                <span className="inline-flex size-11 items-center justify-center rounded-pill bg-canvas text-ink transition-transform duration-(--dur-base) ease-out group-hover:translate-x-1 rtl:group-hover:-translate-x-1">
+                  <Arrow />
+                </span>
               </button>
-              <p className="text-micro text-ink-muted sm:col-span-2">{labels.note}</p>
+              <p className="mt-3 text-center text-micro text-ink-muted">{labels.note}</p>
             </div>
           </m.form>
         )}
@@ -317,9 +433,9 @@ export function BookingForm({ labels }: { labels: BookingLabels }) {
   );
 }
 
-function WhatsAppMark() {
+function WhatsAppMark({ className = 'size-4' }: { className?: string }) {
   return (
-    <svg viewBox="0 0 24 24" className="size-4" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" aria-hidden>
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" aria-hidden>
       <path d="M4.5 19.5 5.6 16A8 8 0 1 1 8.4 18.6Z" />
       <path d="M9.2 9.1c.2 1.9 1.6 3.6 3.7 4.5l1-1 1.6.7v1.3c-3.5.2-7-3.3-6.8-6.8h1.3l.7 1.6Z" />
     </svg>

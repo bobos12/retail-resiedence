@@ -269,9 +269,8 @@
       "optional": "optional",
       "today": "Today",
       "summaryEmpty": "Choose a day and a time to see your booking here.",
-      "submit": "Book on WhatsApp",
+      "submit": "Book your visit on WhatsApp",
       "note": "Opens WhatsApp with your booking written out. Press send to confirm.",
-      "noSlots": "No times left today. Please choose another day.",
       "sentTitle": "Your booking is ready in WhatsApp",
       "sentBody": "Press send in WhatsApp and our reservations team will confirm your visit.",
       "sentAgain": "Open WhatsApp again",
@@ -280,8 +279,14 @@
         "day": "Please choose a day.",
         "time": "Please choose a time.",
         "name": "Please enter your name.",
-        "phone": "Please enter a valid phone number."
-      }
+        "phone": "Please enter a valid phone number.",
+        "timePast": "Please choose a time later than now."
+      },
+      "otherDate": "Other date",
+      "hour": "Hour",
+      "minutes": "Minutes",
+      "scrollPrev": "Earlier days",
+      "scrollNext": "Later days"
     }
   },
   "residences": {

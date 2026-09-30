@@ -269,9 +269,8 @@
       "optional": "facoltativo",
       "today": "Oggi",
       "summaryEmpty": "Scegli giorno e orario per vedere qui la tua prenotazione.",
-      "submit": "Prenota su WhatsApp",
+      "submit": "Prenota la visita su WhatsApp",
       "note": "Apre WhatsApp con la prenotazione già scritta. Premi invio per confermare.",
-      "noSlots": "Nessun orario disponibile oggi. Scegli un altro giorno.",
       "sentTitle": "La prenotazione è pronta in WhatsApp",
       "sentBody": "Premi invio in WhatsApp e il nostro ufficio prenotazioni confermerà la visita.",
       "sentAgain": "Riapri WhatsApp",
@@ -280,8 +279,14 @@
         "day": "Scegli un giorno.",
         "time": "Scegli un orario.",
         "name": "Inserisci il tuo nome.",
-        "phone": "Inserisci un numero valido."
-      }
+        "phone": "Inserisci un numero valido.",
+        "timePast": "Scegli un orario successivo a quello attuale."
+      },
+      "otherDate": "Altra data",
+      "hour": "Ora",
+      "minutes": "Minuti",
+      "scrollPrev": "Giorni precedenti",
+      "scrollNext": "Giorni successivi"
     }
   },
   "residences": {
