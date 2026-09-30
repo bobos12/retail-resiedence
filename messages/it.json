@@ -242,6 +242,46 @@
       "eyebrow": "Tour a 360°",
       "title": "Entra\nnella Clubhouse",
       "body": "Un cinema da 38 posti, un bowling a quattro piste, piscine coperta e scoperta, una palestra, un ristorante e una biblioteca, tutto sotto lo stesso tetto a pochi passi da casa. Scegli un ambiente e guardati intorno."
+    },
+    "booking": {
+      "eyebrow": "Prenota una visita",
+      "title": "Scegli un giorno.\nAl resto pensiamo noi.",
+      "body": "Scegli giorno e orario, dicci cosa vorresti vedere e invia la prenotazione al nostro ufficio prenotazioni su WhatsApp.",
+      "steps": {
+        "pick": "Scegli giorno e orario",
+        "see": "Dicci cosa vorresti vedere",
+        "send": "Inviala su WhatsApp con un tocco"
+      },
+      "call": "Preferisci chiamare?",
+      "day": "Giorno",
+      "time": "Orario",
+      "interest": "Cosa vorresti vedere?",
+      "interests": {
+        "apartment": "Appartamenti",
+        "town-villa": "Ville a schiera",
+        "executive-villa": "Ville executive",
+        "clubhouse": "La Clubhouse"
+      },
+      "details": "I tuoi dati",
+      "name": "Nome e cognome",
+      "phone": "Telefono",
+      "notes": "Note",
+      "optional": "facoltativo",
+      "today": "Oggi",
+      "summaryEmpty": "Scegli giorno e orario per vedere qui la tua prenotazione.",
+      "submit": "Prenota su WhatsApp",
+      "note": "Apre WhatsApp con la prenotazione già scritta. Premi invio per confermare.",
+      "noSlots": "Nessun orario disponibile oggi. Scegli un altro giorno.",
+      "sentTitle": "La prenotazione è pronta in WhatsApp",
+      "sentBody": "Premi invio in WhatsApp e il nostro ufficio prenotazioni confermerà la visita.",
+      "sentAgain": "Riapri WhatsApp",
+      "sentReset": "Modifica la prenotazione",
+      "errors": {
+        "day": "Scegli un giorno.",
+        "time": "Scegli un orario.",
+        "name": "Inserisci il tuo nome.",
+        "phone": "Inserisci un numero valido."
+      }
     }
   },
   "residences": {

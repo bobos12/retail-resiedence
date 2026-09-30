@@ -242,6 +242,46 @@
       "eyebrow": "Visite 360°",
       "title": "Entrez\ndans le Clubhouse",
       "body": "Un cinéma de 38 places, un bowling de quatre pistes, des piscines intérieure et extérieure, une salle de sport, un restaurant et une bibliothèque, sous un même toit à quelques pas de chez vous. Choisissez une salle et regardez autour de vous."
+    },
+    "booking": {
+      "eyebrow": "Réserver une visite",
+      "title": "Choisissez un jour.\nNous nous occupons du reste.",
+      "body": "Choisissez un jour et une heure, dites-nous ce que vous aimeriez voir, puis envoyez la réservation à notre équipe sur WhatsApp.",
+      "steps": {
+        "pick": "Choisissez un jour et une heure",
+        "see": "Dites-nous ce que vous aimeriez voir",
+        "send": "Envoyez-la sur WhatsApp en un geste"
+      },
+      "call": "Vous préférez appeler ?",
+      "day": "Jour",
+      "time": "Heure",
+      "interest": "Que souhaitez-vous voir ?",
+      "interests": {
+        "apartment": "Appartements",
+        "town-villa": "Villas de ville",
+        "executive-villa": "Villas exécutives",
+        "clubhouse": "Le Clubhouse"
+      },
+      "details": "Vos coordonnées",
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "notes": "Remarques",
+      "optional": "facultatif",
+      "today": "Auj.",
+      "summaryEmpty": "Choisissez un jour et une heure pour voir votre réservation ici.",
+      "submit": "Réserver sur WhatsApp",
+      "note": "Ouvre WhatsApp avec votre réservation déjà rédigée. Appuyez sur envoyer pour confirmer.",
+      "noSlots": "Plus aucun créneau aujourd’hui. Choisissez un autre jour.",
+      "sentTitle": "Votre réservation est prête dans WhatsApp",
+      "sentBody": "Appuyez sur envoyer dans WhatsApp et notre équipe confirmera votre visite.",
+      "sentAgain": "Rouvrir WhatsApp",
+      "sentReset": "Modifier la réservation",
+      "errors": {
+        "day": "Veuillez choisir un jour.",
+        "time": "Veuillez choisir une heure.",
+        "name": "Veuillez indiquer votre nom.",
+        "phone": "Veuillez indiquer un numéro valide."
+      }
     }
   },
   "residences": {

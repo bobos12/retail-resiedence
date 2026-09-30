@@ -242,6 +242,46 @@
       "eyebrow": "360° 导览",
       "title": "走进\n会所",
       "body": "38 座影院、四道保龄球馆、室内外泳池、健身房、餐厅和图书馆，全部集于一处，离家仅几步之遥。选择一个空间，四处看看。"
+    },
+    "booking": {
+      "eyebrow": "预约参观",
+      "title": "选好日子，\n其余交给我们。",
+      "body": "选择日期和时间，告诉我们您想参观什么，然后通过 WhatsApp 发送给我们的预约团队。",
+      "steps": {
+        "pick": "选择日期和时间",
+        "see": "告诉我们您想参观什么",
+        "send": "一键通过 WhatsApp 发送"
+      },
+      "call": "更想致电？",
+      "day": "日期",
+      "time": "时间",
+      "interest": "您想参观什么？",
+      "interests": {
+        "apartment": "公寓",
+        "town-villa": "联排别墅",
+        "executive-villa": "行政别墅",
+        "clubhouse": "会所"
+      },
+      "details": "您的信息",
+      "name": "姓名",
+      "phone": "电话",
+      "notes": "备注",
+      "optional": "选填",
+      "today": "今天",
+      "summaryEmpty": "选择日期和时间后，预约摘要将显示在这里。",
+      "submit": "通过 WhatsApp 预约",
+      "note": "将打开 WhatsApp，预约信息已填写好。点击发送即可确认。",
+      "noSlots": "今天已无可预约时间，请选择其他日期。",
+      "sentTitle": "您的预约已在 WhatsApp 中准备好",
+      "sentBody": "在 WhatsApp 中点击发送，预约团队将确认您的参观。",
+      "sentAgain": "再次打开 WhatsApp",
+      "sentReset": "修改预约",
+      "errors": {
+        "day": "请选择日期。",
+        "time": "请选择时间。",
+        "name": "请输入您的姓名。",
+        "phone": "请输入有效的电话号码。"
+      }
     }
   },
   "residences": {

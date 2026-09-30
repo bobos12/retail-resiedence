@@ -91,7 +91,8 @@ Write copy like a confident architect: short and concrete, with real numbers.
 - **WhatsApp button:** small and tasteful, mirrored in RTL, and shown only after the first scroll.
 - `/` **Home**, in this order:
   1. hero
-  2. editorial statement
+  2. visit booking (day, time, interests, name + phone; opens WhatsApp to reservations with the booking written out)
+  3. editorial statement
   3. real stats
   4. residences explorer (type tablist, image stage, spec sheet; Gallery · Video · VR tour · Floor plan modals; `#residence-<code>` hash)
   5. Clubhouse (dark section, numbered categories with image swap)

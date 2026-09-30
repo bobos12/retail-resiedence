@@ -242,6 +242,46 @@
       "eyebrow": "360° tour",
       "title": "Step inside\nthe Clubhouse",
       "body": "A 38-seat cinema, a four-lane bowling alley, indoor and outdoor pools, a gym, a restaurant and a library, all under one roof a short walk from home. Choose a room and look around."
+    },
+    "booking": {
+      "eyebrow": "Book a visit",
+      "title": "Pick a day.\nWe’ll take it from there.",
+      "body": "Choose a day and time, tell us what you would like to see, and send the booking to our reservations team on WhatsApp.",
+      "steps": {
+        "pick": "Choose a day and a time",
+        "see": "Tell us what you would like to see",
+        "send": "Send it to us on WhatsApp in one tap"
+      },
+      "call": "Prefer to call?",
+      "day": "Day",
+      "time": "Time",
+      "interest": "What would you like to see?",
+      "interests": {
+        "apartment": "Apartments",
+        "town-villa": "Town villas",
+        "executive-villa": "Executive villas",
+        "clubhouse": "The Clubhouse"
+      },
+      "details": "Your details",
+      "name": "Full name",
+      "phone": "Phone",
+      "notes": "Notes",
+      "optional": "optional",
+      "today": "Today",
+      "summaryEmpty": "Choose a day and a time to see your booking here.",
+      "submit": "Book on WhatsApp",
+      "note": "Opens WhatsApp with your booking written out. Press send to confirm.",
+      "noSlots": "No times left today. Please choose another day.",
+      "sentTitle": "Your booking is ready in WhatsApp",
+      "sentBody": "Press send in WhatsApp and our reservations team will confirm your visit.",
+      "sentAgain": "Open WhatsApp again",
+      "sentReset": "Change the booking",
+      "errors": {
+        "day": "Please choose a day.",
+        "time": "Please choose a time.",
+        "name": "Please enter your name.",
+        "phone": "Please enter a valid phone number."
+      }
     }
   },
   "residences": {

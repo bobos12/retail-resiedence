@@ -242,6 +242,46 @@
       "eyebrow": "360° 투어",
       "title": "클럽하우스\n안으로",
       "body": "38석 영화관, 4레인 볼링장, 실내·실외 수영장, 피트니스, 레스토랑, 도서관이 모두 한 지붕 아래, 집에서 걸어서 몇 분 거리에 있습니다. 공간을 골라 둘러보세요."
+    },
+    "booking": {
+      "eyebrow": "방문 예약",
+      "title": "날짜만 고르세요.\n나머지는 저희가 맡겠습니다.",
+      "body": "날짜와 시간을 고르고, 보고 싶은 곳을 알려 주신 뒤 WhatsApp으로 예약팀에 보내 주세요.",
+      "steps": {
+        "pick": "날짜와 시간 선택",
+        "see": "보고 싶은 곳 알려 주기",
+        "send": "WhatsApp으로 한 번에 보내기"
+      },
+      "call": "전화가 편하신가요?",
+      "day": "날짜",
+      "time": "시간",
+      "interest": "무엇을 보고 싶으신가요?",
+      "interests": {
+        "apartment": "아파트",
+        "town-villa": "타운 빌라",
+        "executive-villa": "이그제큐티브 빌라",
+        "clubhouse": "클럽하우스"
+      },
+      "details": "예약자 정보",
+      "name": "이름",
+      "phone": "전화번호",
+      "notes": "메모",
+      "optional": "선택",
+      "today": "오늘",
+      "summaryEmpty": "날짜와 시간을 고르면 예약 내용이 여기에 표시됩니다.",
+      "submit": "WhatsApp으로 예약",
+      "note": "예약 내용이 작성된 채로 WhatsApp이 열립니다. 전송을 눌러 확정하세요.",
+      "noSlots": "오늘은 남은 시간이 없습니다. 다른 날짜를 선택해 주세요.",
+      "sentTitle": "WhatsApp에 예약이 준비되었습니다",
+      "sentBody": "WhatsApp에서 전송을 누르면 예약팀이 방문을 확정해 드립니다.",
+      "sentAgain": "WhatsApp 다시 열기",
+      "sentReset": "예약 수정",
+      "errors": {
+        "day": "날짜를 선택해 주세요.",
+        "time": "시간을 선택해 주세요.",
+        "name": "이름을 입력해 주세요.",
+        "phone": "올바른 전화번호를 입력해 주세요."
+      }
     }
   },
   "residences": {
